@@ -1,0 +1,123 @@
+{"Dialogues":[
+{
+	"content":"Hi Alex.",
+	"memory":["Greeting","Root"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"What are you staring at?",
+	"memory":["Greeting","Blunt"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Hey.",
+	"memory":["Greeting","Indifferent"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Alex?.",
+	"memory":["Greeting","Hesitant"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Hi Alex! It seems like you're doing so well!",
+	"memory":["Greeting","Compassionate"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"How's is school?",
+	"memory":["School","Root"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"And your friends?",
+	"memory":["Friend","Root"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"I bet school sucks, huh.",
+	"memory":["School","Blunt"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"How's school.",
+	"memory":["School","Indifferent."],
+	"FNC":0, 
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"You're...a junior now, right?",
+	"memory":["School","Hesitant"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"I hope your classes are going really well, Alex.",
+	"memory":["School","Compassionate"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Do you even have friends?",
+	"memory":["Friend","Blunt"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Are your friends doing well?",
+	"memory":["Friend","Indifferent."],
+	"FNC":0, 
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"How's Ron? That one...person?",
+	"memory":["Friend","Hesitant"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+},
+{
+	"content":"Are you and your friends getting along?",
+	"memory":["Friend","Compassionate"],
+	"FNC":0,
+	"Speaker":"Player",
+	"Target":["Alex"]
+	
+}
+]
+}
