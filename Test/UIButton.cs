@@ -11,47 +11,48 @@ namespace Test
     class UIButton : UIElement
     {
         //constructor
-        public UIButton(float x, float y, string content,string newDialogue) {
+        public UIButton(float x, float y, tone content, string newDialogue)
+        {
 
             this.x = x;
             this.y = y;
-            buttonTextFont = FontObjects.Adore64;
-            buttonText = new Text(content, buttonTextFont);
-            buttonText.Position = new SFML.System.Vector2f(x, y);
+            buttonText = new Text(content.ToString(), buttonTextFont);
+            buttonText.Position = new SFML.System.Vector2f(x - buttonText.GetGlobalBounds().Width / 2, y);
 
-            rect = new RectangleShape(new SFML.System.Vector2f(buttonText.GetGlobalBounds().Width+7, buttonText.GetGlobalBounds().Height+10));
-            rect.Position = new SFML.System.Vector2f(x, y);
+            rect = new RectangleShape(new SFML.System.Vector2f(buttonText.GetGlobalBounds().Width + 7, buttonText.GetGlobalBounds().Height + 10));
+            rect.Position = new SFML.System.Vector2f(x - buttonText.GetGlobalBounds().Width / 2, y);
             rect.FillColor = Color.Black;
-            Color myColor = new Color(177, 177, 177);
-            rect.FillColor = myColor;
+            Color bgColor = new Color(177, 177, 177);
+            rect.FillColor = bgColor;
             this.newDialogue = newDialogue;
+            tonalColor = buttonTonalColors[content.ToString()];
+            this.buttonTone = content;
         }
 
         //fields
         static UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
         static UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
 
-        Font buttonTextFont;
+        Font buttonTextFont = new Font("../../Fonts/Adore64.ttf");
         Text buttonText;
         RectangleShape rect;
         string newDialogue;
         bool selected = false;
         int mouseOffsetX = 0;
         int mouseOffsetY = 0;
+        Color tonalColor;
+        tone buttonTone;
 
         //methods
         //String eventHandler;
 
-        public RectangleShape getUIButtonRect()
+        public float getX()
         {
-            return rect;
-        }
-
-        public float getX() {
             return x;
         }
 
-        public float getY() {
+        public float getY()
+        {
             return y;
         }
 
@@ -67,6 +68,11 @@ namespace Test
         public Text getUIButtonText()
         {
             return buttonText;
+        }
+
+        public tone getTone()
+        {
+            return buttonTone;
         }
 
         public FloatRect getRectBounds()
@@ -100,10 +106,12 @@ namespace Test
             return false;
         }
 
-        public void snapBack() {
-            rect.Position = new SFML.System.Vector2f(x, y);
-            buttonText.Position = new SFML.System.Vector2f(x, y);
+        public void snapBack()
+        {
+            rect.Position = new SFML.System.Vector2f(x - buttonText.GetGlobalBounds().Width / 2, y);
+            buttonText.Position = new SFML.System.Vector2f(x - buttonText.GetGlobalBounds().Width / 2, y);
         }
+
         public void translate(int x, int y)
         {
             var bounds = getRectBounds();
@@ -132,8 +140,21 @@ namespace Test
 
         }
 
-        public string getNewDialogue() {
+        public string getNewDialogue()
+        {
             return newDialogue;
         }
+
+        public Color getTonalColor()
+        {
+            return tonalColor;
+        }
+
+        public override void Draw(RenderTarget target, RenderStates states)
+        {
+            target.Draw(rect);
+            target.Draw(buttonText);
+        }
+    
     }
 }

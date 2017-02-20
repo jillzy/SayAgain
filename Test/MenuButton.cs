@@ -14,12 +14,12 @@ namespace Test
         {
             this.x = x;
             this.y = y;
-            buttonTextFont = FontObjects.Adore64;
             buttonText = new Text(content, buttonTextFont);
-            buttonText.Position = new SFML.System.Vector2f(x, y);
+
+            buttonText.Position = new SFML.System.Vector2f(x - buttonText.GetGlobalBounds().Width/2, y);
 
             rect = new RectangleShape(new SFML.System.Vector2f(buttonText.GetGlobalBounds().Width + 7, buttonText.GetGlobalBounds().Height + 10));
-            rect.Position = new SFML.System.Vector2f(this.x, this.y);
+            rect.Position = new SFML.System.Vector2f(this.x - buttonText.GetGlobalBounds().Width/2, this.y);
             rect.FillColor = Color.Black;
             Color myColor = new Color(177, 177, 177);
             rect.FillColor = myColor;
@@ -28,7 +28,7 @@ namespace Test
         static UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
         static UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
 
-        Font buttonTextFont;
+        Font buttonTextFont = new Font("../../Fonts/Adore64.ttf");
         Text buttonText;
         RectangleShape rect;
         bool selected = false;

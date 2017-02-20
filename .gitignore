@@ -1,3 +1,10 @@
 Test/bin/*
 Test/obj/*
+<<<<<<< HEAD
+.vs/*
+*.exe
+=======
+Test/packages.config
 .vs/
+packages/*
+>>>>>>> 2bb21a6f824b18a8301d2851665b8f3366b71fc3

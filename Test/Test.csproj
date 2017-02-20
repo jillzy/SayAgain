@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="sfmlnet-audio-2">
       <HintPath>..\..\SFML.Net-2.2\lib\sfmlnet-audio-2.dll</HintPath>
     </Reference>
@@ -55,11 +59,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlexState.cs" />
-    <Compile Include="CharacterClass.cs" />
-    <Compile Include="DadState.cs" />
+    <Compile Include="CharacterState.cs" />
+    <Compile Include="ContextFilter.cs" />
+    <Compile Include="GameMatrix.cs" />
+    <Compile Include="GameTimer.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="DramaManager.cs" />
+    <Compile Include="DialogueParsing.cs" />
+    <Compile Include="GameState.cs" />
     <Compile Include="InputManager.cs" />
-    <Compile Include="MomState.cs" />
+    <Compile Include="MenuButton.cs" />
+    <Compile Include="Relationships.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="ToneEffects.cs" />
+    <Compile Include="Selector.cs" />
     <Compile Include="UIButton.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
@@ -77,10 +90,21 @@
     <Compile Include="DialogueBox.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="alexTutorial.json" />
     <None Include="App.config" />
     <None Include="Fonts\Adore64.ttf" />
+    <None Include="packages.config" />
+    <None Include="playerTutorial.json" />
+    <None Include="sampleJSON.JSON" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="context.txt" />
     <Content Include="csfml-audio-2.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -105,12 +129,10 @@
     <Content Include="OpenTK.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <Content Include="sfmlnet-audio-2.dll" />
+    <Content Include="sfmlnet-graphics-2.dll" />
+    <Content Include="sfmlnet-system-2.dll" />
+    <Content Include="sfmlnet-window-2.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
