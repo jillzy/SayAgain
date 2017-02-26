@@ -32,7 +32,7 @@ namespace Test
         static UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
         static UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
 
-        Font buttonTextFont = new Font("../../Fonts/Adore64.ttf");
+        Font buttonTextFont = new Font("../../Fonts/Ticketing.ttf");
         Text buttonText;
         RectangleShape rect;
         string newDialogue;

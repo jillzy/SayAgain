@@ -35,7 +35,7 @@ namespace Test
         protected ContextFilter cf;
         protected Relationships rs = new Relationships();
         //Font
-        static protected Font Adore64 = new Font(new FileStream("../../Fonts/Adore64.ttf", FileMode.Open));
+        static protected Font Adore64 = new Font(new FileStream("../../Fonts/Ticketing.ttf", FileMode.Open));
         //Jill's fields and variables
         //protected DialogueBox dialogueBox;
         //protected Boolean init;

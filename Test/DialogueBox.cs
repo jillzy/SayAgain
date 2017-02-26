@@ -29,7 +29,7 @@ namespace Test
 
         public View view { get; private set; }
 
-        Font speechFont = new Font("../../Fonts/Adore64.ttf");
+        Font speechFont = new Font("../../Fonts/Ticketing.ttf");
 
         public void forward()
         {
