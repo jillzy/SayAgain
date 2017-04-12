@@ -16,15 +16,17 @@ namespace Test
         //constructor
         public SoundManager()
         {
-            //song_dict = new Dictionary<string, string>() { { "Dad", "../../Sounds/sayagain-loop1.wav" },
-            //                                               { "Mom","../../Sounds/sayagain-loop2.wav" },
-            //                                               { "Alex", "" } };
+            sound_dict = new Dictionary<string, string>() { { "Dad", "../../Sounds/sayagain-loop1.wav" },
+                                                          { "Mom","../../Sounds/sayagain-loop2.wav" },
+                                                          { "Alex", "" },
+                                                          { "chatter","../../Sounds/chatter.wav" },
+                                                              { "button","../../Sounds/button.wav"} };
             //sfx_dict = new Dictionary<string, SoundBuffer>() { { "chatter", new SoundBuffer("../../Sounds/chatter.wav") },
             //                                                  { "button", new SoundBuffer("../../Sounds/button.wav")} };
             current = "None";
             next = "None";
             //sound = new Sound();
-            soundSource = GetSoundSource();
+            //soundSource = GetSoundSource();
             //SoundOut implementation which plays the sound
             soundOut = GetSoundOut();
         }
@@ -32,12 +34,12 @@ namespace Test
         //fields
         //Sound sound;
         //Music song;
-        IWaveSource soundSource;
+        //IWaveSource soundSource;
         ISoundOut soundOut;
         private String current;
         private String next;
-        //public Dictionary<String, String> song_dict;
-        //public Dictionary<String, SoundBuffer> sfx_dict;
+        public Dictionary<String, String> sound_dict;
+        //public Dictionary<String, IWaveSource> sfx_dict;
         public bool soundpause = false;
 
         public bool getSoundPause()
@@ -52,12 +54,14 @@ namespace Test
         //methods
         public void playSFX(String soundName)
         {
-            //load the click sound object
+            IWaveSource soundSource = GetSoundSource(soundName);
+            PlayASound(soundName,soundSource);
         }
 
         public void playMusic(string musicname)
         {
-            PlayASound();
+            IWaveSource soundSource = GetSoundSource(musicname);
+            PlayASound(musicname, soundSource);
         }
 
         public void transitionSong(String musicName)
@@ -71,7 +75,7 @@ namespace Test
         }
 
         [STAThread]
-        private void PlayASound()
+        private void PlayASound(String name, IWaveSource soundSource)
         {
             //Tell the SoundOut which sound it has to play
             soundOut.Initialize(soundSource);
@@ -102,10 +106,10 @@ namespace Test
                 return new DirectSoundOut();
         }
 
-        private IWaveSource GetSoundSource()
+        private IWaveSource GetSoundSource(String name)
         {
             //return any source ... in this example, we'll just play a mp3 file
-            return CodecFactory.Instance.GetCodec(@"../../Sounds/sayagain-loop2.wav");
+            return CodecFactory.Instance.GetCodec(sound_dict[name]);
         }
     }
 }
