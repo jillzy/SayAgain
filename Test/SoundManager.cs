@@ -29,6 +29,7 @@ namespace Test
             //soundSource = GetSoundSource();
             //SoundOut implementation which plays the sound
             soundOut = GetSoundOut();
+            soundOut2 = GetSoundOut();
         }
 
         //fields
@@ -36,6 +37,7 @@ namespace Test
         //Music song;
         //IWaveSource soundSource;
         ISoundOut soundOut;
+        ISoundOut soundOut2;
         private String current;
         private String next;
         public Dictionary<String, String> sound_dict;
@@ -52,16 +54,19 @@ namespace Test
         }
 
         //methods
+
         public void playSFX(String soundName)
         {
             IWaveSource soundSource = GetSoundSource(soundName);
-            PlayASound(soundName,soundSource);
+            soundOut2.Stop();
+            PlayASound(soundName,soundSource,soundOut2);
         }
 
         public void playMusic(string musicname)
         {
             IWaveSource soundSource = GetSoundSource(musicname);
-            PlayASound(musicname, soundSource);
+            soundOut.Stop();
+            PlayASound(musicname, soundSource,soundOut);
         }
 
         public void transitionSong(String musicName)
@@ -75,12 +80,13 @@ namespace Test
         }
 
         [STAThread]
-        private void PlayASound(String name, IWaveSource soundSource)
+        private void PlayASound(String name, IWaveSource soundSource, ISoundOut thisSound)
         {
             //Tell the SoundOut which sound it has to play
-            soundOut.Initialize(soundSource);
+            //thisSound.Stop();
+            thisSound.Initialize(soundSource);
             //Play the sound
-            soundOut.Play();
+            thisSound.Play();
 
             //Thread.Sleep(2000);
 
