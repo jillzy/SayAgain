@@ -117,5 +117,17 @@ namespace Test
             //return any source ... in this example, we'll just play a mp3 file
             return CodecFactory.Instance.GetCodec(sound_dict[name]);
         }
+
+        private IWaveSource CreateASineSource()
+        {
+            double frequency = 500 ;
+            double amplitude = 0.6;
+            double phase = 0.0;
+            //Create a ISampleSource
+            ISampleSource sampleSource = new SineGenerator(frequency, amplitude, phase);
+
+            //Convert the ISampleSource into a IWaveSource
+            return sampleSource.ToWaveSource();
+        }
     }
 }
