@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SFML.Audio;
+using System.Threading;
+using CSCore;
+using CSCore.SoundOut;
+using CSCore.Codecs;
+using CSCore.Streams;
 
 namespace Test
 {
@@ -12,23 +16,28 @@ namespace Test
         //constructor
         public SoundManager()
         {
-            song_dict = new Dictionary<string, string>() { { "Dad", "../../Sounds/sayagain-loop1.wav" },
-                                                           { "Mom","../../Sounds/sayagain-loop2.wav" },
-                                                           { "Alex", "" } };
-            sfx_dict = new Dictionary<string, SoundBuffer>() { { "chatter", new SoundBuffer("../../Sounds/chatter.wav") },
-                                                               { "button", new SoundBuffer("../../Sounds/button.wav")} };
+            //song_dict = new Dictionary<string, string>() { { "Dad", "../../Sounds/sayagain-loop1.wav" },
+            //                                               { "Mom","../../Sounds/sayagain-loop2.wav" },
+            //                                               { "Alex", "" } };
+            //sfx_dict = new Dictionary<string, SoundBuffer>() { { "chatter", new SoundBuffer("../../Sounds/chatter.wav") },
+            //                                                  { "button", new SoundBuffer("../../Sounds/button.wav")} };
             current = "None";
             next = "None";
-            sound = new Sound();
+            //sound = new Sound();
+            soundSource = GetSoundSource();
+            //SoundOut implementation which plays the sound
+            soundOut = GetSoundOut();
         }
 
         //fields
-        Sound sound;
-        Music song;
+        //Sound sound;
+        //Music song;
+        IWaveSource soundSource;
+        ISoundOut soundOut;
         private String current;
         private String next;
-        public Dictionary<String, String> song_dict;
-        public Dictionary<String, SoundBuffer> sfx_dict;
+        //public Dictionary<String, String> song_dict;
+        //public Dictionary<String, SoundBuffer> sfx_dict;
         public bool soundpause = false;
 
         public bool getSoundPause()
@@ -44,54 +53,59 @@ namespace Test
         public void playSFX(String soundName)
         {
             //load the click sound object
-            if (!soundpause) {
-                sound.SoundBuffer = sfx_dict[soundName];
-                sound.Play();
-            }
-           return;
         }
 
         public void playMusic(string musicname)
         {
-            Console.WriteLine(current + " " + musicname);
-            if (current != musicname)
-            {
-                if (current != "None" && song.Status == SoundStatus.Playing)
-                {
-                    song.Stop();
-                }
-                song = new Music(song_dict[musicname]);
-                song.Volume = 0;
-                song.Play();
-                song.Loop = true;
-                current = musicname;
-            } 
-
-            return;
+            PlayASound();
         }
 
         public void transitionSong(String musicName)
         {
-            song.Loop = false;
-            next = musicName;
+
         }
 
         public void soundUpdate(bool soundToggle)
         {
-            if (!soundToggle && !this.soundpause)
-            {
-                this.song.Pause();
-                soundpause = true;
-            }
-            else if (soundToggle && this.soundpause)
-            {
-                this.song.Play();
-                soundpause = false;
-            }
-            else if (song.Status == SoundStatus.Stopped && !soundpause)
-            {
-                playMusic(next);
-            }
+
+        }
+
+        [STAThread]
+        private void PlayASound()
+        {
+            //Tell the SoundOut which sound it has to play
+            soundOut.Initialize(soundSource);
+            //Play the sound
+            soundOut.Play();
+
+            //Thread.Sleep(2000);
+
+            //Stop the playback
+            //soundOut.Stop();
+        }
+
+        public static void ClearCurrentConsoleLine()
+        {
+            int currentLineCursor = Console.CursorTop;
+            Console.SetCursorPosition(0, Console.CursorTop);
+            for (int i = 0; i < Console.WindowWidth; i++)
+                Console.Write(" ");
+            Console.SetCursorPosition(0, currentLineCursor);
+        }
+    
+
+        private ISoundOut GetSoundOut()
+        {
+            if (WasapiOut.IsSupportedOnCurrentPlatform)
+                return new WasapiOut();
+            else
+                return new DirectSoundOut();
+        }
+
+        private IWaveSource GetSoundSource()
+        {
+            //return any source ... in this example, we'll just play a mp3 file
+            return CodecFactory.Instance.GetCodec(@"../../Sounds/sayagain-loop2.wav");
         }
     }
 }

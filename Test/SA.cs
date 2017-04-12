@@ -10,9 +10,7 @@ using SFML.Window;
 using SFML.System;
 using System.Drawing;
 using Newtonsoft.Json;
-using CSCore;
-using CSCore.SoundOut;
-using CSCore.Codecs;
+
 
 namespace Test
 {
@@ -334,56 +332,7 @@ namespace Test
             Dad = new Dad();
             Dad.setSpriteEmotion(Character.spriteEmotion.happy);
             Dad.active(true);
-            //testing-------------------------------------------------------------------------------------------
-            PlayASound();
-
-
-
-
         }
-
-        public void PlayASound()
-        {
-            Thread _ProcessingThread = new Thread(() =>
-            {
-                //Contains the sound to play
-                using (IWaveSource soundSource = GetSoundSource())
-                {
-                    //SoundOut implementation which plays the sound
-                    using (ISoundOut soundOut = GetSoundOut())
-                    {
-                        Console.WriteLine("Gets to Thread");
-                        //Tell the SoundOut which sound it has to play
-                        soundOut.Initialize(soundSource);
-                        //Play the sound
-                        soundOut.Play();
-                    }
-                }
-            });
-            _ProcessingThread.Name = "Example_Processing";
-            _ProcessingThread.IsBackground = true;
-            _ProcessingThread.Start();
-            //Thread.Sleep(5000);
-
-            //Stop the playback
-            //soundOut.Stop();
-        }
-
-        private ISoundOut GetSoundOut()
-        {
-            if (WasapiOut.IsSupportedOnCurrentPlatform)
-                return new WasapiOut();
-            else
-                return new DirectSoundOut();
-        }
-
-        private IWaveSource GetSoundSource()
-        {
-            //return any source ... in this example, we'll just play a mp3 file
-            return CodecFactory.Instance.GetCodec("../../Sounds/sayagain-loop1.wav");
-        }
-
-        //-------------------------------------------------------------------------------------
 
         private void LoadInitialPreReqs()
         {
