@@ -89,7 +89,6 @@ namespace Test
         {
             numberOfChildren = 0;
             Console.WriteLine("Current node: " + currentNode);
-            Console.WriteLine("Possible next nodes: ");
             if (plot_dict[currentNode].Item1 != null)
             {
                 //the string name of each child node
@@ -97,17 +96,15 @@ namespace Test
                 {
                     List<String> nextPreconditions = new List<String>();
                     numberOfChildren += 1;
-                    Console.WriteLine("- " + n);
+                    Console.WriteLine("Possible Next Node: " + n);
                     if (plot_dict[n].Item2 != null)
-                    {   
+                    {
                         foreach (var c in plot_dict[n].Item2) //the precondition of each child
                         {
-
-                            Console.WriteLine(">>> With precondition: ");
-                            Console.WriteLine(">>> " + c);
+                            Console.WriteLine("With preconditions: " + c);
 
                             nextPreconditions.Add(c);
-                            
+   
                             if (checkIfPreconSatisfied(nextPreconditions)) //if true
                             {
                                 currentNode = n;//current node is set to child node 
@@ -156,13 +153,31 @@ namespace Test
                         }
                     }
                 }
-                
+                else if (p.Contains(":"))
+                {
+                    //this means its not an FNC check
+                    //means its a plotpoint check
+                    if (!checkPastPlotPoint(p))//if false
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    var t = p.Replace(":", String.Empty);
+                    if (!checkCharFNC(p))
+                    {
+                        return false;
+                    }
+                }
+
             }
             return true;
         }
         
         public bool checkCharFNC(string s)
         {
+            Console.WriteLine("checkCharFNC()");
             char character = s[0];
             switch (character) {
                 case 'M':
@@ -180,6 +195,7 @@ namespace Test
 
         public bool checkPastPlotPoint(string p)
         {
+            Console.WriteLine("checkPastPlotPoint()");
             //if p exists in list of reached plotpoints
             //return true;
             //else
@@ -203,6 +219,7 @@ namespace Test
             setDialogueType(type.plotpoint);
             reachedPlotpoints = new List<String>();
             reachedPlotpoints.Add(currentNode);
+            reachedPlotpoints.Add("DadApologizesMom");
 
 
         //TODO: all blow up nodes reachable from any point
