@@ -116,9 +116,17 @@ namespace Test
 
         public Mom()
         {
-            FNCSpectrum[0] = 2;
-            FNCSpectrum[1] = 5;
-            FNCSpectrum[2] = 8;
+            FNCRange[0] = -10;
+            FNCRange[1] = -8.66;
+            FNCRange[2] = -7.33;
+            FNCRange[3] = -6;
+            FNCRange[4] = -2;
+            FNCRange[5] = 2;
+            FNCRange[6] = 6;
+            FNCRange[7] = 7.33;
+            FNCRange[8] = 8.66;
+            FNCRange[9] = 10;
+
             currentFNC = -1;
 
             //determine size and position

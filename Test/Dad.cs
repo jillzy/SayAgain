@@ -79,9 +79,17 @@ namespace Test
 
         public Dad()
         {
-            FNCSpectrum[0] = 2;
-            FNCSpectrum[1] = 5;
-            FNCSpectrum[2] = 8;
+            FNCRange[0] = -10;
+            FNCRange[1] = -7.33;
+            FNCRange[2] = -4.66;
+            FNCRange[3] = -2;
+            FNCRange[4] = -0.77;
+            FNCRange[5] = 0.66;
+            FNCRange[6] = 2;
+            FNCRange[7] = 4.66;
+            FNCRange[8] = 7.33;
+            FNCRange[9] = 10;
+
             currentFNC = -1;
 
             //determine size and position

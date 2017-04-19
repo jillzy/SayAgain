@@ -110,9 +110,17 @@ namespace Test
 
         public Alex()
         {
-            FNCSpectrum[0] = 2;
-            FNCSpectrum[1] = 5;
-            FNCSpectrum[2] = 8;
+            FNCRange[0] = -10;
+            FNCRange[1] = -8;
+            FNCRange[2] = -6;
+            FNCRange[3] = -4;
+            FNCRange[4] = -0.33;
+            FNCRange[5] = 3.33;
+            FNCRange[6] = 7;
+            FNCRange[7] = 8;
+            FNCRange[8] = 9;
+            FNCRange[9] = 10;
+
             currentFNC = -1;
 
             //determine size and position
