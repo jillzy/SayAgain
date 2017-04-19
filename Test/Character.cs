@@ -51,6 +51,11 @@ namespace Test
             }
         }
 
+        public double[] getFNCRange()
+        {
+            return FNCRange;
+        }
+
         public void undim()
         {
 
@@ -89,7 +94,7 @@ namespace Test
             return FNCRange;
         }
 
-        public int getCurrentFNC()
+        public double getCurrentFNC()
         {
             return currentFNC;
         }

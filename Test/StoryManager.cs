@@ -178,6 +178,13 @@ namespace Test
         public bool checkCharFNC(string s)
         {
             Console.WriteLine("checkCharFNC()");
+            Console.WriteLine(s);
+            //MHF-LF
+            //remove the M
+            //if hf then = fncrange[0]
+            //if lf then = fncrange[3]
+            //if [0] < char.currentfnc < [3]
+            //true
             char character = s[0];
             switch (character) {
                 case 'M':
