@@ -1,0 +1,60 @@
+{
+  "Dialogues": [
+    {
+      "content": "dad transition block 1 part 1: bucket 1, id 1",
+      "tone": "Root",
+      "id": "1",
+      "FNC": "0",
+      "bucket": "1"
+    },
+    {
+      "content": "dad transition block 1 part 2: bucket 1, id 2",
+      "tone": "Root",
+      "id": "2",
+      "FNC": "-5",
+      "bucket": "1"
+    },
+    {
+      "content": "dad transition block 1 part 3: bucket 1, id 3",
+      "tone": "Root",
+      "id": "3",
+      "FNC": "6",
+      "bucket": "1"
+    },
+    {
+      "content": "dad transition block 1 part 4: bucket 1, id 4",
+      "tone": "Root",
+      "id": "4",
+      "FNC": "-99999",
+      "bucket": "1"
+    },
+    {
+      "content": "dad transition block 2 part 1: bucket 2, id 1",
+      "tone": "Root",
+      "id": "1",
+      "FNC": "0",
+      "bucket": "2"
+    },
+    {
+      "content": "dad transition block 2 part 2: bucket 2, id 2",
+      "tone": "Root",
+      "id": "2",
+      "FNC": "0",
+      "bucket": "2"
+    },
+    {
+      "content": "dad transition block 2 part 3: bucket 2, id 3",
+      "tone": "Root",
+      "id": "3",
+      "FNC": "0",
+      "bucket": "2"
+    },
+    {
+      "content": "dad transition block 2 part 4: bucket 2, id 4",
+      "tone": "Root",
+      "id": "4",
+      "FNC": "0",
+      "bucket": "2"
+    }
+  ]
+}

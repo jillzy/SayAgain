@@ -1,0 +1,40 @@
+{
+  "Dialogues": [
+    {
+      "content": "am alex.",
+      "tone": "Indifferent",
+      "id": "1",
+      "next": "2"
+    },
+    {
+      "content": "am alex2.",
+      "tone": "Indifferent",
+      "id": "2",
+      "next": "2"
+    },
+    {
+      "content": "this is alex, 3.",
+      "tone": "Indifferent",
+      "id": "3",
+      "next": "2"
+    },
+    {
+      "content": "this is alex, 4",
+      "tone": "Indifferent",
+      "id": "4",
+      "next": "2"
+    },
+    {
+      "content": "this is alex, 5.",
+      "tone": "Indifferent",
+      "id": "5",
+      "next": "2"
+    },
+    {
+      "content": "this is alex, 6.",
+      "tone": "Indifferent",
+      "id": "6",
+      "next": "2"
+    }
+  ]
+}

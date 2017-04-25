@@ -1,0 +1,748 @@
+{ 
+ "Dialogues":[ 
+  {
+     "content":"You millennials have the strangest jokes. Are you even a theater major?"
+    ,"tone":"Compassionate"
+    ,"id":"128"
+    ,"next":"3"
+  },
+  {
+     "content":"Whatever it is, you should get it checked out, because college is obviously not treating you well."
+    ,"tone":"Blunt"
+    ,"id":"128"
+    ,"next":"2"
+  },
+  {
+     "content":"Whatever it is, you should get it checked out, because college is obviously not treating you well."
+    ,"tone":"Indifferent"
+    ,"id":"128"
+    ,"next":"2"
+  },
+  {
+     "content":"Whatever it is, you should get it checked out, because college is obviously not treating you well."
+    ,"tone":"Hesitant"
+    ,"id":"128"
+    ,"next":"2"
+  },
+  {
+     "content":"Haha! Woah there! Did you pick up an attitude bug while you were away?"
+    ,"tone":"Blunt"
+    ,"id":"1"
+    ,"next":"128"
+  },
+  {
+     "content":"So, has college been treating you well?"
+    ,"tone":"Indifferent"
+    ,"id":"1"
+    ,"next":""
+  },
+  {
+     "content":"So, has college been treating you well?"
+    ,"tone":"Hesitant"
+    ,"id":"1"
+    ,"next":""
+  },
+  {
+     "content":"So, has college been treating you well?"
+    ,"tone":"Compassionate"
+    ,"id":"1"
+    ,"next":""
+  },
+  {
+     "content":"Well that's good to hear! Which major were pursing again?"
+    ,"tone":"Blunt"
+    ,"id":"2"
+    ,"next":""
+  },
+  {
+     "content":"Tell me, what is your major again?"
+    ,"tone":"Indifferent"
+    ,"id":"2"
+    ,"next":""
+  },
+  {
+     "content":"Tell me, what is your major again?"
+    ,"tone":"Compassionate"
+    ,"id":"2"
+    ,"next":""
+  },
+  {
+     "content":"Tell me, what is your major again?"
+    ,"tone":"Hesitant"
+    ,"id":"2"
+    ,"next":""
+  },
+  {
+     "content":"Well that's good to hear!"
+    ,"tone":"Indifferent"
+    ,"id":"3"
+    ,"next":""
+  },
+  {
+     "content":"Well that's good to hear!"
+    ,"tone":"Hesitant"
+    ,"id":"3"
+    ,"next":""
+  },
+  {
+     "content":"You can blame it on my age."
+    ,"tone":"Blunt"
+    ,"id":"3"
+    ,"next":""
+  },
+  {
+     "content":"Oh! I guess I am."
+    ,"tone":"Compassionate"
+    ,"id":"3"
+    ,"next":""
+  },
+  {
+     "content":"Of course! I’m doing great! In fact, everyone here is doing absolutely fantastic."
+    ,"tone":"Blunt"
+    ,"id":"4"
+    ,"next":""
+  },
+  {
+     "content":"Of course! I’m doing great! In fact, everyone here is doing absolutely fantastic."
+    ,"tone":"Indifferent"
+    ,"id":"4"
+    ,"next":""
+  },
+  {
+     "content":"Of course! I’m doing great! In fact, everyone here is doing absolutely fantastic."
+    ,"tone":"Compassionate"
+    ,"id":"4"
+    ,"next":""
+  },
+  {
+     "content":"Of course! I’m doing great! In fact, everyone here is doing absolutely fantastic."
+    ,"tone":"Hesitant"
+    ,"id":"4"
+    ,"next":""
+  },
+  {
+     "content":"I got promoted at work. I’m “raking in the dough,” as you hip kids say. See these new Swarovski crystal glasses?"
+    ,"tone":"Blunt"
+    ,"id":"5"
+    ,"next":""
+  },
+  {
+     "content":"I got promoted at work. I’m “raking in the dough,” as you hip kids say. See these new Swarovski crystal glasses?"
+    ,"tone":"Indifferent"
+    ,"id":"5"
+    ,"next":""
+  },
+  {
+     "content":"I got promoted at work. I’m “raking in the dough,” as you hip kids say. See these new Swarovski crystal glasses?"
+    ,"tone":"Compassionate"
+    ,"id":"5"
+    ,"next":""
+  },
+  {
+     "content":"I got promoted at work. I’m “raking in the dough,” as you hip kids say. See these new Swarovski crystal glasses?"
+    ,"tone":"Hesitant"
+    ,"id":"5"
+    ,"next":""
+  },
+  {
+     "content":"Your mom got them!"
+    ,"tone":"Blunt"
+    ,"id":"6"
+    ,"next":""
+  },
+  {
+     "content":"Your mom got them!"
+    ,"tone":"Indifferent"
+    ,"id":"6"
+    ,"next":""
+  },
+  {
+     "content":"Your mom got them!"
+    ,"tone":"Compassionate"
+    ,"id":"6"
+    ,"next":""
+  },
+  {
+     "content":"Your mom got them!"
+    ,"tone":"Hesitant"
+    ,"id":"6"
+    ,"next":""
+  },
+  {
+     "content":"Brand new glasses that I had absolutely no say in. Don’t they look great? Heck, I was PLEASANTLY surprised when your mom came home with them."
+    ,"tone":"Blunt"
+    ,"id":"7"
+    ,"next":""
+  },
+  {
+     "content":"Brand new glasses that I had absolutely no say in. Don’t they look great? Heck, I was PLEASANTLY surprised when your mom came home with them."
+    ,"tone":"Indifferent"
+    ,"id":"7"
+    ,"next":""
+  },
+  {
+     "content":"Brand new glasses that I had absolutely no say in. Don’t they look great? Heck, I was PLEASANTLY surprised when your mom came home with them."
+    ,"tone":"Compassionate"
+    ,"id":"7"
+    ,"next":""
+  },
+  {
+     "content":"Brand new glasses that I had absolutely no say in. Don’t they look great? Heck, I was PLEASANTLY surprised when your mom came home with them."
+    ,"tone":"Hesitant"
+    ,"id":"7"
+    ,"next":""
+  },
+  {
+     "content":"I received it a few weeks ago. Want to know something? When I told my co-workers about the glasses, they were surprised too? It’s STRANGE that your mom would go out and get something new without telling me."
+    ,"tone":"Blunt"
+    ,"id":"8"
+    ,"next":""
+  },
+  {
+     "content":"I received it a few weeks ago. Want to know something? When I told my co-workers about the glasses, they were surprised too? It’s STRANGE that your mom would go out and get something new without telling me."
+    ,"tone":"Indifferent"
+    ,"id":"8"
+    ,"next":""
+  },
+  {
+     "content":"I received it a few weeks ago. Want to know something? When I told my co-workers about the glasses, they were surprised too? It’s STRANGE that your mom would go out and get something new without telling me."
+    ,"tone":"Compassionate"
+    ,"id":"8"
+    ,"next":""
+  },
+  {
+     "content":"I received it a few weeks ago. Want to know something? When I told my co-workers about the glasses, they were surprised too? It’s STRANGE that your mom would go out and get something new without telling me."
+    ,"tone":"Hesitant"
+    ,"id":"8"
+    ,"next":""
+  },
+  {
+     "content":"Everything’s fine. It’s just like your mom said, “Nothing to worry about.” Dad is oddly cheery even though he was visually upset a few moments ago."
+    ,"tone":"Blunt"
+    ,"id":"9"
+    ,"next":""
+  },
+  {
+     "content":"Everything’s fine. It’s just like your mom said, “Nothing to worry about.” Dad is oddly cheery even though he was visually upset a few moments ago."
+    ,"tone":"Indifferent"
+    ,"id":"9"
+    ,"next":""
+  },
+  {
+     "content":"Everything’s fine. It’s just like your mom said, “Nothing to worry about.” Dad is oddly cheery even though he was visually upset a few moments ago."
+    ,"tone":"Compassionate"
+    ,"id":"9"
+    ,"next":""
+  },
+  {
+     "content":"Everything’s fine. It’s just like your mom said, “Nothing to worry about.” Dad is oddly cheery even though he was visually upset a few moments ago."
+    ,"tone":"Hesitant"
+    ,"id":"9"
+    ,"next":""
+  },
+  {
+     "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!"
+    ,"tone":"Blunt"
+    ,"id":"10"
+    ,"next":""
+  },
+  {
+     "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!"
+    ,"tone":"Indifferent"
+    ,"id":"10"
+    ,"next":""
+  },
+  {
+     "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!"
+    ,"tone":"Compassionate"
+    ,"id":"10"
+    ,"next":""
+  },
+  {
+     "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!"
+    ,"tone":"Hesitant"
+    ,"id":"10"
+    ,"next":""
+  },
+  {
+     "content":"Remember how your mother was during those times?"
+    ,"tone":"Blunt"
+    ,"id":"11"
+    ,"next":""
+  },
+  {
+     "content":"Remember how your mother was during those times?"
+    ,"tone":"Indifferent"
+    ,"id":"11"
+    ,"next":""
+  },
+  {
+     "content":"Remember how your mother was during those times?"
+    ,"tone":"Compassionate"
+    ,"id":"11"
+    ,"next":""
+  },
+  {
+     "content":"Remember how your mother was during those times?"
+    ,"tone":"Hesitant"
+    ,"id":"11"
+    ,"next":""
+  },
+  {
+     "content":"I can remember those times, clear as day. She was so engaged, checking in on how you and Alex were doing, listening to me and you kids. And she would be around the house!"
+    ,"tone":"Blunt"
+    ,"id":"12"
+    ,"next":""
+  },
+  {
+     "content":"I can remember those times, clear as day. She was so engaged, checking in on how you and Alex were doing, listening to me and you kids. And she would be around the house!"
+    ,"tone":"Indifferent"
+    ,"id":"12"
+    ,"next":""
+  },
+  {
+     "content":"I can remember those times, clear as day. She was so engaged, checking in on how you and Alex were doing, listening to me and you kids. And she would be around the house!"
+    ,"tone":"Compassionate"
+    ,"id":"12"
+    ,"next":""
+  },
+  {
+     "content":"I can remember those times, clear as day. She was so engaged, checking in on how you and Alex were doing, listening to me and you kids. And she would be around the house!"
+    ,"tone":"Hesitant"
+    ,"id":"12"
+    ,"next":""
+  },
+  {
+     "content":"Oh come on. You of all people must remember how she would always come home from work ON TIME and ready to cook those delicious curry dishes for dinner."
+    ,"tone":"Blunt"
+    ,"id":"13"
+    ,"next":""
+  },
+  {
+     "content":"Oh come on. You of all people must remember how she would always come home from work ON TIME and ready to cook those delicious curry dishes for dinner."
+    ,"tone":"Indifferent"
+    ,"id":"13"
+    ,"next":""
+  },
+  {
+     "content":"Oh come on. You of all people must remember how she would always come home from work ON TIME and ready to cook those delicious curry dishes for dinner."
+    ,"tone":"Compassionate"
+    ,"id":"13"
+    ,"next":""
+  },
+  {
+     "content":"Oh come on. You of all people must remember how she would always come home from work ON TIME and ready to cook those delicious curry dishes for dinner."
+    ,"tone":"Hesitant"
+    ,"id":"13"
+    ,"next":""
+  },
+  {
+     "content":"Why? I don’t know what ukulele you’re talking about. But I remember your mother trying to support you join the orchestra back in high school too. Don’t you remember that?"
+    ,"tone":"Blunt"
+    ,"id":"14"
+    ,"next":""
+  },
+  {
+     "content":"Why? I don’t know what ukulele you’re talking about. But I remember your mother trying to support you join the orchestra back in high school too. Don’t you remember that?"
+    ,"tone":"Indifferent"
+    ,"id":"14"
+    ,"next":""
+  },
+  {
+     "content":"Why? I don’t know what ukulele you’re talking about. But I remember your mother trying to support you join the orchestra back in high school too. Don’t you remember that?"
+    ,"tone":"Compassionate"
+    ,"id":"14"
+    ,"next":""
+  },
+  {
+     "content":"Why? I don’t know what ukulele you’re talking about. But I remember your mother trying to support you join the orchestra back in high school too. Don’t you remember that?"
+    ,"tone":"Hesitant"
+    ,"id":"14"
+    ,"next":""
+  },
+  {
+     "content":"You’re missing the whole point here! You really don’t remember the Mom that I’m talking about?"
+    ,"tone":"Blunt"
+    ,"id":"15"
+    ,"next":""
+  },
+  {
+     "content":"You’re missing the whole point here! You really don’t remember the Mom that I’m talking about?"
+    ,"tone":"Indifferent"
+    ,"id":"15"
+    ,"next":""
+  },
+  {
+     "content":"You’re missing the whole point here! You really don’t remember the Mom that I’m talking about?"
+    ,"tone":"Compassionate"
+    ,"id":"15"
+    ,"next":""
+  },
+  {
+     "content":"You’re missing the whole point here! You really don’t remember the Mom that I’m talking about?"
+    ,"tone":"Hesitant"
+    ,"id":"15"
+    ,"next":""
+  },
+  {
+     "content":"Hmph, I wasn’t even done yet."
+    ,"tone":"Blunt"
+    ,"id":"16"
+    ,"next":""
+  },
+  {
+     "content":"Hmph, I wasn’t even done yet."
+    ,"tone":"Indifferent"
+    ,"id":"16"
+    ,"next":""
+  },
+  {
+     "content":"Hmph, I wasn’t even done yet."
+    ,"tone":"Compassionate"
+    ,"id":"16"
+    ,"next":""
+  },
+  {
+     "content":"Hmph, I wasn’t even done yet."
+    ,"tone":"Hesitant"
+    ,"id":"16"
+    ,"next":""
+  },
+  {
+     "content":"You think so? Haven’t noticed it yet?"
+    ,"tone":"Blunt"
+    ,"id":"17"
+    ,"next":""
+  },
+  {
+     "content":"You think so? Haven’t noticed it yet?"
+    ,"tone":"Indifferent"
+    ,"id":"17"
+    ,"next":""
+  },
+  {
+     "content":"You think so? Haven’t noticed it yet?"
+    ,"tone":"Compassionate"
+    ,"id":"17"
+    ,"next":""
+  },
+  {
+     "content":"You think so? Haven’t noticed it yet?"
+    ,"tone":"Hesitant"
+    ,"id":"17"
+    ,"next":""
+  },
+  {
+     "content":"That nothing is normal or fine right now?"
+    ,"tone":"Blunt"
+    ,"id":"18"
+    ,"next":""
+  },
+  {
+     "content":"That nothing is normal or fine right now?"
+    ,"tone":"Indifferent"
+    ,"id":"18"
+    ,"next":""
+  },
+  {
+     "content":"That nothing is normal or fine right now?"
+    ,"tone":"Compassionate"
+    ,"id":"18"
+    ,"next":""
+  },
+  {
+     "content":"That nothing is normal or fine right now?"
+    ,"tone":"Hesitant"
+    ,"id":"18"
+    ,"next":""
+  },
+  {
+     "content":"What I’m saying is that your mother here has been lying. To all of us."
+    ,"tone":"Blunt"
+    ,"id":"19"
+    ,"next":""
+  },
+  {
+     "content":"What I’m saying is that your mother here has been lying. To all of us."
+    ,"tone":"Indifferent"
+    ,"id":"19"
+    ,"next":""
+  },
+  {
+     "content":"What I’m saying is that your mother here has been lying. To all of us."
+    ,"tone":"Compassionate"
+    ,"id":"19"
+    ,"next":""
+  },
+  {
+     "content":"What I’m saying is that your mother here has been lying. To all of us."
+    ,"tone":"Hesitant"
+    ,"id":"19"
+    ,"next":""
+  },
+  {
+     "content":"This house isn’t “FINE”. Didn’t you catch on and figure there was something weird about starting our dinner at EIGHT THIRTY? It’s only so late because of her!"
+    ,"tone":"Blunt"
+    ,"id":"20"
+    ,"next":""
+  },
+  {
+     "content":"This house isn’t “FINE”. Didn’t you catch on and figure there was something weird about starting our dinner at EIGHT THIRTY? It’s only so late because of her!"
+    ,"tone":"Indifferent"
+    ,"id":"20"
+    ,"next":""
+  },
+  {
+     "content":"This house isn’t “FINE”. Didn’t you catch on and figure there was something weird about starting our dinner at EIGHT THIRTY? It’s only so late because of her!"
+    ,"tone":"Compassionate"
+    ,"id":"20"
+    ,"next":""
+  },
+  {
+     "content":"This house isn’t “FINE”. Didn’t you catch on and figure there was something weird about starting our dinner at EIGHT THIRTY? It’s only so late because of her!"
+    ,"tone":"Hesitant"
+    ,"id":"20"
+    ,"next":""
+  },
+  {
+     "content":"You see, we’ve got to be more attentive about these things. Let me break everything down for you."
+    ,"tone":"Blunt"
+    ,"id":"21"
+    ,"next":""
+  },
+  {
+     "content":"You see, we’ve got to be more attentive about these things. Let me break everything down for you."
+    ,"tone":"Indifferent"
+    ,"id":"21"
+    ,"next":""
+  },
+  {
+     "content":"You see, we’ve got to be more attentive about these things. Let me break everything down for you."
+    ,"tone":"Compassionate"
+    ,"id":"21"
+    ,"next":""
+  },
+  {
+     "content":"You see, we’ve got to be more attentive about these things. Let me break everything down for you."
+    ,"tone":"Hesitant"
+    ,"id":"21"
+    ,"next":""
+  },
+  {
+     "content":"New hair, new clothes, new dishware, going out with ‘friends,’ never home—You must be blind if you can’t see what’s going on with your mom!"
+    ,"tone":"Blunt"
+    ,"id":"22"
+    ,"next":""
+  },
+  {
+     "content":"New hair, new clothes, new dishware, going out with ‘friends,’ never home—You must be blind if you can’t see what’s going on with your mom!"
+    ,"tone":"Indifferent"
+    ,"id":"22"
+    ,"next":""
+  },
+  {
+     "content":"New hair, new clothes, new dishware, going out with ‘friends,’ never home—You must be blind if you can’t see what’s going on with your mom!"
+    ,"tone":"Compassionate"
+    ,"id":"22"
+    ,"next":""
+  },
+  {
+     "content":"New hair, new clothes, new dishware, going out with ‘friends,’ never home—You must be blind if you can’t see what’s going on with your mom!"
+    ,"tone":"Hesitant"
+    ,"id":"22"
+    ,"next":""
+  },
+  {
+     "content":"You really can't see that this bitch is cheating on me? She's literally seeing other men every night, coming home smelling like alcohol, and you still can't tell?"
+    ,"tone":"Blunt"
+    ,"id":"23"
+    ,"next":""
+  },
+  {
+     "content":"You really can't see that this bitch is cheating on me? She's literally seeing other men every night, coming home smelling like alcohol, and you still can't tell?"
+    ,"tone":"Indifferent"
+    ,"id":"23"
+    ,"next":""
+  },
+  {
+     "content":"You really can't see that this bitch is cheating on me? She's literally seeing other men every night, coming home smelling like alcohol, and you still can't tell?"
+    ,"tone":"Compassionate"
+    ,"id":"23"
+    ,"next":""
+  },
+  {
+     "content":"You really can't see that this bitch is cheating on me? She's literally seeing other men every night, coming home smelling like alcohol, and you still can't tell?"
+    ,"tone":"Hesitant"
+    ,"id":"23"
+    ,"next":""
+  },
+  {
+     "content":"No, in fact I’m not! Every single thing points to this one truth! And I’m done standing for it!"
+    ,"tone":"Blunt"
+    ,"id":"24"
+    ,"next":""
+  },
+  {
+     "content":"No, in fact I’m not! Every single thing points to this one truth! And I’m done standing for it!"
+    ,"tone":"Indifferent"
+    ,"id":"24"
+    ,"next":""
+  },
+  {
+     "content":"No, in fact I’m not! Every single thing points to this one truth! And I’m done standing for it!"
+    ,"tone":"Compassionate"
+    ,"id":"24"
+    ,"next":""
+  },
+  {
+     "content":"No, in fact I’m not! Every single thing points to this one truth! And I’m done standing for it!"
+    ,"tone":"Hesitant"
+    ,"id":"24"
+    ,"next":""
+  },
+  {
+     "content":"There is no time to ‘chill’. This whore is tearing this family apart!"
+    ,"tone":"Blunt"
+    ,"id":"25"
+    ,"next":""
+  },
+  {
+     "content":"There is no time to ‘chill’. This whore is tearing this family apart!"
+    ,"tone":"Indifferent"
+    ,"id":"25"
+    ,"next":""
+  },
+  {
+     "content":"There is no time to ‘chill’. This whore is tearing this family apart!"
+    ,"tone":"Compassionate"
+    ,"id":"25"
+    ,"next":""
+  },
+  {
+     "content":"There is no time to ‘chill’. This whore is tearing this family apart!"
+    ,"tone":"Hesitant"
+    ,"id":"25"
+    ,"next":""
+  },
+  {
+     "content":"“Sure?!” You don’t have anything else, more substantial to say?"
+    ,"tone":"Blunt"
+    ,"id":"26"
+    ,"next":""
+  },
+  {
+     "content":"“Sure?!” You don’t have anything else, more substantial to say?"
+    ,"tone":"Indifferent"
+    ,"id":"26"
+    ,"next":""
+  },
+  {
+     "content":"“Sure?!” You don’t have anything else, more substantial to say?"
+    ,"tone":"Compassionate"
+    ,"id":"26"
+    ,"next":""
+  },
+  {
+     "content":"“Sure?!” You don’t have anything else, more substantial to say?"
+    ,"tone":"Hesitant"
+    ,"id":"26"
+    ,"next":""
+  },
+  {
+     "content":":SLDKFJ:LSKDJF:LKFJ VERN DELETED DIALOGUE"
+    ,"tone":"Blunt"
+    ,"id":"27"
+    ,"next":""
+  },
+  {
+     "content":":SLDKFJ:LSKDJF:LKFJ VERN DELETED DIALOGUE"
+    ,"tone":"Indifferent"
+    ,"id":"27"
+    ,"next":""
+  },
+  {
+     "content":":SLDKFJ:LSKDJF:LKFJ VERN DELETED DIALOGUE"
+    ,"tone":"Compassionate"
+    ,"id":"27"
+    ,"next":""
+  },
+  {
+     "content":":SLDKFJ:LSKDJF:LKFJ VERN DELETED DIALOGUE"
+    ,"tone":"Hesitant"
+    ,"id":"27"
+    ,"next":""
+  },
+  {
+     "content":"What’s out of place? I’m earning money to support this...this infidelity! And I’m the only one ever doing ANYTHING worthwhile around here."
+    ,"tone":"Blunt"
+    ,"id":"29"
+    ,"next":""
+  },
+  {
+     "content":"What’s out of place? I’m earning money to support this...this infidelity! And I’m the only one ever doing ANYTHING worthwhile around here."
+    ,"tone":"Indifferent"
+    ,"id":"29"
+    ,"next":""
+  },
+  {
+     "content":"What’s out of place? I’m earning money to support this...this infidelity! And I’m the only one ever doing ANYTHING worthwhile around here."
+    ,"tone":"Compassionate"
+    ,"id":"29"
+    ,"next":""
+  },
+  {
+     "content":"What’s out of place? I’m earning money to support this...this infidelity! And I’m the only one ever doing ANYTHING worthwhile around here."
+    ,"tone":"Hesitant"
+    ,"id":"29"
+    ,"next":""
+  },
+  {
+     "content":"What are you even going on about?"
+    ,"tone":"Blunt"
+    ,"id":"30"
+    ,"next":""
+  },
+  {
+     "content":"What are you even going on about?"
+    ,"tone":"Indifferent"
+    ,"id":"30"
+    ,"next":""
+  },
+  {
+     "content":"What are you even going on about?"
+    ,"tone":"Compassionate"
+    ,"id":"30"
+    ,"next":""
+  },
+  {
+     "content":"What are you even going on about?"
+    ,"tone":"Hesitant"
+    ,"id":"30"
+    ,"next":""
+  },
+  {
+     "content":"Well excuse me! I’m just trying to put food on the table, and this is the disrespect I get?!"
+    ,"tone":"Blunt"
+    ,"id":"31"
+    ,"next":""
+  },
+  {
+     "content":"Well excuse me! I’m just trying to put food on the table, and this is the disrespect I get?!"
+    ,"tone":"Indifferent"
+    ,"id":"31"
+    ,"next":""
+  },
+  {
+     "content":"Well excuse me! I’m just trying to put food on the table, and this is the disrespect I get?!"
+    ,"tone":"Compassionate"
+    ,"id":"31"
+    ,"next":""
+  },
+  {
+     "content":"Well excuse me! I’m just trying to put food on the table, and this is the disrespect I get?!"
+    ,"tone":"Hesitant"
+    ,"id":"31"
+    ,"next":""
+  }
+ ] 
+ }

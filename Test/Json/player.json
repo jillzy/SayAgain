@@ -1,0 +1,1000 @@
+{
+  "Dialogues": [
+    {
+      "content": "Thank you.",
+      "tone": "Root",
+      "id": "1",
+      "next": ""
+    },
+    {
+      "content": "I'm only here because you told me to be.",
+      "tone": "Blunt",
+      "id": "2",
+      "next": "128"
+    },
+    {
+      "content": "Yeah.. It's great.",
+      "tone": "Indifferent",
+      "id": "2",
+      "next": ""
+    },
+    {
+      "content": "Thanks Dad! It's so great to be back here!",
+      "tone": "Compassionate",
+      "id": "2",
+      "next": ""
+    },
+    {
+      "content": "Thanks? I haven't been home in a while...",
+      "tone": "Hesitant",
+      "id": "2",
+      "next": ""
+    },
+    {
+      "content": "Maybe",
+      "tone": "Root",
+      "id": "128",
+      "next": ""
+    },
+    {
+      "content": "What do you think?",
+      "tone": "Blunt",
+      "id": "129",
+      "next": "3"
+    },
+    {
+      "content": "Eh.",
+      "tone": "Indifferent",
+      "id": "129",
+      "next": "3"
+    },
+    {
+      "content": "Gosh! I was just acting, Dad.",
+      "tone": "Compassionate",
+      "id": "129",
+      "next": "5"
+    },
+    {
+      "content": "Er, possibly?",
+      "tone": "Hesitant",
+      "id": "129",
+      "next": "3"
+    },
+    {
+      "content": "Yes",
+      "tone": "Root",
+      "id": "3",
+      "next": ""
+    },
+    {
+      "content": "School is FINE, okay?!",
+      "tone": "Blunt",
+      "id": "4",
+      "next": ""
+    },
+    {
+      "content": "It's fine.",
+      "tone": "Indifferent",
+      "id": "4",
+      "next": ""
+    },
+    {
+      "content": "You don''t have to worry about me. School is peach keen!",
+      "tone": "Compassionate",
+      "id": "4",
+      "next": ""
+    },
+    {
+      "content": "I mean, I guess.",
+      "tone": "Hesitant",
+      "id": "4",
+      "next": ""
+    },
+    {
+      "content": "Game Design",
+      "tone": "Root",
+      "id": "5",
+      "next": ""
+    },
+    {
+      "content": "It's Game Design! How do you not remember?",
+      "tone": "Blunt",
+      "id": "6",
+      "next": ""
+    },
+    {
+      "content": "Game Design or something like that.",
+      "tone": "Indifferent",
+      "id": "6",
+      "next": ""
+    },
+    {
+      "content": "Game Design! You are so silly for not remembering.",
+      "tone": "Compassionate",
+      "id": "6",
+      "next": ""
+    },
+    {
+      "content": "Er.. Oh! Game Design?",
+      "tone": "Hesitant",
+      "id": "6",
+      "next": ""
+    },
+    {
+      "content": "You okay Dad?",
+      "tone": "Root",
+      "id": "7",
+      "next": ""
+    },
+    {
+      "content": "Still laying around like the lazy ass that you are?",
+      "tone": "Blunt",
+      "id": "8",
+      "next": ""
+    },
+    {
+      "content": "So.. are you doing okay, Dad?",
+      "tone": "Indifferent",
+      "id": "8",
+      "next": ""
+    },
+    {
+      "content": "I hope you are doing well dad!",
+      "tone": "Compassionate",
+      "id": "8",
+      "next": ""
+    },
+    {
+      "content": "So..um.. everything okay with you right?",
+      "tone": "Hesitant",
+      "id": "8",
+      "next": ""
+    },
+    {
+      "content": "sure",
+      "tone": "Root",
+      "id": "9",
+      "next": ""
+    },
+    {
+      "content": "sure whatever",
+      "tone": "Blunt",
+      "id": "10",
+      "next": ""
+    },
+    {
+      "content": "Oh, sure.",
+      "tone": "Indifferent",
+      "id": "10",
+      "next": ""
+    },
+    {
+      "content": "Fasho dad!",
+      "tone": "Compassionate",
+      "id": "10",
+      "next": ""
+    },
+    {
+      "content": "umm .. yea .. sure.",
+      "tone": "Hesitant",
+      "id": "10",
+      "next": ""
+    },
+    {
+      "content": "nice",
+      "tone": "Root",
+      "id": "11",
+      "next": ""
+    },
+    {
+      "content": "I guess for your ugly face it does.",
+      "tone": "Blunt",
+      "id": "12",
+      "next": ""
+    },
+    {
+      "content": "I didn't notice, but I think they look good.",
+      "tone": "Indifferent",
+      "id": "12",
+      "next": ""
+    },
+    {
+      "content": "Everything looks good on you dad!",
+      "tone": "Compassionate",
+      "id": "12",
+      "next": ""
+    },
+    {
+      "content": "Yup...",
+      "tone": "Hesitant",
+      "id": "12",
+      "next": ""
+    },
+    {
+      "content": "okay",
+      "tone": "Root",
+      "id": "13",
+      "next": ""
+    },
+    {
+      "content": "Did I ask?",
+      "tone": "Blunt",
+      "id": "14",
+      "next": ""
+    },
+    {
+      "content": "Okay?",
+      "tone": "Indifferent",
+      "id": "14",
+      "next": ""
+    },
+    {
+      "content": "Aww how nice of her!",
+      "tone": "Compassionate",
+      "id": "14",
+      "next": ""
+    },
+    {
+      "content": "oh.. really?",
+      "tone": "Hesitant",
+      "id": "14",
+      "next": ""
+    },
+    {
+      "content": "Your promotion?",
+      "tone": "Root",
+      "id": "15",
+      "next": ""
+    },
+    {
+      "content": "I don't care, but I heard your dumbass actually got a promotion.",
+      "tone": "Blunt",
+      "id": "16",
+      "next": ""
+    },
+    {
+      "content": "The glasses are great, Dad. So about your promotion..",
+      "tone": "Indifferent",
+      "id": "16",
+      "next": ""
+    },
+    {
+      "content": "Also I heard you got a promotion! I am so proud of you!",
+      "tone": "Compassionate",
+      "id": "16",
+      "next": ""
+    },
+    {
+      "content": "Umm.. so you had something .. promotion?",
+      "tone": "Hesitant",
+      "id": "16",
+      "next": ""
+    },
+    {
+      "content": "You seem upset",
+      "tone": "Root",
+      "id": "17",
+      "next": ""
+    },
+    {
+      "content": "You seem upset? Did you realize how much of a failure you are?",
+      "tone": "Blunt",
+      "id": "18",
+      "next": ""
+    },
+    {
+      "content": "You look kind of upset. What's going on?",
+      "tone": "Indifferent",
+      "id": "18",
+      "next": ""
+    },
+    {
+      "content": "Is everything okay dad? You seem quite upset and that makes me sad.",
+      "tone": "Compassionate",
+      "id": "18",
+      "next": ""
+    },
+    {
+      "content": "you okay?",
+      "tone": "Hesitant",
+      "id": "18",
+      "next": ""
+    },
+    {
+      "content": "d3_p3",
+      "tone": "Root",
+      "id": "19",
+      "next": ""
+    },
+    {
+      "content": "You sure? You sounded kind of flustered right there.",
+      "tone": "Blunt",
+      "id": "20",
+      "next": ""
+    },
+    {
+      "content": "You sure? You sounded kind of flustered right there.",
+      "tone": "Indifferent",
+      "id": "20",
+      "next": ""
+    },
+    {
+      "content": "You sure? You sounded kind of flustered right there.",
+      "tone": "Compassionate",
+      "id": "20",
+      "next": ""
+    },
+    {
+      "content": "You sure? You sounded kind of flustered right there.",
+      "tone": "Hesitant",
+      "id": "20",
+      "next": ""
+    },
+    {
+      "content": "d3_p4",
+      "tone": "Root",
+      "id": "21",
+      "next": ""
+    },
+    {
+      "content": "I don't think that was too long ago.",
+      "tone": "Blunt",
+      "id": "22",
+      "next": ""
+    },
+    {
+      "content": "I don't think that was too long ago.",
+      "tone": "Indifferent",
+      "id": "22",
+      "next": ""
+    },
+    {
+      "content": "I don't think that was too long ago.",
+      "tone": "Compassionate",
+      "id": "22",
+      "next": ""
+    },
+    {
+      "content": "I don't think that was too long ago.",
+      "tone": "Hesitant",
+      "id": "22",
+      "next": ""
+    },
+    {
+      "content": "d3_p5",
+      "tone": "Root",
+      "id": "23",
+      "next": ""
+    },
+    {
+      "content": "Sure...but where are you going with this?",
+      "tone": "Blunt",
+      "id": "24",
+      "next": ""
+    },
+    {
+      "content": "Sure...but where are you going with this?",
+      "tone": "Indifferent",
+      "id": "24",
+      "next": ""
+    },
+    {
+      "content": "Sure...but where are you going with this?",
+      "tone": "Compassionate",
+      "id": "24",
+      "next": ""
+    },
+    {
+      "content": "Sure...but where are you going with this?",
+      "tone": "Hesitant",
+      "id": "24",
+      "next": ""
+    },
+    {
+      "content": "d3_p6",
+      "tone": "Root",
+      "id": "25",
+      "next": ""
+    },
+    {
+      "content": "I don't really follow.",
+      "tone": "Blunt",
+      "id": "26",
+      "next": ""
+    },
+    {
+      "content": "I don't really follow.",
+      "tone": "Indifferent",
+      "id": "26",
+      "next": ""
+    },
+    {
+      "content": "I don't really follow.",
+      "tone": "Compassionate",
+      "id": "26",
+      "next": ""
+    },
+    {
+      "content": "I don't really follow.",
+      "tone": "Hesitant",
+      "id": "26",
+      "next": ""
+    },
+    {
+      "content": "d3_p7",
+      "tone": "Root",
+      "id": "27",
+      "next": ""
+    },
+    {
+      "content": "You know, you're acting kinda weird. Can we go back to the ukulele question?",
+      "tone": "Blunt",
+      "id": "28",
+      "next": ""
+    },
+    {
+      "content": "You know, you're acting kinda weird. Can we go back to the ukulele question?",
+      "tone": "Indifferent",
+      "id": "28",
+      "next": ""
+    },
+    {
+      "content": "You know, you're acting kinda weird. Can we go back to the ukulele question?",
+      "tone": "Compassionate",
+      "id": "28",
+      "next": ""
+    },
+    {
+      "content": "You know, you're acting kinda weird. Can we go back to the ukulele question?",
+      "tone": "Hesitant",
+      "id": "28",
+      "next": ""
+    },
+    {
+      "content": "d3_p8",
+      "tone": "Root",
+      "id": "29",
+      "next": ""
+    },
+    {
+      "content": "Um, that’s not the same kind of...string...instrument.",
+      "tone": "Blunt",
+      "id": "30",
+      "next": ""
+    },
+    {
+      "content": "Um, that’s not the same kind of...string...instrument.",
+      "tone": "Indifferent",
+      "id": "30",
+      "next": ""
+    },
+    {
+      "content": "Um, that’s not the same kind of...string...instrument.",
+      "tone": "Compassionate",
+      "id": "30",
+      "next": ""
+    },
+    {
+      "content": "Um, that’s not the same kind of...string...instrument.",
+      "tone": "Hesitant",
+      "id": "30",
+      "next": ""
+    },
+    {
+      "content": "d3_p9",
+      "tone": "Root",
+      "id": "31",
+      "next": ""
+    },
+    {
+      "content": "You know what? Nevermind, it’s fine.",
+      "tone": "Blunt",
+      "id": "32",
+      "next": ""
+    },
+    {
+      "content": "You know what? Nevermind, it’s fine.",
+      "tone": "Indifferent",
+      "id": "32",
+      "next": ""
+    },
+    {
+      "content": "You know what? Nevermind, it’s fine.",
+      "tone": "Compassionate",
+      "id": "32",
+      "next": ""
+    },
+    {
+      "content": "You know what? Nevermind, it’s fine.",
+      "tone": "Hesitant",
+      "id": "32",
+      "next": ""
+    },
+    {
+      "content": "d4_p1",
+      "tone": "Root",
+      "id": "33",
+      "next": ""
+    },
+    {
+      "content": "You know, you’re sounding really grumpy about all of this. Why are you being like this anyways?",
+      "tone": "Blunt",
+      "id": "34",
+      "next": ""
+    },
+    {
+      "content": "You know, you’re sounding really grumpy about all of this. Why are you being like this anyways?",
+      "tone": "Indifferent",
+      "id": "34",
+      "next": ""
+    },
+    {
+      "content": "You know, you’re sounding really grumpy about all of this. Why are you being like this anyways?",
+      "tone": "Compassionate",
+      "id": "34",
+      "next": ""
+    },
+    {
+      "content": "You know, you’re sounding really grumpy about all of this. Why are you being like this anyways?",
+      "tone": "Hesitant",
+      "id": "34",
+      "next": ""
+    },
+    {
+      "content": "d4_p2",
+      "tone": "Root",
+      "id": "35",
+      "next": ""
+    },
+    {
+      "content": "Noticed what yet?",
+      "tone": "Blunt",
+      "id": "36",
+      "next": ""
+    },
+    {
+      "content": "Noticed what yet?",
+      "tone": "Indifferent",
+      "id": "36",
+      "next": ""
+    },
+    {
+      "content": "Noticed what yet?",
+      "tone": "Compassionate",
+      "id": "36",
+      "next": ""
+    },
+    {
+      "content": "Noticed what yet?",
+      "tone": "Hesitant",
+      "id": "36",
+      "next": ""
+    },
+    {
+      "content": "d4_p3",
+      "tone": "Root",
+      "id": "37",
+      "next": ""
+    },
+    {
+      "content": "Sorry, what?",
+      "tone": "Blunt",
+      "id": "38",
+      "next": ""
+    },
+    {
+      "content": "Sorry, what?",
+      "tone": "Indifferent",
+      "id": "38",
+      "next": ""
+    },
+    {
+      "content": "Sorry, what?",
+      "tone": "Compassionate",
+      "id": "38",
+      "next": ""
+    },
+    {
+      "content": "Sorry, what?",
+      "tone": "Hesitant",
+      "id": "38",
+      "next": ""
+    },
+    {
+      "content": "d4_p4",
+      "tone": "Root",
+      "id": "39",
+      "next": ""
+    },
+    {
+      "content": "What are you talking about?",
+      "tone": "Blunt",
+      "id": "40",
+      "next": ""
+    },
+    {
+      "content": "What are you talking about?",
+      "tone": "Indifferent",
+      "id": "40",
+      "next": ""
+    },
+    {
+      "content": "What are you talking about?",
+      "tone": "Compassionate",
+      "id": "40",
+      "next": ""
+    },
+    {
+      "content": "What are you talking about?",
+      "tone": "Hesitant",
+      "id": "40",
+      "next": ""
+    },
+    {
+      "content": "d4_p5",
+      "tone": "Root",
+      "id": "41",
+      "next": ""
+    },
+    {
+      "content": "I guess. I didn’t think there was anything special about the time though.",
+      "tone": "Blunt",
+      "id": "42",
+      "next": ""
+    },
+    {
+      "content": "I guess. I didn’t think there was anything special about the time though.",
+      "tone": "Indifferent",
+      "id": "42",
+      "next": ""
+    },
+    {
+      "content": "I guess. I didn’t think there was anything special about the time though.",
+      "tone": "Compassionate",
+      "id": "42",
+      "next": ""
+    },
+    {
+      "content": "I guess. I didn’t think there was anything special about the time though.",
+      "tone": "Hesitant",
+      "id": "42",
+      "next": ""
+    },
+    {
+      "content": "dc_p1",
+      "tone": "Root",
+      "id": "43",
+      "next": ""
+    },
+    {
+      "content": "I don’t understand what I’m being inattentive about.",
+      "tone": "Blunt",
+      "id": "44",
+      "next": ""
+    },
+    {
+      "content": "I don’t understand what I’m being inattentive about.",
+      "tone": "Indifferent",
+      "id": "44",
+      "next": ""
+    },
+    {
+      "content": "I don’t understand what I’m being inattentive about.",
+      "tone": "Compassionate",
+      "id": "44",
+      "next": ""
+    },
+    {
+      "content": "I don’t understand what I’m being inattentive about.",
+      "tone": "Hesitant",
+      "id": "44",
+      "next": ""
+    },
+    {
+      "content": "dc_p2",
+      "tone": "Root",
+      "id": "45",
+      "next": ""
+    },
+    {
+      "content": "Er, what is?",
+      "tone": "Blunt",
+      "id": "46",
+      "next": ""
+    },
+    {
+      "content": "Er, what is?",
+      "tone": "Indifferent",
+      "id": "46",
+      "next": ""
+    },
+    {
+      "content": "Er, what is?",
+      "tone": "Compassionate",
+      "id": "46",
+      "next": ""
+    },
+    {
+      "content": "Er, what is?",
+      "tone": "Hesitant",
+      "id": "46",
+      "next": ""
+    },
+    {
+      "content": "dc_p3",
+      "tone": "Root",
+      "id": "47",
+      "next": ""
+    },
+    {
+      "content": "Sure, Dad.",
+      "tone": "Blunt",
+      "id": "48",
+      "next": ""
+    },
+    {
+      "content": "Sure, Dad.",
+      "tone": "Indifferent",
+      "id": "48",
+      "next": ""
+    },
+    {
+      "content": "Sure, Dad.",
+      "tone": "Compassionate",
+      "id": "48",
+      "next": ""
+    },
+    {
+      "content": "Sure, Dad.",
+      "tone": "Hesitant",
+      "id": "48",
+      "next": ""
+    },
+    {
+      "content": "dc_p4",
+      "tone": "Root",
+      "id": "49",
+      "next": ""
+    },
+    {
+      "content": "I don’t know. This all just sounds sort of out of place.",
+      "tone": "Blunt",
+      "id": "50",
+      "next": ""
+    },
+    {
+      "content": "I don’t know. This all just sounds sort of out of place.",
+      "tone": "Indifferent",
+      "id": "50",
+      "next": ""
+    },
+    {
+      "content": "I don’t know. This all just sounds sort of out of place.",
+      "tone": "Compassionate",
+      "id": "50",
+      "next": ""
+    },
+    {
+      "content": "I don’t know. This all just sounds sort of out of place.",
+      "tone": "Hesitant",
+      "id": "50",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Root",
+      "id": "51",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Blunt",
+      "id": "52",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Indifferent",
+      "id": "52",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Compassionate",
+      "id": "52",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Hesitant",
+      "id": "52",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Root",
+      "id": "53",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Blunt",
+      "id": "54",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Indifferent",
+      "id": "54",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Compassionate",
+      "id": "54",
+      "next": ""
+    },
+    {
+      "content": "FILLLLLLLER",
+      "tone": "Hesitant",
+      "id": "54",
+      "next": ""
+    },
+    {
+      "content": "m1_p1",
+      "tone": "Root",
+      "id": "512",
+      "next": ""
+    },
+    {
+      "content": "So..are you doing okay, Mom?",
+      "tone": "Indifferent",
+      "id": "513",
+      "next": ""
+    },
+    {
+      "content": "m1_p2",
+      "tone": "Root",
+      "id": "514",
+      "next": ""
+    },
+    {
+      "content": "Nothing new?",
+      "tone": "Indifferent",
+      "id": "515",
+      "next": ""
+    },
+    {
+      "content": "m1_p3",
+      "tone": "Root",
+      "id": "516",
+      "next": ""
+    },
+    {
+      "content": "So when did you start wearing your hair so short?",
+      "tone": "Indifferent",
+      "id": "517",
+      "next": ""
+    },
+    {
+      "content": "m1_p4",
+      "tone": "Root",
+      "id": "518",
+      "next": ""
+    },
+    {
+      "content": "Ah, that's cool.",
+      "tone": "Indifferent",
+      "id": "519",
+      "next": ""
+    },
+    {
+      "content": "m1_p5",
+      "tone": "Root",
+      "id": "520",
+      "next": ""
+    },
+    {
+      "content": "Really? You've had longer hair for so long though.",
+      "tone": "Indifferent",
+      "id": "521",
+      "next": ""
+    },
+    {
+      "content": "m1_p6",
+      "tone": "Root",
+      "id": "522",
+      "next": ""
+    },
+    {
+      "content": "Oh right! I remember you mentioned playing the ukulele when you were in college. It turns out that my new housemates played the ukulele, so I had them teach me. I only know one song right now, but I can show you!",
+      "tone": "Indifferent",
+      "id": "523",
+      "next": ""
+    },
+    {
+      "content": "m2_p1",
+      "tone": "Root",
+      "id": "524",
+      "next": ""
+    },
+    {
+      "content": "Dad's, uh...really going off about these glasses.",
+      "tone": "Indifferent",
+      "id": "525",
+      "next": ""
+    },
+    {
+      "content": "m2_p2",
+      "tone": "Root",
+      "id": "526",
+      "next": ""
+    },
+    {
+      "content": "Doesn't it bother you?",
+      "tone": "Indifferent",
+      "id": "527",
+      "next": ""
+    },
+    {
+      "content": "m2_p3",
+      "tone": "Root",
+      "id": "528",
+      "next": ""
+    },
+    {
+      "content": "",
+      "tone": "",
+      "id": "529",
+      "next": ""
+    },
+    {
+      "content": "m5_p1",
+      "tone": "Root",
+      "id": "530",
+      "next": ""
+    },
+    {
+      "content": "So, uh...Dad’s been saying some pretty odd things.",
+      "tone": "Indifferent",
+      "id": "531",
+      "next": ""
+    },
+    {
+      "content": "m5_p2",
+      "tone": "Root",
+      "id": "532",
+      "next": ""
+    },
+    {
+      "content": "He’s been talking about how you were while I was still in high school.",
+      "tone": "Indifferent",
+      "id": "533",
+      "next": ""
+    },
+    {
+      "content": "m5_p3",
+      "tone": "Root",
+      "id": "534",
+      "next": ""
+    },
+    {
+      "content": "It’s kind of weird…",
+      "tone": "Indifferent",
+      "id": "535",
+      "next": ""
+    },
+    {
+      "content": "m5_p4",
+      "tone": "Root",
+      "id": "536",
+      "next": ""
+    },
+    {
+      "content": "If you say so.",
+      "tone": "Indifferent",
+      "id": "537",
+      "next": ""
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "Dialogues": [
+    {
+      "content": "I am dissapointed",
+      "tonalPreReq": "Indifferent",
+      "context": "test1",
+      "consequence": "tutorialdone",
+      "memories": [ "School", "Divorce" ],
+      "milestone": [ "PlayerGainedAlexTrust", "MomMadAtPlayer" ],
+      "fncPreReq": 1,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": [ "" ]
+    },
+    {
+      "content": "I have become God",
+      "tonalPreReq": "Indifferent",
+      "context": "mom",
+      "consequence": "tutorialdone",
+      "memories": [ "Worship" ],
+      "milestone": [ "Test1" ],
+      "fncPreReq": 50,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": ["test2"]
+    },
+    {
+      "content": "suh bro",
+      "tonalPreReq": "Indifferent",
+      "context": "test2",
+      "consequence": "tutorialdone",
+      "memories": [ ],
+      "milestone": [ "Test1", "Test2" ],
+      "fncPreReq": 5,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "MomTalksFamily"
+    },
+    {
+      "content": "I have no words...",
+      "tonalPreReq": "Indifferent",
+      "context": "mom",
+      "consequence": "tutorialdone",
+      "memories": [ ],
+      "milestone": [ "PlayerGainedAlexTrust", "MomMadAtPlayer" ],
+      "fncPreReq": -3,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "MomTalksFamily"
+    },
+    {
+      "content": "first dialogue",
+      "tonalPreReq": "Root",
+      "context": "",
+      "consequence": "one done",
+      "memories": [ ],
+      "milestone": [ "" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "Greetings"
+    },
+    {
+      "content": "Hi Alex",
+      "tonalPreReq": "Root",
+      "context": "Greetings",
+      "consequence": "two done",
+      "memories": [ ""],
+      "milestone": [ "", "one done" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "SuhDude"
+    },
+    {
+      "content": "within suh dood",
+      "tonalPreReq": "Root",
+      "context": "SuhDude",
+      "consequence": "three done",
+      "memories": ["","Greetings" ],
+      "milestone": [ "", "one done", "two done" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "LastDia"
+    },
+    {
+      "content": "last dialogue ",
+      "tonalPreReq": "Root",
+      "context": "LastDia",
+      "consequence": "",
+      "memories": [ "", "Greetings", "SuhDude" ],
+      "milestone": [ "", "one done", "two done", "three done" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "looper1"
+    },
+    {
+      "content": "loop forward",
+      "tonalPreReq": "Root",
+      "context": "looper2",
+      "consequence": "",
+      "memories": [ "", "Greetings", "SuhDude" ],
+      "milestone": [ "", "one done", "two done", "three done" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "looper1"
+    },
+    {
+      "content": "loop back",
+      "tonalPreReq": "Root",
+      "context": "looper1",
+      "consequence": "",
+      "memories": [ "", "Greetings", "SuhDude" ],
+      "milestone": [ "", "one done", "two done", "three done" ],
+      "fncPreReq": 0,
+      "speaker": "Player",
+      "target": [ 0, 0, 0 ],
+      "nextContext": "looper2"
+    }
+  ]
+} 

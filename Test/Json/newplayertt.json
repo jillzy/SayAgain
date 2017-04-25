@@ -1,0 +1,32 @@
+{
+  "Dialogues": [
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "id": "1",
+      "FNC": "0",
+      "bucket": "1"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "id": "2",
+      "FNC": "-5",
+      "bucket": "2"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "id": "3",
+      "FNC": "6",
+      "bucket": "3"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "id": "4",
+      "FNC": "-99999",
+      "bucket": "4"
+    }
+  ]
+}

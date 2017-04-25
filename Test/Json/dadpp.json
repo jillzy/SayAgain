@@ -1,0 +1,44 @@
+{
+  "Dialogues": [
+    {
+      "content": "tone: root; plotpoint: greetdad; id: 1; FNC: 0; finished: fin;",
+      "tone": "Root",
+      "plotpoint": "GreetDad",
+      "id": "1",
+      "FNC": "0",
+      "finished": "fin"
+    },
+    {
+      "content": "tone: root; plotpoint: DadAccusesMum; id: 1; FNC: -5; fin;",
+      "tone": "Root",
+      "plotpoint": "DadAccusesMum",
+      "id": "1",
+      "FNC": "-5",
+      "finished": "fin"
+    },
+    {
+      "content": "tone: root; plotpoint: MomBlowsUp; id: 1; FNC: 3; fin;",
+      "tone": "Root",
+      "plotpoint": "MomBlowsUp",
+      "id": "1",
+      "FNC": "3",
+      "finished": "fin"
+    },
+    {
+      "content": "tone: root; plotpoint: BombsAfghan; id: 1; FNC: 10; fin;",
+      "tone": "Root",
+      "plotpoint": "BombsAfghan",
+      "id": "1",
+      "FNC": "10",
+      "finished": "fin"
+    },
+    {
+      "content": "tone: root; plotpoint: MomTellsPlayerTalkToAlex; id: 1; FNC: 10; fin;",
+      "tone": "Root",
+      "plotpoint": "MomTellsPlayerTalkToAlex",
+      "id": "1",
+      "FNC": "10",
+      "finished": "fin"
+    }
+  ]
+}

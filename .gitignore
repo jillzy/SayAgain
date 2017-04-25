@@ -1,0 +1,8 @@
+Test/bin/*
+Test/obj/*
+.vs/*
+*.exe
+Test/packages.config
+.vs/
+packages/*
+Test/obj/Debug/Test.csproj.FileListAbsolute.txt

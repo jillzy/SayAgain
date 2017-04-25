@@ -1,0 +1,77 @@
+{
+  "Dialogues": [
+    {
+      "content": "Awaiting npc dialogue",
+      "tone": "Root",
+      "id": "1",
+      "next": "2"
+    },
+    {
+      "content": "asdfas1214asdfadfasdfasdfasdfad",
+      "tone": "blah",
+      "id": "2",
+      "next": "9"
+    },
+    {
+      "content": "Thank you.",
+      "tone": "Root",
+      "id": "3",
+      "next": ""
+
+    },
+    {
+      "content": "Yea. It's great.",
+      "tone": "Indifferent",
+      "id": "4",
+      "next": "9"
+    },
+    {
+      "content": "Yes",
+      "tone": "Root",
+      "id": "5",
+      "next": ""
+    },
+    {
+      "content": "water yoo doin?.",
+      "tone": "Indifferent",
+      "id": "6",
+      "next": ""
+    },
+    {
+      "content": "this is root, 5.",
+      "tone": "Indifferent",
+      "id": "7",
+      "next": ""
+    },
+    {
+      "content": "this is indiff, 6",
+      "tone": "Indifferent",
+      "id": "8",
+      "next": ""
+    },
+    {
+      "content": "this is root, 7.",
+      "tone": "Indifferent",
+      "id": "9",
+      "next": ""
+    },
+    {
+      "content": "this is indiff, 8.",
+      "tone": "Indifferent",
+      "id": "10",
+      "next": ""
+    },
+    {
+      "content": "this is root, 9.",
+      "tone": "Indifferent",
+      "id": "11",
+      "next": ""
+    },
+    {
+      "content": "this is indiff, 10.",
+      "tone": "Indifferent",
+      "id": "12",
+      "next": ""
+    }
+  ]
+}

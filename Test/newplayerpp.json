@@ -1,0 +1,36 @@
+{
+  "Dialogues": [
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "plotpoint": "GreetDad",
+      "id": "1",
+      "FNC": "0",
+      "finished": "fin"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "plotpoint": "DadAccusesMum",
+      "id": "1",
+      "FNC": "-5",
+      "finished": "fin"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "plotpoint": "MomBlowsUp",
+      "id": "1",
+      "FNC": "0",
+      "finished": "fin"
+    },
+    {
+      "content": "plot point with fnc 0. Root tone.",
+      "tone": "Root",
+      "plotpoint": "BombsAfghan",
+      "id": "1",
+      "FNC": "0",
+      "finished": "fin"
+    }
+  ]
+}

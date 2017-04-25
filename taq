@@ -1,0 +1,1082 @@
+[33mcommit 01f1cc1be380f065b523c9b324e8aed7e4558d9e[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Mar 7 16:41:10 2017 -0800
+
+    merge jill2 mikey
+
+[33mcommit c46455cb41561b8c43bd644ea693cb6374cdf33c[m
+Merge: 51110e1 f32c820
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Mar 7 16:38:29 2017 -0800
+
+    merge jill2 and mikey
+
+[33mcommit 51110e15cd85266f397f14f9cf7dcebcbfde15a0[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Mar 7 16:24:05 2017 -0800
+
+    combine state and base char
+
+[33mcommit ee9f1bcd2f421bf6ac8d3c217fa430aff9fcdaff[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Mar 7 14:35:29 2017 -0800
+
+    non views, before mom vertices
+
+[33mcommit 7d9c2a914dec846ec854f3276c4b784d5818f022[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Mar 6 23:56:54 2017 -0800
+
+    working on click sprite
+
+[33mcommit f32c8200d12f28a1b75958266e586ec639003800[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Mon Mar 6 21:46:18 2017 -0800
+
+    Updated UI with new Sprites
+
+[33mcommit a7be50605e6895126595d4ab0c3e22eaf7d892ca[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Mon Mar 6 19:08:23 2017 -0800
+
+    UI Art assets
+
+[33mcommit b8207a2215faa136cbb3abb4656e9787ee39390b[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Mar 6 11:47:30 2017 -0800
+
+    dim
+
+[33mcommit 3f4778af367d514f568d3af85f4f0a7c6306189f[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Mar 4 14:07:57 2017 -0800
+
+    set pos and view handling
+
+[33mcommit feac8634ec9871d0d0b7cdaff51b2da3f46b6faa[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Mar 4 13:13:06 2017 -0800
+
+    enum
+
+[33mcommit 14042c6f8bc2c8a63a7baba467f74543fd40247f[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Mar 3 12:18:39 2017 -0800
+
+    render both alex and mom, without view handling
+
+[33mcommit 82e8e88bb9f2a72fefd5f20ab106a7b7bdccbdc6[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Mar 1 21:13:31 2017 -0800
+
+    Alex sprite rendering
+
+[33mcommit 2564af4765531c2a374ca7168f6902d17ca69d3f[m
+Merge: b16af21 7ac6397
+Author: John Win Chau <jwchau@crm.ucsc.edu>
+Date:   Tue Feb 28 18:20:23 2017 -0800
+
+    merge between mikey and newbranch compelte
+
+[33mcommit c539784ca49d941e326d788183b446c708c7d3df[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 28 18:11:54 2017 -0800
+
+    set expressions and init spritearrays
+
+[33mcommit c7dd369fb1d52cbb4d4632a87efd0b4158cec790[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 28 18:07:37 2017 -0800
+
+    draws all mom
+
+[33mcommit da51d746a4d046bf376aadd6d0cf0e749dadb432[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 28 17:38:39 2017 -0800
+
+    base class and derived
+
+[33mcommit 5d4b58bb9c41588d6eb77939ab2ff3fb571badfd[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 28 13:17:52 2017 -0800
+
+    character base class with draw and FNC bool changes
+
+[33mcommit 7ac63977cea63ff252bc123f2511101d6aa208ee[m
+Merge: 220f904 c7adebc
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Feb 27 21:33:02 2017 -0800
+
+    no message
+
+[33mcommit 220f904a5a34346149efa74f2c691717c533faec[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Feb 27 21:28:52 2017 -0800
+
+    Characters can now be targetted when next context has two options. Changed UI Button's background color to represent their tonal color. Fixed undesired functionality behind targetting, timer, and dialogue boxes.
+
+[33mcommit b16af21f1b228635f005005b2ea62d8a4c6be7cb[m
+Merge: 56a7a67 be47063
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Feb 27 01:31:58 2017 -0800
+
+    master merge with mikey
+
+[33mcommit 56a7a67743a7eaeaf649416a1a95ad9454509604[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Feb 27 01:07:45 2017 -0800
+
+    merge conflict in gitignore
+
+[33mcommit 2a3a89c8ed7d68c202a2ee47672ae4df1b40cb53[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Feb 27 01:00:40 2017 -0800
+
+    added sweeper, to see hover over UIButton feedback
+
+[33mcommit 42bc23b6aeff899dc910013341e64b94dc358a5c[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sun Feb 26 14:38:12 2017 -0800
+
+    new sprites heet
+
+[33mcommit aebff3745e5e5eb0fe92826bf92fe6b336b78db2[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sun Feb 26 14:36:10 2017 -0800
+
+    changes
+
+[33mcommit c7adebc4795843b0c2ae06079c878124e8c9d1eb[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 24 13:35:24 2017 -0800
+
+    package
+
+[33mcommit 61327e07a5456d52cc08ca8e9ac4d17df11ddd0f[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 24 13:33:43 2017 -0800
+
+    reference adds
+
+[33mcommit cab2921ee111460929c1a88779749ee5fc4d5495[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 24 13:30:23 2017 -0800
+
+    added lib
+
+[33mcommit 6440f3711ecf4f7da9e01326d6b678cf8171e3b1[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 23 20:46:44 2017 -0800
+
+    mom at slower framerate, right texture size. need to perfect intervals
+
+[33mcommit 69210f83272ae5b485d7a0c3f4fb12e4356aba68[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Feb 23 20:32:08 2017 -0800
+
+    Turned timer into speak button and made it clickable. Updated selector to look for exact FNC. Added player dialogue box so the player's dialogue can show up not in the UI Text Box area. Made dialogue box name box dynamic.
+
+[33mcommit 3807302fd7c89ae3028e28db3914eba950de29e4[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 23 20:23:28 2017 -0800
+
+    cycles thru, but not at good rate
+
+[33mcommit e8465df3127f2149223d61920d12852bbfa0a161[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 23 20:10:02 2017 -0800
+
+    framerate lock, begin mom class
+
+[33mcommit e2206a908f99d62f5dead2dfffdd451f79aefe58[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Tue Feb 21 00:28:14 2017 -0800
+
+    Fixed bug with dialogue box timer updating when game is paused. Also fix pause menu functionality.
+
+[33mcommit 8be19db904960fb3fcb89ae5f51fa98653ba345e[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Feb 20 16:08:59 2017 -0800
+
+    New JSON selector. Timer now working with dialogue box. Timer pause menu bug still there.
+
+[33mcommit be4706390394d019b8611de4835de5df9d6bc2f0[m
+Merge: b8b1a89 bb83311
+Author: jwchau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 23:04:00 2017 -0800
+
+    Merge pull request #9 from say-again/newbranch
+    
+    Newbranch
+
+[33mcommit bb83311b8e6a6ae47824e579fedda8c66fefdc5b[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 22:39:46 2017 -0800
+
+    fixed mad -> dad bug
+
+[33mcommit a8d819fb52d0be0d1243760788ea9916e95eb2b4[m
+Merge: b8b1a89 d21f399
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 22:29:47 2017 -0800
+
+    all merge conflicts fixed, runnable, functionality not all there
+
+[33mcommit b8b1a894c39ff3437bbaa51fa290f87866c5b2ef[m
+Merge: 9fdcc9f c8e7600
+Author: jwchau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 21:15:05 2017 -0800
+
+    Merge pull request #8 from say-again/newbranch
+    
+    Newbranch
+
+[33mcommit d21f399b3e289a579f6345b9eb42592906f427de[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Feb 16 20:21:42 2017 -0800
+
+    Code Raman and I have been working on. Got the game timer and dialogue box to be infulenced by each other. Has the selector code.
+
+[33mcommit c8e76001d564533217acb4230558203b68dfc8e5[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 06:58:42 2017 -0800
+
+    added screen size math helper
+
+[33mcommit 8da0edb0e092dde24b873fa82961230ea5129a49[m
+Merge: 7921e2e 68a509d
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 06:41:55 2017 -0800
+
+    merged raman2 with master
+
+[33mcommit 7921e2ec74504527d1681dd74b887d7c3bec8031[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 06:31:30 2017 -0800
+
+    cleaning and merging halfway done
+
+[33mcommit 2e988720bf55a19df8f70d4d89fd49b693fd74e0[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 05:58:05 2017 -0800
+
+    recommiting because git is bad
+
+[33mcommit 68a509d0caad14ea08c45eb8eef2694e79ed1bfd[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 05:51:59 2017 -0800
+
+    cleaning again part 1
+
+[33mcommit 2d77be62e92172307166d1bc491800cd2bc57d79[m
+Merge: fd508f6 f03bcbd
+Author: john chau <jwchau@ucsc.edu>
+Date:   Thu Feb 16 04:39:55 2017 -0800
+
+    reverted all changes from master to raman2
+
+[33mcommit f03bcbd20faefa39ab1c476bcd5ef0eba2d53177[m
+Author: raman <fakeemail@gmail.com>
+Date:   Mon Feb 13 21:03:39 2017 -0800
+
+    omgwtfbbq
+
+[33mcommit 761383b199b21c9b72104e7553e8412417a277f5[m
+Author: raman <fakeemail@gmail.com>
+Date:   Mon Feb 13 19:08:22 2017 -0800
+
+    changes and stuff
+
+[33mcommit fd508f6c8418244723ccae2f1d2cf3e4e50eb2a1[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 10 05:41:51 2017 -0800
+
+    unfinished scalable, has bugs
+
+[33mcommit 45c68288d97e78fd2ee137392e445535c6a95166[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 10 05:31:59 2017 -0800
+
+    scalable window, fixed some bound checks
+
+[33mcommit f9ae45208b2385aa3535cca09f4e9d29fd726d88[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Fri Feb 10 00:50:10 2017 -0800
+
+    rm person state
+
+[33mcommit cdc11cee9063e5ca31346ced0ad787d8aa5e1288[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Feb 9 01:33:28 2017 -0800
+
+    Refactored John's cleaned code to better suit our work flow. Fixed a bug that was created in dialogue box. Added ability for user to change target of characters on click. moved timer drawing from SA to inside the GameTimer class.
+
+[33mcommit 9fdcc9f0a7e0ebb31603d57503b477e9dba4be1b[m
+Merge: 6201598 f2c888d
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 19:47:58 2017 -0800
+
+    Merge pull request #7 from say-again/leo
+    
+    Leo
+
+[33mcommit f2c888da4955a27356c98f73b02018cf511ac093[m
+Author: leo <leogomez176@gmail.com>
+Date:   Wed Feb 8 19:29:07 2017 -0800
+
+    added target field
+
+[33mcommit 620159885887449ab52110154f71b62559e7fb74[m
+Merge: 2a2addf 2facc2e
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Wed Feb 8 19:22:08 2017 -0800
+
+    Merge pull request #6 from say-again/jill
+    
+    Jill
+
+[33mcommit 2facc2e89efa3a68d3cc03cbd2068e2a2f1d9c57[m
+Merge: e1e190e f93ba60
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 19:14:44 2017 -0800
+
+    merge
+
+[33mcommit e1e190efc33c2d913aab8779090551b2dbf01b97[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 19:12:40 2017 -0800
+
+    fixed n for real
+
+[33mcommit 94a8733527f714fc74ab57f862a47dd86ea06d67[m
+Merge: 146d46c 9251b19
+Author: leo <leogomez176@gmail.com>
+Date:   Wed Feb 8 19:02:43 2017 -0800
+
+    fixed and merged into my own work
+
+[33mcommit f93ba6045e9b4cbe90809804dfc6165adb9d1679[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 19:02:05 2017 -0800
+
+    temp master
+
+[33mcommit 9b83d076164d904ddc4264f9bef4ef1ffd3738e9[m
+Merge: 0001ba1 2a2addf
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 19:01:19 2017 -0800
+
+    temp master
+
+[33mcommit 250513e44eef59307653be6833a46320a964fc98[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 18:56:24 2017 -0800
+
+    fixed n
+
+[33mcommit 9251b195b601d90acc745afe688eaf2a0420989e[m
+Author: leo <leogomez176@gmail.com>
+Date:   Wed Feb 8 18:55:06 2017 -0800
+
+    updated parser and selector
+
+[33mcommit 10685cb4fb5f0b9f0a283f29b78f5635ca223de5[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Feb 8 18:14:17 2017 -0800
+
+    n bug
+
+[33mcommit 146d46c3d835bc16bb93dec4560bc10089f3049f[m
+Author: Leo <leogomez176@gmail.com>
+Date:   Tue Feb 7 18:31:10 2017 -0800
+
+    created Loader for json files for now
+
+[33mcommit 2a2addf2f1e476faa5bc0e61d556e2bc4807a492[m
+Merge: 9156afe 0598da5
+Author: Leo E Gomez <leogomez176@gmail.com>
+Date:   Tue Feb 7 17:14:52 2017 -0800
+
+    Merge pull request #5 from say-again/jill
+    
+    Jill
+
+[33mcommit 0598da5876ca2e762ac0be2efd74fdd8a48f5e2e[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 15:34:01 2017 -0800
+
+    merged 3 db pos and async, and clean up
+
+[33mcommit 0e3874eb121253a8b9d6eb56130a70d149b35bc0[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 15:28:43 2017 -0800
+
+    merge rendering pos and new DB logic with refactor
+
+[33mcommit 0001ba1d4d8fc2703f79f8624f45c7d1482b28e7[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 15:04:12 2017 -0800
+
+    nothing
+
+[33mcommit cafc4225b90146a4df9797b2c591c73c164cd606[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 15:02:24 2017 -0800
+
+    merge errors
+
+[33mcommit b8dd9090a2f7696d4d9ceb64e310581a5b02fa44[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 12:17:46 2017 -0800
+
+    merged three db pos
+
+[33mcommit e5faaa4ebed7c3e87dcbb7bd1424b731b4215c60[m
+Merge: 07c33da 9156afe
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 12:12:28 2017 -0800
+
+    merging 1
+
+[33mcommit 9156afe598216f3225303d09f8b0514f23263a0b[m
+Merge: 7e3e94f 22fbe6e
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 12:05:12 2017 -0800
+
+    Merge pull request #3 from say-again/newbranch
+    
+    Newbranch into master
+
+[33mcommit 07c33da9029618e413b0c8f4ac85ba3f71c6722a[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Feb 7 12:00:53 2017 -0800
+
+    before merge
+
+[33mcommit 22fbe6e6a2eb5d6adf826ad57b98396a44a0e4cd[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 04:09:40 2017 -0800
+
+    cleaning SA done
+
+[33mcommit 6e4e1e6089f38a77ab813e2f7f1858bd4d13759f[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 03:52:07 2017 -0800
+
+    cleaning part 4
+
+[33mcommit e1845dd1261728dc99d66c8819aa470d2c3abc5c[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 02:28:18 2017 -0800
+
+    cleaning part 3 still
+
+[33mcommit 58ef18a895088f986d18d451c2c8484dfdc46577[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 02:23:59 2017 -0800
+
+    cleaning part 3
+
+[33mcommit 9e73132446141b377e68724c490636819e33b335[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 01:44:38 2017 -0800
+
+    cleaning part 2
+
+[33mcommit 96ce5bbb05ba8c57895f57ebc9b80be7d0ffc2d6[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Tue Feb 7 01:37:06 2017 -0800
+
+    cleaning part 1
+
+[33mcommit ae13890d3a2cb948844f129194b7a237c43e963c[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Sun Feb 5 13:30:23 2017 -0800
+
+    Changed colors of menus, and buttons. Added timers with anonymous functionality built in.
+
+[33mcommit a6e76c8b21e1c622750b078cc429f24c1f98e944[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Feb 3 00:29:55 2017 -0800
+
+    setview in dialoguebox
+
+[33mcommit 5704fccc446cded5c023efe155f866f06089d293[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 2 23:57:50 2017 -0800
+
+    debugged dialogue box switching
+
+[33mcommit e3b7954fad7ca747388d6e3d68e045baebdd58cc[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 2 22:16:31 2017 -0800
+
+    dialogue box switching
+
+[33mcommit 4f69971edbbbb7a28e53d27601ba10768a4e7ab2[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 2 21:29:42 2017 -0800
+
+    changed sizing of dialogue box, naming, added char view and mom png
+
+[33mcommit 38ed624d23a8f6efb76fb45f8fabc75533139e79[m
+Merge: ea8ea97 7e3e94f
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 2 19:37:55 2017 -0800
+
+    merge with master 2/2/17
+
+[33mcommit ea8ea978bb43f757fa028cb105d13b5225eac450[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Feb 2 19:36:55 2017 -0800
+
+    concatenize getnext and check functions
+
+[33mcommit 7e3e94fe8f17dd4a4848f3f59f89db291a2c3d60[m
+Merge: 92b17d4 248f644
+Author: jwchau <jwchau@ucsc.edu>
+Date:   Thu Feb 2 15:08:44 2017 -0800
+
+    Merge pull request #2 from say-again/newbranch
+    
+    newbranch -> master
+
+[33mcommit 248f644c9a9ea579466c5350fcb1641355dcb9c7[m
+Merge: cd04c08 7053ad4
+Author: john c <jwchau@ucsc.edu>
+Date:   Thu Feb 2 15:03:38 2017 -0800
+
+    newtonsoft package and updated mikey with different textbox colors
+
+[33mcommit cd04c087658f72c90cd75333b5479fcae31532f4[m
+Author: john c <jwchau@ucsc.edu>
+Date:   Thu Feb 2 14:33:54 2017 -0800
+
+    bin has sfml references
+
+[33mcommit 7053ad4965a1d2a0a06ba3c32d7a0dc2b320bfdb[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Wed Feb 1 00:22:59 2017 -0800
+
+    Added tonal buttons that have specialized colors that change UI Textbox color when applied. Fixed bugs associated with the change. Commented Update in SA.cs. Added color dict to UIElement to keep track of which buttons have which colors.
+
+[33mcommit 86be4ecb12b8e8640bbe81e8565538f27913abbd[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Tue Jan 31 21:09:58 2017 -0800
+
+    Standardized font usage. Cleaned up SA declared variables and commented.
+
+[33mcommit 3653db0f7c4b1cdee25533794c4d646737a6267f[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Tue Jan 31 20:42:45 2017 -0800
+
+    Added a working timer to GameState and ready for animation queuing. Fixed crash on key press. Cleaned up SA.
+
+[33mcommit c02abb2ee5b4a1df6bba93f8ea5cfb36a1f4641c[m
+Author: john c <jwchau@ucsc.edu>
+Date:   Tue Jan 31 20:29:21 2017 -0800
+
+    leo, mikey, jill, merge complete
+
+[33mcommit 6f6d0c842c08d6d39cc7f3ee49d54dfac14a2ec3[m
+Merge: ebe2314 2bb21a6
+Author: john c <jwchau@ucsc.edu>
+Date:   Tue Jan 31 20:00:05 2017 -0800
+
+    leo, mikey, master merge
+
+[33mcommit ebe231475624a56f60366fad4c362b405d8d43e5[m
+Merge: 92b17d4 902d875
+Author: john c <jwchau@ucsc.edu>
+Date:   Tue Jan 31 19:40:38 2017 -0800
+
+    mikey, master merge
+
+[33mcommit 2bb21a6f824b18a8301d2851665b8f3366b71fc3[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Tue Jan 31 16:41:53 2017 -0800
+
+    last minute filename change
+
+[33mcommit 49c137794afd1a63e709f61713166669ea1fbadc[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Tue Jan 31 16:10:33 2017 -0800
+
+    returns list of dialog objects
+
+[33mcommit 902d87505cd7a9d8f6d802ccf3b01f19c0d7c938[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Tue Jan 31 08:56:53 2017 -0800
+
+    Added code for basic mental model, menu states, and dynamic UITextBox generation.
+
+[33mcommit 44af4977a1bcc2d2a76e4866f5669b8068b279e5[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Mon Jan 30 19:48:47 2017 -0800
+
+    slight update v3
+
+[33mcommit a73f5f295c5d1a15d3afdfb48a6c2070382181bb[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 03:05:08 2017 -0800
+
+    reoving random file test
+
+[33mcommit bb255d64b2711d994e7491c7e789200fa1883e6f[m
+Merge: 3bd5783 92b17d4
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 03:03:11 2017 -0800
+
+    Merge branch 'master' of https://github.com/jillzy/SayAgain into jill
+
+[33mcommit 3bd578349097f1be2c2cd875317a7b74691414dd[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 03:01:52 2017 -0800
+
+    This should not work
+
+[33mcommit 92b17d4427a0003ea1db3451565596a7262946d0[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:58:37 2017 -0800
+
+    This was not supposed to work
+
+[33mcommit 0e5bbb286c2d9f3bae8bff627eda218142c4d9be[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:57:35 2017 -0800
+
+    This should not work
+
+[33mcommit 2a65e741283e4729922083778618182c70018ff0[m
+Merge: 3a68c75 6f259fb
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:54:33 2017 -0800
+
+    Merge pull request #1 from jillzy/jill
+    
+    Fixing gitignore file
+
+[33mcommit 6f259fba3a2eac46e58aaf7d07e2a14970493c4d[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:45:49 2017 -0800
+
+    Fixing gitignore file
+
+[33mcommit 3a68c7554ff55c2f2d828307a47c01db7baec9be[m
+Merge: 2ee86fd fe62751
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:40:47 2017 -0800
+
+    merge mikey, jill, push to master
+
+[33mcommit fe627516acf9ccf22a952bdad6911f9f524db416[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 30 02:15:10 2017 -0800
+
+    Prevent executable checkins to git
+
+[33mcommit 8177a98eb09cb5b0afd65600170e3ffa3990e73f[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Sun Jan 29 23:15:37 2017 -0800
+
+    slight update v2
+
+[33mcommit dd83eed85613cd7684b6d553d842437d1ece28e0[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Sun Jan 29 22:29:22 2017 -0800
+
+    fixed bugs for starting selector
+
+[33mcommit 2ee86fd12d786a707c26b8e09585ffbb50e4b2b4[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 20:22:28 2017 -0800
+
+    reset to head
+
+[33mcommit 23d0f2d8b0316396a3b6d760ec0b7d57cac89705[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Fri Jan 27 19:30:27 2017 -0800
+
+    slight edits
+
+[33mcommit e4408698a8a795fff2c5cea1f9050129f46199f9[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 19:01:04 2017 -0800
+
+    before pulling master
+
+[33mcommit c0c361f56ab9f8f9d49af54f38e227b597ca1cc6[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 18:50:46 2017 -0800
+
+    font
+
+[33mcommit e9328709acf5a92fef93d2902a2ea4e4bc53c90c[m
+Merge: 4920a45 71de028
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 18:44:52 2017 -0800
+
+    merge
+
+[33mcommit 4920a45ebc09f6aa1e6c5a69d6737eba00a81f6d[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 17:25:01 2017 -0800
+
+    added boolean active to dialoguebox class
+
+[33mcommit f343967bea11ea4d061b314b4d2cb0109b45af14[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 15:41:41 2017 -0800
+
+    center name text
+
+[33mcommit aa9f0204f12114ff749d6b58b807a7a50150c4de[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 13:12:14 2017 -0800
+
+    refactored dialoguebox class
+
+[33mcommit 6ffa5cd932c1d4fb00e4db678457586d4f950a9d[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 12:29:10 2017 -0800
+
+    version before refactor dialoguebox.cs
+
+[33mcommit 4b6688ef9fa7d9aaa9f65c1a5276150a35afb95e[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 03:12:25 2017 -0800
+
+    done with functionality, before refactoring to db class
+
+[33mcommit a03661373cfe00ccd788b27333a5556ecb0c2dbf[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 02:25:34 2017 -0800
+
+    printing first line
+
+[33mcommit c15d4ee594e11a25b1d57322d59f111a406512b5[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 27 01:25:43 2017 -0800
+
+    correct view for dialogueBox
+
+[33mcommit 79f3559ebf9535f0b9a2b25fa98824711636bfbe[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Jan 26 04:30:45 2017 -0800
+
+    before dialoguebox mod, next dialoguescreen
+
+[33mcommit 71de028163eb1d90598b4574ee528564ae43ee56[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Jan 26 02:09:55 2017 -0800
+
+    Started adding AI matrix classes. Abstracted menu state changing to seperate function. Changed buttons position to center instead of left aligned.
+
+[33mcommit 444122196fe6e489802cf6f167ca72f928113684[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Thu Jan 26 01:37:52 2017 -0800
+
+    added starting selector
+
+[33mcommit f2994c490b1fc34e1721d3d6135fcd79cf87d0d4[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Jan 25 21:06:42 2017 -0800
+
+    created renderDialogue() fn
+
+[33mcommit bcfc91c65ade506fd4101a22a1be8d8c6326adc4[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Jan 25 20:07:09 2017 -0800
+
+    commented out modifications
+
+[33mcommit 7639331c77a2e1201fd433b2639d64d585ce0bcb[m
+Author: heatmaster35 <leogomez176@gmail.com>
+Date:   Wed Jan 25 19:38:16 2017 -0800
+
+    Added the parser for dialog
+
+[33mcommit f20c7cb896866f6d704ef52b0f89f4758ee9da3c[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Jan 25 18:55:21 2017 -0800
+
+    before change line from str to text'
+
+[33mcommit a8a9928e55a039b9e97dd568651879f499da87d6[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Wed Jan 25 18:18:44 2017 -0800
+
+    game view port added
+
+[33mcommit 3b39ab3efb6539d3441e98f71fa4726b266a640e[m
+Author: Michael I Simpson <misimpso@crm.ucsc.edu>
+Date:   Tue Jan 24 20:01:08 2017 -0800
+
+    fixing commit and push
+
+[33mcommit c0b2b913efa97eee1d08307ad072d865c4ef18dd[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Tue Jan 24 18:49:47 2017 -0800
+
+    before views
+
+[33mcommit c3ad06fbcfb55d8c26fa3b281572422622ea0a22[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Jan 23 22:30:24 2017 -0800
+
+    no message
+
+[33mcommit 5e9d113604eba1ec7f33d397ddfba2b3077e232b[m
+Merge: ff29b8c 02608cf
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Jan 23 21:45:00 2017 -0800
+
+    Changed window size to match resolution size. Re organized the UI to reflect our actual UI. Added test buttons to simulate gameplay. Fixed bugs.
+
+[33mcommit ff29b8c423f313cb67789d6e9169a76908c78287[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Jan 23 21:34:45 2017 -0800
+
+    Changed window size to match resolution size. Re organized the UI to reflect our actual UI. Added test buttons to simulate gameplay. Fixed bugs.
+
+[33mcommit f3e1dfecb28f5d68e07f9f6b117d7c53d32039c2[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Mon Jan 23 21:33:02 2017 -0800
+
+    Changed window size to match resolution size. Re organized the UI to reflect our actual UI. Added test buttons to simulate gameplay. Fixed bugs.
+
+[33mcommit db46f1ad0669f867c7525dad1af4cab84e2443f6[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 19:46:57 2017 -0800
+
+    before rescaling
+
+[33mcommit 59cbd0935dd09bdfe38498b6044ffe5ed719fa1e[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 19:14:05 2017 -0800
+
+    max w is dialogueBox width, variable charSize
+
+[33mcommit 517fa2e090d3e925e2a0211b624011c68bb43be0[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 19:01:01 2017 -0800
+
+    hardcoded char limits
+
+[33mcommit 02608cf4292e0c887dd9ba5c62eb2138c5db11f2[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Mon Jan 23 18:21:51 2017 -0800
+
+    commit merge errors
+
+[33mcommit 3324f74e498432002d42ebc401d3314ddd0993a8[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Mon Jan 23 17:38:14 2017 -0800
+
+    update gitignore nothing else
+
+[33mcommit e4308c639cc9d90ed16d7f7a576bc890efaedb51[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 15:16:01 2017 -0800
+
+    use fontobject instead of font constructor in UIButton.cs
+
+[33mcommit c6fb70b95e12cc23e300d9a96b5a8a3da338a0c2[m
+Merge: 2f15014 64f49f3
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 15:12:49 2017 -0800
+
+    Merge branch 'master' into jill
+
+[33mcommit 64f49f31ea30e831ca898faa2f012d1fe67cbdab[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 15:05:07 2017 -0800
+
+    cleaned up warnings
+
+[33mcommit 2f15014dba913f4572fc2ffba47cfe551bd27a6e[m
+Merge: 2c0faa6 172dbb9
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Mon Jan 23 15:00:53 2017 -0800
+
+    mergewith master
+
+[33mcommit 172dbb9e3cfc876e2769fea56a2d7e88e9a35cf6[m
+Merge: 1a3661a 70b435b
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 14:03:39 2017 -0800
+
+    Merge branch 'newBranch'
+
+[33mcommit 1a3661a71dccbc0e53127b8bdd060f148397760a[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 14:03:34 2017 -0800
+
+    test vshost.exe commit
+
+[33mcommit 70b435b9a682cf4fcaea2651f3be791fdc2186d9[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 14:01:48 2017 -0800
+
+    checkout overwrite conflicts
+
+[33mcommit 1f8a2b8988e28fc44d3d277cf8c6ff37a3bb6885[m
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 13:51:50 2017 -0800
+
+    merge complete
+
+[33mcommit bfbc249cd4e1afc68312a211230e4c3b5ddbf759[m
+Merge: e0e99a3 31c5bad
+Author: john chau <jwchau@ucsc.edu>
+Date:   Mon Jan 23 13:23:09 2017 -0800
+
+    merge
+
+[33mcommit e0e99a3f5f8131cc23ff55c532b69d4c37f21c86[m
+Author: mrnakarmi <rnakarmi@ucsc.edu>
+Date:   Sun Jan 22 18:01:40 2017 -0800
+
+    Reverted speech dialogue boxes
+
+[33mcommit 2aaf48b26f51dc33e173f27358a5b8ddfc5e5405[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Sun Jan 22 16:12:14 2017 -0800
+
+    Drag And Drop
+    
+    Buttons now check collision with text boxes, and changes text. Text box
+    changes color when hovered. Buttons also snap back to its original place
+    if not released over a valid text box.
+
+[33mcommit dead4ca1b8cfe80aefe9aae509400067e4a6d2bc[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Sat Jan 21 20:38:23 2017 -0800
+
+    Update gitignore
+
+[33mcommit 8612cedd1819ad3e19cd18401fe31c08aa720044[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Sat Jan 21 20:37:07 2017 -0800
+
+    Changed font name
+
+[33mcommit 7469f7bedc9d05f24c0d374133a5c90a27857b0a[m
+Author: Raman Nakarmi <rnakarmi@ucsc.edu>
+Date:   Sat Jan 21 20:33:00 2017 -0800
+
+    update gitignore
+
+[33mcommit 2c0faa6e4e1a87479b040856bdfb16f4419e38ff[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Jan 21 18:03:30 2017 -0800
+
+    press m and space instructions
+
+[33mcommit 31c5bad34e968e29af7766aaaab6ff73239680a4[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Jan 21 17:32:45 2017 -0800
+
+    custom DialogueBox class, and appears on keypress
+
+[33mcommit aec81d138c33a407bc1ba7b7ccbd1660ec52417f[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Sat Jan 21 17:10:28 2017 -0800
+
+    Changed the arcade font to the one that Jill is using.
+
+[33mcommit 3dd17bf45372a208b077118cc94f7fb0992136fc[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Jan 21 17:09:58 2017 -0800
+
+    Custom textbox class befoer conversion to dialogue box class
+
+[33mcommit abedbf3306173af42d96eda2ae886ac303717aeb[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Jan 21 15:57:38 2017 -0800
+
+    make hardcoded values into vars, before forming classes
+
+[33mcommit 2ae1572751d200733f27480e92d301165ed50c6e[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Sat Jan 21 15:53:52 2017 -0800
+
+    Added smooth button dragging and fixed dragging two buttons at the same time.
+
+[33mcommit a19fb9a4f03673502996fc93e1b4b16ebbae2f7f[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Sat Jan 21 14:59:17 2017 -0800
+
+    dialogue box with hard coded pos.
+
+[33mcommit 8fb0c2fdc2eb746c5d3963a26bac870cc4b13683[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 19:35:32 2017 -0800
+
+    space bar for instant text
+
+[33mcommit 9fd2a1d730ea114f3fc09221e2488009e365e4a7[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 18:09:43 2017 -0800
+
+    async printing
+
+[33mcommit 84a86a6563044d81272394b19fde4808ec695ced[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 18:08:17 2017 -0800
+
+    can print by char
+
+[33mcommit 80d754862efbcd50f46a579b6ffe32dd90ca4770[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 16:51:03 2017 -0800
+
+    before adapting coroutine
+
+[33mcommit e00fb20b7a957100700c0323f8e1de5c75b10d4a[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 15:22:01 2017 -0800
+
+    fix gitignore for vs
+
+[33mcommit 53b37fc2fe4663a5074aa4fcbfe87a476fabe8c9[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 15:19:39 2017 -0800
+
+    updated gitignore .vs
+
+[33mcommit 217b1055c25dfe84a1a48ceade3457c0fc94981c[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Fri Jan 20 15:00:55 2017 -0800
+
+    create fontobjects so fstream opened only once
+
+[33mcommit fb747d5c24eec7d080f8885a2aa452c4bb3922e0[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Jan 19 23:16:23 2017 -0800
+
+    Work from 1/19. Started following UML with creation of Input Manager, UI Manager, UI Element, and UI button. Implimented buttons being dynamically created. Started implimenting dragging.
+
+[33mcommit a547d48a96c8536d238156457e3f01cc43bfce93[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Thu Jan 19 11:34:26 2017 -0800
+
+    Added gitignore file
+
+[33mcommit 307c3400acac1a1c88b8c1d74ea9e88e2dd4d844[m
+Author: jillzy <jillzyeung@gmail.com>
+Date:   Thu Jan 19 04:45:30 2017 -0800
+
+    printing some text to window
+
+[33mcommit 04f63e70f9c1a50bc7d0cdf12f2dfd4d430da988[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Wed Jan 18 21:01:58 2017 -0800
+
+    Creation and selection of fonts and font variables. Creation and display of test text on the screen.
+
+[33mcommit 9c040420544a6694400743021af110994d1445da[m
+Author: Mikey <mikeysimpson4@gmail.com>
+Date:   Wed Jan 18 17:34:13 2017 -0800
+
+    Initial Commit with working code
