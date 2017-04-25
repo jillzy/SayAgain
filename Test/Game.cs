@@ -79,14 +79,17 @@ namespace Test
         protected Sprite mom, alex, dad, toneBar, backwall, flower, lamp, pictures, table;
         protected RectangleShape textBackground;
         ContextSettings settings;
-        protected Character Mom, Alexis, Dad;
+        //        protected Character Mom, Alexis, Dad;
+        protected StoryManager sman;
 
         /////////////////////////////////////////////////////////////////////////////////////////////
+
 
         public static UInt32 getW()
         {
             return SCREEN_WIDTH;
         }
+
 
         public static UInt32 getH()
         {
@@ -94,6 +97,8 @@ namespace Test
         }
 
         protected GameState State = new GameState();
+
+
 
         public Game(uint width, uint height, string title)
         {
@@ -111,7 +116,7 @@ namespace Test
         public void Run()
         {
             Initialize();
-
+            sman.findNextPossibleNodes();
             /***********************************************/
             /*                                             */
             /*        framerate lock                       */

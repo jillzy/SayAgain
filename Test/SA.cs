@@ -13,11 +13,28 @@ using Newtonsoft.Json;
 namespace Test {
 
     class SA : Game {
+        //public static SA current;
 
-
+        public Character Mom, Dad, Alexis;
         public View fullScreenView, charView;
         //Character mom, alexis, dad;
 
+
+
+        public Character getMom()
+        {
+            return Mom;
+        }
+
+        public Character getDad()
+        {
+            return Dad;
+        }
+
+        public Character getAlexis()
+        {
+            return Alexis;
+        }
 
         public SA() : base(VideoMode.DesktopMode.Width, VideoMode.DesktopMode.Height, "Say Again?") {
 
@@ -65,7 +82,7 @@ namespace Test {
         //if (D_Man.getAlex().Contains(e.X, e.Y)) {
         //    D_Man.getAlex().setHover(true);
         //} else if (D_Man.getMom().Contains(e.X, e.Y)) {
-        //    D_Man.getMom().setHover(true);
+         //   D_Man.getMom().setHover(true);
         //} else if (D_Man.getDad().Contains(e.X, e.Y)) {
         //    D_Man.getDad().setHover(true);
         //} else {
@@ -230,10 +247,10 @@ namespace Test {
 
             }
         }
-        StoryManager sman = new StoryManager();
+
 
         protected override void Initialize() {
-
+            sman = new StoryManager();
             sman.print();
 
             backwall = new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/backwall.png"));
@@ -290,7 +307,7 @@ namespace Test {
             Mom.setSpriteEmotion(Character.spriteEmotion.happy);
             Mom.active(true);
             Mom.state.setMood(5f);
-            Console.WriteLine(Mom.state.getMood());
+            Console.WriteLine(Mom.getCurrentFNC());
 
             Alexis = new Alex();
             Alexis.setSpriteEmotion(Character.spriteEmotion.angry);

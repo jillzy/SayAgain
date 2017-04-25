@@ -30,6 +30,8 @@ namespace Test
             throw new NotImplementedException();
         }
 
+
+
         public override void setSpriteEmotion(spriteEmotion e)
         {
             expr = e.ToString();
@@ -76,6 +78,7 @@ namespace Test
                 }
             }
         }
+
 
         public override void Draw(RenderTarget target, RenderStates states)
         {

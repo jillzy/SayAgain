@@ -15,13 +15,26 @@ namespace Test
         Root = 8,
     }
 
+
+
     class Program
     {
-       
+
+        protected static SA myGame;
+
+        public static SA getGame()
+        {
+            return myGame;
+        }
+
         static void Main(string[] args)
         {
-           
-            SA myGame = new SA();
+            //            SA.current = new SA();
+            //            SA.current.Run();
+            //            SA myGame = new SA();
+            Program.myGame = new SA();
+            Console.WriteLine("hi");
+            Console.WriteLine(myGame);    
             myGame.Run();
 
         }

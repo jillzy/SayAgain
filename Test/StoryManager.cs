@@ -186,20 +186,141 @@ namespace Test
             //if [0] < char.currentfnc < [3]
             //true
             char character = s[0];
+            Character mom = Program.getGame().getMom();
+            Character dad = Program.getGame().getDad();
+            Character alexis = Program.getGame().getAlexis();
+            s = s.Substring(1);
+            var range = s.Split('-');
+            double high, low;
+            // mom should not be null
+           
             switch (character) {
                 case 'M':
+                    
+                    low = determineRange(range, mom.getFNCRange())[0];
+                    high = determineRange(range, mom.getFNCRange())[1];
+                    if (mom.getCurrentFNC() >= low && mom.getCurrentFNC() <= high)
+                    {
+                        return true;
+                    }
+
                     return false;
                     
                 case 'D':
+                    low = determineRange(range, dad.getFNCRange())[0];
+                    high = determineRange(range, dad.getFNCRange())[1];
+                    if (dad.getCurrentFNC() >= low && dad.getCurrentFNC() <= high)
+                    {
+                        return true;
+                    }
+
                     return false;
                     
                 case 'A':
+                    low = determineRange(range, alexis.getFNCRange())[0];
+                    high = determineRange(range, alexis.getFNCRange())[1];
+                    if (dad.getCurrentFNC() >= low && dad.getCurrentFNC() <= high)
+                    {
+                        return true;
+                    }
+
                     return false;
                     
             }
             return false;
         }
 
+
+        public List<double> determineRange(String[] range, double[] charFNC)
+        {
+
+            //HF-MF-LF-LN-MN-HN-LC-MC-HC
+            double low, high;
+            List<double> result = new List<double>();
+
+            switch (range[0])
+            {
+                case "HF":
+                    low = charFNC[0];
+                    result.Add(low);
+                    break;
+                case "MF":
+                    low = charFNC[1];
+                    result.Add(low);
+                    break;
+                case "LF":
+                    low = charFNC[2];
+                    result.Add(low);
+                    break;
+                case "HN":
+                    low = charFNC[3];
+                    result.Add(low);
+                    break;
+                case "MN":
+                    low = charFNC[4];
+                    result.Add(low);
+                    break;
+                case "LN":
+                    low = charFNC[5];
+                    result.Add(low);
+                    break;
+                case "HC":
+                    low = charFNC[6];
+                    result.Add(low);
+                    break;
+                case "MC":
+                    low = charFNC[7];
+                    result.Add(low);
+                    break;
+                case "LC":
+                    low = charFNC[8];
+                    result.Add(low);
+                    break;
+            }
+            switch (range[1])
+            {
+                case "HF":
+                    high = charFNC[0];
+                    result.Add(high);
+                    break;
+                case "MF":
+                    high = charFNC[1];
+                    result.Add(high);
+                    break;
+                case "LF":
+                    high = charFNC[2];
+                    result.Add(high);
+                    break;
+                case "HN":
+                    high = charFNC[3];
+                    result.Add(high);
+                    break;
+                case "MN":
+                    high = charFNC[4];
+                    result.Add(high);
+                    break;
+                case "LN":
+                    high = charFNC[5];
+                    result.Add(high);
+                    break;
+                case "HC":
+                    high = charFNC[6];
+                    result.Add(high);
+                    break;
+                case "MC":
+                    high = charFNC[7];
+                    result.Add(high);
+                    break;
+                case "LC":
+                    high = charFNC[8];
+                    result.Add(high);
+                    break;
+            }
+
+            return result;
+
+
+        }
         public bool checkPastPlotPoint(string p)
         {
             Console.WriteLine("checkPastPlotPoint()");
@@ -218,6 +339,8 @@ namespace Test
         }
 
         public StoryManager() {
+
+
 
 
             //nextPreconditions = new List<String> ();
@@ -300,7 +423,7 @@ namespace Test
             preconditions.Add("M: HF");
             addNode("MomBlowsUp", next_nodes, preconditions);
 
-            findNextPossibleNodes();
+
         }
 
     }

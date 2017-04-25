@@ -35,12 +35,16 @@ namespace Test
             throw new NotImplementedException();
         }
 
+
+
         public override void setSpriteEmotion(spriteEmotion e)
         {
 
            
             if (e.ToString() != "sad") expr = e.ToString();
         }
+
+
         
         public override void Draw(RenderTarget target, RenderStates states)
         {
