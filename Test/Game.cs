@@ -116,7 +116,9 @@ namespace Test
         public void Run()
         {
             Initialize();
-            sman.findNextPossibleNodes();
+            sman.findNextPossibleNodes(); //should be every turn... but first call cannot be at init time
+                                           //originally put in storyman constructor (NO!)
+
             /***********************************************/
             /*                                             */
             /*        framerate lock                       */

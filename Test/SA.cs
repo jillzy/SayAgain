@@ -250,7 +250,8 @@ namespace Test {
 
 
         protected override void Initialize() {
-            sman = new StoryManager();
+
+            sman = new StoryManager(); //must be in here to solve a init-time race condition for storyman
             sman.print();
 
             backwall = new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/backwall.png"));
