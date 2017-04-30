@@ -368,6 +368,7 @@ namespace Test {
             Mom.setSpriteEmotion(Character.spriteEmotion.happy);
             Mom.active(true);
             Mom.state.setMood(5f);
+            Mom.setTalking(true);
             //Console.WriteLine(Mom.state.getMood());
 
             Alexis = new Alex();
@@ -377,6 +378,7 @@ namespace Test {
             Dad = new Dad();
             Dad.setSpriteEmotion(Character.spriteEmotion.happy);
             Dad.active(true);
+            Dad.setTalking(true);
 
             Arm = new Arm();
             Arm.setSpriteEmotion(Character.spriteEmotion.neutral);

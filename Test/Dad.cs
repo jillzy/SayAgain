@@ -14,7 +14,7 @@ namespace Test
     class Dad : Character, Drawable
     {
 
-        int currentMouth = 0; //variable to keep track of mouths for drawing
+        int currentMouthIndex = 0; //variable to keep track of mouths for drawing
         float framerate = 4f;
         int prevIndex = -1;
 
@@ -67,7 +67,7 @@ namespace Test
                 
                 //cycle between open mouth and rest mouth
 
-                if (currentMouth == 0) //rest mouth
+                if (currentMouthIndex == 0) //rest mouth
                 {
 
                     Console.WriteLine("C L O S E");
@@ -76,7 +76,7 @@ namespace Test
 
                 }
 
-                else if (currentMouth == 1)//open mouth
+                else if (currentMouthIndex == 1)//open mouth
                 {
                     Console.WriteLine("open the mouth");
                     mouthSprite.Position = new Vector2f(xpos - 35, ypos + 123);
@@ -87,12 +87,12 @@ namespace Test
                 if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate))
                 {
                     time = DateTime.Now;
-                    if (currentMouth >= 1)
+                    if (currentMouthIndex >= 1)
                     {
-                        currentMouth = 0;
-                    } else if (currentMouth == 0)
+                        currentMouthIndex = 0;
+                    } else if (currentMouthIndex == 0)
                     {
-                        currentMouth = 1;
+                        currentMouthIndex = 1;
                     }
                 }
 

@@ -16,14 +16,19 @@ namespace Test
         float framerate = 4f;
         int prevIndex = -1;
         int longerframe;
+        int currentMouthIndex = 0; //variable to keep track of mouths for drawing. for mom, 0 is not closed
 
-        Texture t = new Texture("../../Art/momsprites.png");
+        Texture t = new Texture("../../Art/momsprites2.png");
         string expr;
         Dictionary<string, List<Sprite>> sprites = new Dictionary<string, List<Sprite>>() { { "angry", new List<Sprite>() },
                                                                                             { "happy", new List<Sprite>() },
                                                                                             { "neutral", new List<Sprite>() },
                                                                                             { "sad", new List<Sprite>() }
                                                                                            };
+
+        List<Sprite> MouthSprites = new List<Sprite>();
+
+
         public override void checkFNC()
         {
             throw new NotImplementedException();
@@ -88,13 +93,78 @@ namespace Test
             throw new NotImplementedException();
         }
 
+        void returnToRestMouth()
+        {
+            MouthSprites[currentMouthIndex].Position = new Vector2f(-100, -100);
+            //hide the sprite off screen, so don't have to destroy
+        }
+
         public override void Draw(RenderTarget target, RenderStates states)
         {
             rnd = r.Next(4, 14);
-            
+
 
 
             target.Draw(sprites[expr][index]);
+            target.Draw(MouthSprites[0]);
+
+
+            if (isTalking)
+            {
+                target.Draw(sprites["happy"][0]);
+                target.Draw(MouthSprites[0]); 
+                //!!!! MOM HAS TO TALK OVER HER NOMOUTH SPRITE (happy[0])
+
+                //cycle between open mouth and rest mouth
+
+                if (currentMouthIndex == -1) //rest mouth
+                {
+
+                    Console.WriteLine("C L O S E");
+                    returnToRestMouth();
+                    framerate = (float)rnd2;
+
+                }
+
+                else if (currentMouthIndex == 0)//open mouth
+                {
+      
+                    MouthSprites[0].Position = new Vector2f(xpos - 45, ypos + 153);
+                    framerate = (float)rnd;
+
+                }
+
+                if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate))
+                {
+                    time = DateTime.Now;
+                    if (currentMouthIndex >= 1)
+                    {
+                        currentMouthIndex = 0;
+                    }
+                    else if (currentMouthIndex == 0)
+                    {
+                        currentMouthIndex = 0;
+                    }
+                }
+
+
+
+            }
+            if (!isTalking)
+            {
+
+                //stay at the default mouth
+                returnToRestMouth();
+                if (expr == "happy" && index == 0) //skip the nomouth sprite
+                {
+                    index += 1;
+                }
+                target.Draw(sprites[expr][index]);
+            }
+
+    
+
+
 
             if (index == longerframe && prevIndex != longerframe)
             {
@@ -117,7 +187,14 @@ namespace Test
                 if (++index >= sprites[expr].Count)
                 {
                     pickSpecialFrame();
-                    index = 0;
+                    if (expr == "happy") //skip the nomouth sprite
+                    {
+                        index = 1;
+                    }
+                    else
+                    {
+                        index = 0;
+                    }
                 }
             }
         }
@@ -167,7 +244,15 @@ namespace Test
                 sprites["sad"][sprites["sad"].Count - 1].Scale = new Vector2f(xscale, yscale);
                 sprites["sad"][sprites["sad"].Count - 1].Position = new Vector2f(xpos - sprites["sad"][0].GetGlobalBounds().Width / 2, ypos);
             }
+
+            //0 is the default mouth
             
+            MouthSprites.Add(new Sprite(new Texture("../../Art/MomMouth1.png")));
+            MouthSprites.Add(new Sprite(new Texture("../../Art/MomMouth2.png")));
+            MouthSprites.Add(new Sprite(new Texture("../../Art/MomMouth3.png")));
+            MouthSprites.Add(new Sprite(new Texture("../../Art/MomMouth4.png")));
+            MouthSprites.Add(new Sprite(new Texture("../../Art/MomMouth5.png")));
+            MouthSprites[0].Scale = new Vector2f(0.8f, 0.8f);
         }
     }
 }
