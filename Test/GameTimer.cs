@@ -76,6 +76,7 @@ namespace Test
 
         public void resetTimer()
         {
+            start = false;
             countDown = initTime + 1;
         }
 

@@ -32,9 +32,11 @@ namespace Test {
 
         public override void Draw(RenderTarget target, RenderStates states) {
 
-            if (expr == "angry") target.Draw(sprites["angry"][0]);
-            if (expr == "neutral") target.Draw(sprites["neutral"][0]);
-
+            if(1>0)//if (!hide)
+            {
+                if (expr == "angry") target.Draw(sprites["angry"][0]);
+                if (expr == "neutral") target.Draw(sprites["neutral"][0]);
+            }
         }
 
         public override void setArmPosition(Vector2f position) {
@@ -51,6 +53,8 @@ namespace Test {
         }
 
         public Arm() {
+
+            hide = true;
 
             //determine size and position
             xpos = (float)(SCREEN_WIDTH * .21);

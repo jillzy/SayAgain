@@ -8,10 +8,8 @@ using SFML.Window;
 using SFML.Graphics;
 
 
-namespace Test
-{
-    abstract class Game
-    {
+namespace Test {
+    abstract class Game {
         protected RenderWindow window;
         protected Color clearColor;
 
@@ -32,6 +30,7 @@ namespace Test
 
         // Debug
         protected bool debugInfo = false;
+
 
 
         //Menus
@@ -62,6 +61,7 @@ namespace Test
         protected List<string> currentMadeMemories = new List<string>();
         protected List<DialogueObj> responseList = new List<DialogueObj>();
         protected List<DialogueObj> responseListNPC = new List<DialogueObj>();
+        protected List<DialogueObj> jankList = new List<DialogueObj>();
         protected List<string> currentMilestones = new List<string>();
         protected List<int> currentTargets = new List<int>();
 
@@ -79,25 +79,20 @@ namespace Test
         protected RectangleShape textBackground;
         ContextSettings settings;
         protected Character Mom, Alexis, Dad, Arm;
-
-        
-
+        protected StoryManager sman  = new StoryManager();
         /////////////////////////////////////////////////////////////////////////////////////////////
 
-        public static UInt32 getW()
-        {
+        public static UInt32 getW() {
             return SCREEN_WIDTH;
         }
 
-        public static UInt32 getH()
-        {
+        public static UInt32 getH() {
             return SCREEN_HEIGHT;
         }
 
         protected GameState State = new GameState();
 
-        public Game(uint width, uint height, string title)
-        {
+        public Game(uint width, uint height, string title) {
             settings.AntialiasingLevel = 8;
             window = new RenderWindow(new VideoMode(width, height), title, Styles.Fullscreen, settings);
             this.clearColor = new Color(125, 116, 132);
@@ -109,9 +104,9 @@ namespace Test
 
         }
 
-        public void Run()
-        {
+        public void Run() {
             Initialize();
+            sman.findNextPossibleNodes();
 
             /***********************************************/
             /*                                             */
@@ -124,13 +119,11 @@ namespace Test
 
             DateTime time = DateTime.Now;
             float framerate = 60f;
-            while (window.IsOpen)
-            {
+            while (window.IsOpen) {
                 window.DispatchEvents();
                 Update();
 
-                if ((DateTime.Now - time).TotalMilliseconds > (1000f / framerate))
-                {
+                if ((DateTime.Now - time).TotalMilliseconds > (1000f / framerate)) {
                     time = DateTime.Now;
                     Draw();
                     window.Display();
@@ -147,13 +140,11 @@ namespace Test
 
         }
 
-        private void onClosed(object sender, EventArgs e)
-        {
+        private void onClosed(object sender, EventArgs e) {
             window.Close();
         }
 
-        private void onKeyPressed(object sender, KeyEventArgs e)
-        {
+        private void onKeyPressed(object sender, KeyEventArgs e) {
             if (e.Code.Equals(Keyboard.Key.Escape)) {
                 window.Close();
             }

@@ -97,10 +97,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CharacterState.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Alex.cs" />
     <Compile Include="Arm.cs" />
+    <Compile Include="CharacterState.cs" />
     <Compile Include="mom.cs" />
     <Compile Include="OldSelector.cs" />
     <Compile Include="StoryManager.cs" />
@@ -142,6 +142,7 @@
     <None Include="dadtt.json" />
     <None Include="dumbo.json" />
     <None Include="Fonts\Adore64.ttf" />
+    <None Include="jank.json" />
     <None Include="newplayerpp.json" />
     <None Include="newplayertt.json" />
     <None Include="packages.config" />

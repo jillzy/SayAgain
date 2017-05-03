@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
-{
-    public class Loader
-    {
+namespace Test {
+    public class Loader {
         //Creates and loads Json Objects
         public DialogueParsing playerDialogueObj1 = new DialogueParsing(@"../../player.json");
         public DialogueParsing NPCDialogueObj = new DialogueParsing(@"../../dad.json");
@@ -15,6 +13,7 @@ namespace Test
         public DialogueParsing newplayerp = new DialogueParsing(@"../../newplayerpp.json");
         public DialogueParsing dadt = new DialogueParsing(@"../../dadtt.json");
         public DialogueParsing dadp = new DialogueParsing(@"../../dadpp.json");
+        public DialogueParsing Jankson = new DialogueParsing(@"../../jank.json");
 
 
         //Creates and loads music and sound files

@@ -39,6 +39,7 @@ namespace Test {
 
         bool selected = false;
         bool hover = false;
+        bool disabled = false;
         int mouseOffsetX = 0;
         int mouseOffsetY = 0;
         Color tonalColor;
@@ -84,6 +85,14 @@ namespace Test {
             selected = val;
         }
 
+        public void setDisabled(bool val) {
+            disabled = val;
+        }
+
+        public bool getDisabled() {
+            return disabled;
+        }
+
         public bool GetSelected() {
             return selected;
         }
@@ -102,16 +111,15 @@ namespace Test {
             //buttonText.Position = new Vector2f(x, y);
         }
 
-        public void setHover(int mouseX, int mouseY)
-        {
+        public void setHover(int mouseX, int mouseY) {
             hover = Contains(mouseX, mouseY);
         }
 
         public void translate(int x, int y, double winx, double winy) {
             var temp = screenHelper(winx, winy);
             var bounds = getRectBounds();
-            double newXPos = x - (mouseOffsetX)*temp.Item1;
-            double newYPos = y - (mouseOffsetY)*temp.Item2;
+            double newXPos = x - (mouseOffsetX) * temp.Item1;
+            double newYPos = y - (mouseOffsetY) * temp.Item2;
 
             if (x - mouseOffsetX < 0) {
                 newXPos = 0;
@@ -145,20 +153,20 @@ namespace Test {
 
         public override void Draw(RenderTarget target, RenderStates states) {
             //target.Draw(rect);
-            if (hover)
-            {
+            if (hover && !disabled) {
                 // Make button transperent when dragging
-                if (selected)
-                {
+                if (selected) {
                     buttonSpriteHighlight.Color = new Color(255, 255, 255, 128);
-                }
-                else
-                {
+                } else {
                     buttonSpriteHighlight.Color = new Color(255, 255, 255, 255);
                 }
                 target.Draw(buttonSpriteHighlight);
-            } else
-            {
+            } else {
+                if (disabled) {
+                    buttonSprite.Color = new Color(64, 64, 64);
+                } else {
+                    buttonSprite.Color = new Color(255, 255, 255);
+                }
                 target.Draw(buttonSprite);
             }
             //target.Draw(buttonText);

@@ -1,0 +1,319 @@
+//<<<<<<< HEAD
+//{
+//=======
+// {
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//  "Dialogues": [
+//    {
+//      "content": "r1",
+//      "tone": "Root",
+//      "id": "1",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<Seems forever since I was home.>",
+//      "tone": "Default",
+//      "id": "2",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "r2",
+//      "tone": "Root",
+//      "id": "3",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<Looks like dinner is getting ready.>",
+//      "tone": "Default",
+//      "id": "4",
+//<<<<<<< HEAD
+//      "next": ""
+//=======
+//      "skip": "false",
+//      "next": "false"
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//    },
+//    {
+//      "content": "r3",
+//      "tone": "Root",
+//      "id": "5",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "It's always great to see my little sister! <She seems chipper today.>",
+//      "tone": "Default",
+//      "id": "6",
+//<<<<<<< HEAD
+//      "next": ""
+//=======
+//      "skip": "false",
+//      "next": "Root"
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//    },
+//    {
+//      "content": "How is the family treating you?",
+//      "tone": "Root",
+//      "id": "7",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Everyone's good right? But you know, whatever.",
+//      "tone": "Indifferent",
+//      "id": "8",
+//<<<<<<< HEAD
+//      "next": ""
+//=======
+//      "skip": "false",
+//      "next": "false"
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//    },
+//    {
+//      "content": "I'm Sorry",
+//      "tone": "Root",
+//      "id": "9",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "S-sorry. I guess I'm just tired.",
+//      "tone": "Hesitant",
+//      "id": "10",
+//<<<<<<< HEAD
+//      "next": ""
+//=======
+//      "skip": "false",
+//      "next": "false"
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//    },
+//    {
+//      "content": "r6",
+//      "tone": "Root",
+//      "id": "11",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<Here comes Dad from the living room.>",
+//      "tone": "Default",
+//      "id": "12",
+//<<<<<<< HEAD
+//      "next": ""
+//=======
+//      "skip": "false",
+//      "next": "false"
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//    },
+//    {
+//      "content": "r7",
+//      "tone": "Root",
+//      "id": "13",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<Dad has a moustache now?>",
+//      "tone": "Default",
+//      "id": "14",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Hi Dad. How are you and Mom doing?",
+//      "tone": "Root",
+//      "id": "15",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Hey Dad! Hope you and Mom are doing really well!",
+//      "tone": "Compassionate",
+//      "id": "16",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "r8",
+//      "tone": "Root",
+//      "id": "17",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<He doesn't know about Mom? Well, then...>",
+//      "tone": "Default",
+//      "id": "18",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "r9",
+//      "tone": "Root",
+//      "id": "19",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<And now Mom with the food.>",
+//      "tone": "Default",
+//      "id": "20",
+//      "next": ""
+//    },
+//    {
+//      "content": "r10",
+//      "tone": "Root",
+//      "id": "21",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<I wonder why Mom is so quiet.>",
+//      "tone": "Default",
+//      "id": "22",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "So, Mom, how are you?",
+//      "tone": "Root",
+//      "id": "23",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Hey Mom. What's up with you, huh?",
+//      "tone": "Blunt",
+//      "id": "24",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "You have a different hair style. That's new.",
+//      "tone": "Root",
+//      "id": "25",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Anyone can see you have a new haircut, Mom.",
+//      "tone": "Blunt",
+//      "id": "26",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "So, your hair's different now?",
+//      "tone": "Indifferent",
+//      "id": "26",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "Ohhh. You changed your hair up too?",
+//      "tone": "Compassionate",
+//      "id": "26",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "I guess... Your hair looks new...",
+//      "tone": "Hesitant",
+//      "id": "26",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "r13",
+//      "tone": "Root",
+//      "id": "27",
+//<<<<<<< HEAD
+//=======
+//      "skip": "true",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    },
+//    {
+//      "content": "<I haven't been home in a long time it seems.>",
+//      "tone": "Default",
+//      "id": "28",
+//<<<<<<< HEAD
+//=======
+//      "skip": "false",
+//>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49
+//      "next": ""
+//    }
+//  ]
+//}

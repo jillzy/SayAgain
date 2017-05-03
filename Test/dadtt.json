@@ -1,218 +1,1118 @@
-{
+ï»¿{
   "Dialogues": [
+{
+    "content":"It's the same but your mom's cooking seems to have gotten worse by the day!",
+    "tone":"Indifferent",
+    "id":"1",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Not as much as your mom. ",
+    "tone":"Blunt",
+    "id":"1",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Yes, I have been doing well but I can't speak for your mom.",
+    "tone":"Compassionate",
+    "id":"1",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Umm sure?? Right honey?",
+    "tone":"Hesitant",
+    "id":"1",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"I do things around the house.",
+    "tone":"Blunt",
+    "id":"2",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"Well I need to do everything around the house, so cut me some slack will ya.",
+    "tone":"Indifferent",
+    "id":"2",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"I'm doing fine. Don't know what  your dad's going on about.",
+    "tone":"Compassionate",
+    "id":"2",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"Sure...",
+    "tone":"Hesitant",
+    "id":"2",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"What the heck Dad?",
+    "tone":"Blunt",
+    "id":"3",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What the heck Dad?",
+    "tone":"Indifferent",
+    "id":"3",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What the heck Dad?",
+    "tone":"Compassionate",
+    "id":"3",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What the heck Dad?",
+    "tone":"Hesitant",
+    "id":"3",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What are you talking about? Everything is just FINE.",
+    "tone":"Blunt",
+    "id":"4",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"There is nothing to heck about. Everything is just fine.",
+    "tone":"Indifferent",
+    "id":"4",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I hope so too ",
+    "tone":"Compassionate",
+    "id":"4",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Nope, nothing going on AT ALL.",
+    "tone":"Hesitant",
+    "id":"4",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Haha! Of course I am still working ï¿½ still doing the same boring thing. I am not that old, yet, you know.",
+    "tone":"Blunt",
+    "id":"5",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Work's the same old, same old. There is nothing exciting to say about it.",
+    "tone":"Indifferent",
+    "id":"5",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Work's the same old, same old. There is nothing exciting to say about it.",
+    "tone":"Compassionate",
+    "id":"5",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Haha! Of course I am still working ï¿½ still doing the same boring thing. I am not that old, yet, you know.",
+    "tone":"Hesitant",
+    "id":"5",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Well, I suppose there is one thingï¿½ You see these cups? They're amazing, expensive Swarovski crystal glasses your mom brought home.",
+    "tone":"Blunt",
+    "id":"6",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"It is. There is nothing like the same droning work that keeps me motivated. But hey, enough about work, let me tell you about these expensive glasses on the table. You're mom brought them home about a month ago. VERY nice, VERY expensive Swarovski crystal glasses.",
+    "tone":"Indifferent",
+    "id":"6",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Well, I suppose there is one thingï¿½ You see these cups? They're amazing, expensive Swarovski crystal glasses your mom brought home.",
+    "tone":"Compassionate",
+    "id":"6",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"New things happen all the time! Just like these month old, nice, expensive Swarovski crystal glasses your mom brought!",
+    "tone":"Hesitant",
+    "id":"6",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Thank you. I think they look just awesome, as well.",
+    "tone":"Blunt",
+    "id":"7",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Thanks. That means so much to me.",
+    "tone":"Indifferent",
+    "id":"7",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Sure. Whatever you think.",
+    "tone":"Compassionate",
+    "id":"7",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Sure. Whatever you think.",
+    "tone":"Hesitant",
+    "id":"7",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"You will know that I wish to continue to talk about these glasses!",
+    "tone":"Blunt",
+    "id":"8",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will know that I wish to continue to talk about these glasses!",
+    "tone":"Indifferent",
+    "id":"8",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will know that I wish to continue to talk about these glasses!",
+    "tone":"Compassionate",
+    "id":"8",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will know that I wish to continue to talk about these glasses!",
+    "tone":"Hesitant",
+    "id":"8",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"The cups are so refined looking. What else could I say about them? They do look nice, but too bad I was unable to give MY input on whether or not these glasses should be purchased. When your Mom brought them home, I was almost shocked. Of course, this isn't a BIG DEAL, so we are just absolutely fine over this whole thing.",
+    "tone":"Blunt",
+    "id":"9",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"The cups are so refined looking. What else could I say about them? They do look nice, but too bad I was unable to give MY input on whether or not these glasses should be purchased. When your Mom brought them home, I was almost shocked. Of course, this isn't a BIG DEAL, so we are just absolutely fine over this whole thing.",
+    "tone":"Indifferent",
+    "id":"9",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"The cups are so refined looking. What else could I say about them? They do look nice, but too bad I was unable to give MY input on whether or not these glasses should be purchased. When your Mom brought them home, I was almost shocked. Of course, this isn't a BIG DEAL, so we are just absolutely fine over this whole thing.",
+    "tone":"Compassionate",
+    "id":"9",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"The cups are so refined looking. What else could I say about them? They do look nice, but too bad I was unable to give MY input on whether or not these glasses should be purchased. When your Mom brought them home, I was almost shocked. Of course, this isn't a BIG DEAL, so we are just absolutely fine over this whole thing.",
+    "tone":"Hesitant",
+    "id":"9",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!",
+    "tone":"Blunt",
+    "id":"10",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!",
+    "tone":"Indifferent",
+    "id":"10",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!",
+    "tone":"Compassionate",
+    "id":"10",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else!",
+    "tone":"Hesitant",
+    "id":"10",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"No! I am being reasonable! And don't say you haven't noticed yet, withï¿½with all of this Swarovski crystal, EIGHT THIRTY dinner nonsense.",
+    "tone":"Blunt",
+    "id":"11",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"HOW DARE YOU! As a member of this house, it is your obligation to be aware of the changes around the house. Swarovski crystal, eight thirty dinnerï¿½",
+    "tone":"Indifferent",
+    "id":"11",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You think so? I can't believe you haven't noticed yet.",
+    "tone":"Compassionate",
+    "id":"11",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"The only thing 'weird' about this is the fact that you haven't noticed yet!",
+    "tone":"Hesitant",
+    "id":"11",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"That's in interesting observation.",
+    "tone":"Blunt",
+    "id":"12",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Who knows. I certainly have no idea.",
+    "tone":"Indifferent",
+    "id":"12",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"YOU can, if you want.",
+    "tone":"Compassionate",
+    "id":"12",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Who knows. I certainly have no idea.",
+    "tone":"Hesitant",
+    "id":"12",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Excuse, me! I will not let you or your Mother ignore me. I refuse to have that woman have her way, and let me tell you why!",
+    "tone":"Blunt",
+    "id":"13",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Excuse, me! I will not let you or your Mother ignore me. I refuse to have that woman have her way, and let me tell you why!",
+    "tone":"Indifferent",
+    "id":"13",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Excuse, me! I will not let you or your Mother ignore me. I refuse to have that woman have her way, and let me tell you why!",
+    "tone":"Compassionate",
+    "id":"13",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Excuse, me! I will not let you or your Mother ignore me. I refuse to have that woman have her way, and let me tell you why!",
+    "tone":"Hesitant",
+    "id":"13",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I honestly can't believe you nor Alexï¿½especially Alex, who has been around the homeï¿½haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alcoholï¿½It's only obvious!",
+    "tone":"Blunt",
+    "id":"14",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"I honestly can't believe you nor Alexï¿½especially Alex, who has been around the homeï¿½haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alcoholï¿½It's only obvious!",
+    "tone":"Indifferent",
+    "id":"14",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"I honestly can't believe you nor Alexï¿½especially Alex, who has been around the homeï¿½haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alcoholï¿½It's only obvious!",
+    "tone":"Compassionate",
+    "id":"14",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"I honestly can't believe you nor Alexï¿½especially Alex, who has been around the homeï¿½haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alcoholï¿½It's only obvious!",
+    "tone":"Hesitant",
+    "id":"14",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"What the hell, Dad! Don't bring me into this shit.",
+    "tone":"Blunt",
+    "id":"15",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"What the hell, Dad! Don't bring me into this shit.",
+    "tone":"Indifferent",
+    "id":"15",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"What the hell, Dad! Don't bring me into this shit.",
+    "tone":"Compassionate",
+    "id":"15",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"What the hell, Dad! Don't bring me into this shit.",
+    "tone":"Hesitant",
+    "id":"15",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"I'm going to ignore your choice of words, for once, because you make a good point. Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your Mom.",
+    "tone":"Blunt",
+    "id":"16",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm going to ignore your choice of words, for once, because you make a good point. Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your Mom.",
+    "tone":"Indifferent",
+    "id":"16",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm going to ignore your choice of words, for once, because you make a good point. Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your Mom.",
+    "tone":"Compassionate",
+    "id":"16",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm going to ignore your choice of words, for once, because you make a good point. Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your Mom.",
+    "tone":"Hesitant",
+    "id":"16",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"Didn't I teach you that patience is a virtue? Anyways, what I was going to say isï¿½",
+    "tone":"Blunt",
+    "id":"17",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"There is no need to. I've been waiting for the most appropriate time to say thisï¿½ Your Mother is cheating on me.",
+    "tone":"Indifferent",
+    "id":"17",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"You know, you're right. Clearly, your mother is cheating on me.",
+    "tone":"Compassionate",
+    "id":"17",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Yes. It is time now. I've been waiting for the most appropriate time to say this...Your Mother is cheating on me.",
+    "tone":"Hesitant",
+    "id":"17",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"What?...How could you think that? That's not something I would do.",
+    "tone":"Blunt",
+    "id":"18",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What?...How could you think that? That's not something I would do.",
+    "tone":"Indifferent",
+    "id":"18",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What?...How could you think that? That's not something I would do.",
+    "tone":"Compassionate",
+    "id":"18",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"What?...How could you think that? That's not something I would do.",
+    "tone":"Hesitant",
+    "id":"18",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm not cheating on your dad! Why would I do that?",
+    "tone":"Blunt",
+    "id":"19",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"No, it doesn't make any sense. Why would I do that?",
+    "tone":"Indifferent",
+    "id":"19",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"But I am not cheating on your dad. Why would I do that?",
+    "tone":"Compassionate",
+    "id":"19",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"What do you mean 'why'? I'm not cheating on your Dad.",
+    "tone":"Hesitant",
+    "id":"19",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Do not make me laugh. Of course she would say that. Only a cheater would.",
+    "tone":"Blunt",
+    "id":"20",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Do not make me laugh. Of course she would say that. Only a cheater would.",
+    "tone":"Indifferent",
+    "id":"20",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Do not make me laugh. Of course she would say that. Only a cheater would.",
+    "tone":"Compassionate",
+    "id":"20",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Do not make me laugh. Of course she would say that. Only a cheater would.",
+    "tone":"Hesitant",
+    "id":"20",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"I'm not...",
+    "tone":"Blunt",
+    "id":"21",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm not...",
+    "tone":"Indifferent",
+    "id":"21",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm not...",
+    "tone":"Compassionate",
+    "id":"21",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm not...",
+    "tone":"Hesitant",
+    "id":"21",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"They're not. I bought the glasses myself.",
+    "tone":"Blunt",
+    "id":"22",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"They're not. I bought the glasses myself.",
+    "tone":"Indifferent",
+    "id":"22",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"No. I bought them myself.",
+    "tone":"Compassionate",
+    "id":"22",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"They're not. I bought the glasses myself.",
+    "tone":"Hesitant",
+    "id":"22",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Anyone can tell that is an obvious lie! That woman has no way to get Swarovski crystal glasses by herself!",
+    "tone":"Blunt",
+    "id":"23",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"Anyone can tell that is an obvious lie! That woman has no way to get Swarovski crystal glasses by herself!",
+    "tone":"Indifferent",
+    "id":"23",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"Anyone can tell that is an obvious lie! That woman has no way to get Swarovski crystal glasses by herself!",
+    "tone":"Compassionate",
+    "id":"23",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"Anyone can tell that is an obvious lie! That woman has no way to get Swarovski crystal glasses by herself!",
+    "tone":"Hesitant",
+    "id":"23",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"alex"
+ },
+{
+    "content":"'Cuz you're a control freakï¿½",
+    "tone":"Blunt",
+    "id":"24",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Cuz you're a control freakï¿½",
+    "tone":"Indifferent",
+    "id":"24",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Cuz you're a control freakï¿½",
+    "tone":"Compassionate",
+    "id":"24",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"'Cuz you're a control freakï¿½",
+    "tone":"Hesitant",
+    "id":"24",
+    "FNC":"0",
+    "speaker":"alex",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"You will keep your mouth shut, Alex. Let the adults talk through this.",
+    "tone":"Blunt",
+    "id":"25",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will keep your mouth shut, Alex. Let the adults talk through this.",
+    "tone":"Indifferent",
+    "id":"25",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will keep your mouth shut, Alex. Let the adults talk through this.",
+    "tone":"Compassionate",
+    "id":"25",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"You will keep your mouth shut, Alex. Let the adults talk through this.",
+    "tone":"Hesitant",
+    "id":"25",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I will talk to her however I please! You do not have the right to tell me what to do! Anyhowï¿½ Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!",
+    "tone":"Blunt",
+    "id":"26",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Glad to see you are still able to make sensible decisions. Anyhowï¿½ Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!",
+    "tone":"Indifferent",
+    "id":"26",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Glad to see you are still able to make sensible decisions. Anyhowï¿½ Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!",
+    "tone":"Compassionate",
+    "id":"26",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"No! Alex is just a child. She wouldn't know anything substantiable about what is going on in this house. Anyhowï¿½ Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!",
+    "tone":"Hesitant",
+    "id":"26",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"I bought them with my own money. I wanted something a little nice for the house...for myself.",
+    "tone":"Blunt",
+    "id":"27",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I bought them with my own money. I wanted something a little nice for the house...for myself.",
+    "tone":"Indifferent",
+    "id":"27",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I bought them with my own money. I wanted something a little nice for the house...for myself.",
+    "tone":"Compassionate",
+    "id":"27",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I bought them with my own money. I wanted something a little nice for the house...for myself.",
+    "tone":"Hesitant",
+    "id":"27",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"But I do. I...just can't say why.",
+    "tone":"Blunt",
+    "id":"28",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"But I do. I...just can't say why.",
+    "tone":"Indifferent",
+    "id":"28",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"No. I can't say.",
+    "tone":"Compassionate",
+    "id":"28",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"That is not the only way...But I can't say.",
+    "tone":"Hesitant",
+    "id":"28",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"There's no point in it. It's not like you will listen or give me a chance anyways.",
+    "tone":"Blunt",
+    "id":"29",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"There's no point in it. It's not like you will listen or give me a chance anyways.",
+    "tone":"Indifferent",
+    "id":"29",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"There's no point in it. It's not like you will listen or give me a chance anyways.",
+    "tone":"Compassionate",
+    "id":"29",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"There's no point in it. It's not like you will listen or give me a chance anyways.",
+    "tone":"Hesitant",
+    "id":"29",
+    "FNC":"0",
+    "speaker":"",
+    "bucket":"1",
+    "inext":"dad"
+ },
+{
+    "content":"Take a look, DEAR. You have taught the kids a valuable lesson: knowing when to give up. Truly, a job well done.",
+    "tone":"Blunt",
+    "id":"30",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Take a look, DEAR. You have taught the kids a valuable lesson: knowing when to give up. Truly, a job well done.",
+    "tone":"Indifferent",
+    "id":"30",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Take a look, DEAR. You have taught the kids a valuable lesson: knowing when to give up. Truly, a job well done.",
+    "tone":"Compassionate",
+    "id":"30",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"Take a look, DEAR. You have taught the kids a valuable lesson: knowing when to give up. Truly, a job well done.",
+    "tone":"Hesitant",
+    "id":"30",
+    "FNC":"0",
+    "speaker":"dad",
+    "bucket":"1",
+    "inext":"mom"
+ },
+{
+    "content":"I'm done with this",
+    "tone":"Blunt",
+    "id":"31",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm done with this",
+    "tone":"Indifferent",
+    "id":"31",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
+{
+    "content":"I'm done with this",
+    "tone":"Compassionate",
+    "id":"31",
+    "FNC":"0",
+    "speaker":"mom",
+    "bucket":"1",
+    "inext":""
+ },
     {
-      "content": "It's the same but your mom's cooking seems to have gotten worse by the day!",
-      "tone": "Indifferent",
-      "id": "1",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": "mom"
-    },
-    {
-      "content": "Not as much as your mom. ",
-      "tone": "Blunt",
-      "id": "1",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": "mom"
-    },
-    {
-      "content": "Yes, I have been doing well but I can't speak for your mom.",
-      "tone": "Compassionate",
-      "id": "1",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": "mom"
-    },
-    {
-      "content": "Umm sure?? Right honey?",
+      "content": "I'm done with this",
       "tone": "Hesitant",
-      "id": "1",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": "mom"
-    },
-    {
-      "content": "I do things around the house.",
-      "tone": "Blunt",
-      "id": "2",
+      "id": "31",
       "FNC": "0",
       "speaker": "mom",
-      "bucket": "1",
-      "inext": "alex"
-    },
-    {
-      "content": "Well I need to do everything around the house, so cut me some slack will ya.",
-      "tone": "Indifferent",
-      "id": "2",
-      "FNC": "0",
-      "speaker": "mom",
-      "bucket": "1",
-      "inext": "alex"
-    },
-    {
-      "content": "I'm doing fine. Don't know what  your dad's going on about.",
-      "tone": "Compassionate",
-      "id": "2",
-      "FNC": "0",
-      "speaker": "mom",
-      "bucket": "1",
-      "inext": "alex"
-    },
-    {
-      "content": "Sure...",
-      "tone": "Hesitant",
-      "id": "2",
-      "FNC": "0",
-      "speaker": "mom",
-      "bucket": "1",
-      "inext": "alex"
-    },
-    {
-      "content": "What the heck Dad?",
-      "tone": "Blunt",
-      "id": "3",
-      "FNC": "0",
-      "speaker": "alex",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "What the heck Dad?",
-      "tone": "Indifferent",
-      "id": "3",
-      "FNC": "0",
-      "speaker": "alex",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "What the heck Dad?",
-      "tone": "Compassionate",
-      "id": "3",
-      "FNC": "0",
-      "speaker": "alex",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "What the heck Dad?",
-      "tone": "Hesitant",
-      "id": "3",
-      "FNC": "0",
-      "speaker": "alex",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "What are you talking about? Everything is just FINE.",
-      "tone": "Blunt",
-      "id": "4",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "There is nothing to heck about. Everything is just fine.",
-      "tone": "Indifferent",
-      "id": "4",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "I hope so too ",
-      "tone": "Compassionate",
-      "id": "4",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Nope, nothing going on AT ALL.",
-      "tone": "Hesitant",
-      "id": "4",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Haha! Of course I am still working — still doing the same boring thing. I am not that old, yet, you know.",
-      "tone": "Blunt",
-      "id": "5",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Work's the same old, same old. There is nothing exciting to say about it.",
-      "tone": "Indifferent",
-      "id": "5",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Work's the same old, same old. There is nothing exciting to say about it.",
-      "tone": "Compassionate",
-      "id": "5",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Haha! Of course I am still working — still doing the same boring thing. I am not that old, yet, you know.",
-      "tone": "Hesitant",
-      "id": "5",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Well, I suppose there is one thing… You see these cups? They’re amazing, expensive Swarovski crystal glasses your mom brought home.",
-      "tone": "Blunt",
-      "id": "6",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "It is. There is nothing like the same droning work that keeps me motivated. But hey, enough about work, let me tell you about these expensive glasses on the table. You’re mom brought them home about a month ago. VERY nice, VERY expensive Swarovski crystal glasses.",
-      "tone": "Indifferent",
-      "id": "6",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "Well, I suppose there is one thing… You see these cups? They’re amazing, expensive Swarovski crystal glasses your mom brought home.",
-      "tone": "Compassionate",
-      "id": "6",
-      "FNC": "0",
-      "speaker": "dad",
-      "bucket": "1",
-      "inext": ""
-    },
-    {
-      "content": "New things happen all the time! Just like these month old, nice, expensive Swarovski crystal glasses your mom brought!",
-      "tone": "Hesitant",
-      "id": "6",
-      "FNC": "0",
-      "speaker": "dad",
       "bucket": "1",
       "inext": ""
     }

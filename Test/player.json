@@ -1,153 +1,543 @@
 {
   "Dialogues": [
+{
+    "content":"Thank you.",
+    "tone":"Root",
+    "id":"1",
+    "next":""
+ },
+{
+    "content":"<Something seems odd.> I'm only here because you told me to be.",
+    "tone":"Blunt",
+    "id":"2",
+    "next":"128"
+ },
+{
+    "content":"<Oh the formalities> Yeah.. It's great.",
+    "tone":"Indifferent",
+    "id":"2",
+    "next":"128"
+ },
+{
+    "content":"<It's always great to see the family.> Thanks Dad! It's so great to be back here!",
+    "tone":"Compassionate",
+    "id":"2",
+    "next":"128"
+ },
+{
+    "content":"<Hmm Dad's acting odd.> Thanks? I haven't been home in a while...",
+    "tone":"Hesitant",
+    "id":"2",
+    "next":"128"
+ },
+{
+    "content":"How are you?",
+    "tone":"Root",
+    "id":"128",
+    "next":""
+ },
+{
+    "content":"Dad you still sitting around like a bum?",
+    "tone":"Blunt",
+    "id":"129",
+    "next":"3"
+ },
+{
+    "content":"So how are things?",
+    "tone":"Indifferent",
+    "id":"129",
+    "next":"3"
+ },
+{
+    "content":"Have you all been doing well?",
+    "tone":"Compassionate",
+    "id":"129",
+    "next":"3"
+ },
+{
+    "content":"So.. you guys good.. in the hood?",
+    "tone":"Hesitant",
+    "id":"129",
+    "next":"3"
+ },
+{
+    "content":"Everything okay between you two?",
+    "tone":"Root",
+    "id":"3",
+    "next":""
+ },
+{
+    "content":"Hey what the heck is up with you and mom?",
+    "tone":"Blunt",
+    "id":"4",
+    "next":""
+ },
+{
+    "content":"Yea what the heck?",
+    "tone":"Indifferent",
+    "id":"4",
+    "next":""
+ },
+{
+    "content":"I hope there is nothing wrong between you guys.",
+    "tone":"Compassionate",
+    "id":"4",
+    "next":""
+ },
+{
+    "content":"Is there anything going on or something?",
+    "tone":"Hesitant",
+    "id":"4",
+    "next":""
+ },
+{
+    "content":"Tell me about work.",
+    "tone":"Root",
+    "id":"5",
+    "next":""
+ },
+{
+    "content":"Ok then. So what's up at work? Shouldn't you be retired by now?",
+    "tone":"Blunt",
+    "id":"6",
+    "next":""
+ },
+{
+    "content":"Well okay. How's work?",
+    "tone":"Indifferent",
+    "id":"6",
+    "next":""
+ },
+{
+    "content":"You are so positive Dad! I want to know how your work is going?",
+    "tone":"Compassionate",
+    "id":"6",
+    "next":""
+ },
+{
+    "content":"Umm.. ok then. Yea.. you are still working right? At that one place ...",
+    "tone":"Hesitant",
+    "id":"6",
+    "next":""
+ },
+{
+    "content":"Then, is there anything new going on with you",
+    "tone":"Root",
+    "id":"7",
+    "next":""
+ },
+{
+    "content":"Ok?? Then is there anything that IS new you can tell me.",
+    "tone":"Blunt",
+    "id":"8",
+    "next":""
+ },
+{
+    "content":"Oh that's great.",
+    "tone":"Indifferent",
+    "id":"8",
+    "next":""
+ },
+{
+    "content":"I am sure there is new, cool SOMETHING that's going with you, Dad.",
+    "tone":"Compassionate",
+    "id":"8",
+    "next":""
+ },
+{
+    "content":"That's good? Are you sure there isn't anything new? I am not sure how often new things happen though?",
+    "tone":"Hesitant",
+    "id":"8",
+    "next":""
+ },
+{
+    "content":"Mom, these cups look really great.",
+    "tone":"Root",
+    "id":"9",
+    "next":""
+ },
+{
+    "content":"<Mom doesn't look too happy that Dad mentioned the cups.>Jeez. Chin up, Mom. These cups do look pretty fucking awesome.",
+    "tone":"Blunt",
+    "id":"10",
+    "next":""
+ },
+{
+    "content":"<Mom doesn't look too happy that Dad mentioned the cups.>They're just cups to me, Mom. but I guess others would say they look good.",
+    "tone":"Indifferent",
+    "id":"10",
+    "next":""
+ },
+{
+    "content":"<Mom doesn't look too happy that Dad mentioned the cups.>Whoah! You picked these out, Mom! They go SOO well with the diningware.",
+    "tone":"Compassionate",
+    "id":"10",
+    "next":""
+ },
+{
+    "content":"<Mom doesn't look too happy that Dad mentioned the cups.>I-uh...They look fine? No, I’m sure they look good. Right, Mom?",
+    "tone":"Hesitant",
+    "id":"10",
+    "next":""
+ },
+{
+    "content":"What about the glasses",
+    "tone":"Root",
+    "id":"11",
+    "next":""
+ },
+{
+    "content":"<Dad seems irritated.> So what about a bunch of cups do you want to talk about, huh?",
+    "tone":"Blunt",
+    "id":"12",
+    "next":""
+ },
+{
+    "content":"<Dad seems irritated.> Yeah, sure. Go ahead, Dad.",
+    "tone":"Indifferent",
+    "id":"12",
+    "next":""
+ },
+{
+    "content":"<Dad seems irritated.> Okay, Dad! I will gladly listen.",
+    "tone":"Compassionate",
+    "id":"12",
+    "next":""
+ },
+{
+    "content":"<Dad seems irritated.> The cups? You mean, the nice ones, right? Uh… Is there something to say about them? They look normal to me…",
+    "tone":"Hesitant",
+    "id":"12",
+    "next":""
+ },
+{
+    "content":"Are you sure you are fine? You look flustered.",
+    "tone":"Root",
+    "id":"13",
+    "next":""
+ },
+{
+    "content":"Stop that shit and tell me what’s wrong. You were too flustered to say ‘It’s fine.’",
+    "tone":"Blunt",
+    "id":"14",
+    "next":""
+ },
+{
+    "content":"Actually, you seemed a bit flustered.",
+    "tone":"Indifferent",
+    "id":"14",
+    "next":""
+ },
+{
+    "content":"But you were so flustered! Are you sure nothing is wrong? Please don’t worry me.",
+    "tone":"Compassionate",
+    "id":"14",
+    "next":""
+ },
+{
+    "content":"Uh, but you were kinda flustered.",
+    "tone":"Hesitant",
+    "id":"14",
+    "next":""
+ },
+{
+    "content":"Why are you talking about the past?",
+    "tone":"Root",
+    "id":"15",
+    "next":""
+ },
+{
+    "content":"Why do you sound so pissed off about how Mom was a few years ago. It’s all in the past. Grow up, Dad!",
+    "tone":"Blunt",
+    "id":"16",
+    "next":""
+ },
+{
+    "content":"I don’t really care about how mom was whatever number of years ago.",
+    "tone":"Indifferent",
+    "id":"16",
+    "next":""
+ },
+{
+    "content":"Gosh, Dad. You sound pretty upset about this. What’s going on?",
+    "tone":"Compassionate",
+    "id":"16",
+    "next":""
+ },
+{
+    "content":"Are you grumpy? Uh. This is kinda weird?",
+    "tone":"Hesitant",
+    "id":"16",
+    "next":""
+ },
+{
+    "content":"Mom, do you know what Dad is talking about?",
+    "tone":"Root",
+    "id":"17",
+    "next":""
+ },
+{
+    "content":"<Dad's starting to mumble to himself. I'll ask Mom What's going on.> So, what the hell is Dad going on about? He sounds insane.",
+    "tone":"Blunt",
+    "id":"18",
+    "next":""
+ },
+{
+    "content":"<Dad's starting to mumble to himself. I'll ask Mom What's going on.> So,...uh, any idea on what’s going on?",
+    "tone":"Indifferent",
+    "id":"18",
+    "next":""
+ },
+{
+    "content":"<Dad's starting to mumble to himself. I'll ask Mom What's going on.> Mom! What’s going on with Dad? Should we be worried?",
+    "tone":"Compassionate",
+    "id":"18",
+    "next":""
+ },
+{
+    "content":"<Dad's starting to mumble to himself. I'll ask Mom What's going on.> Hey...isn’t Dad kinda being...strange?",
+    "tone":"Hesitant",
+    "id":"18",
+    "next":""
+ },
+{
+    "content":"Are you paying attention to Dad, at all?",
+    "tone":"Root",
+    "id":"19",
+    "next":""
+ },
+{
+    "content":"Damn, Mom! It seems like you’re just ignoring Dad. That’s pretty bold.",
+    "tone":"Blunt",
+    "id":"20",
+    "next":""
+ },
+{
+    "content":"You aren’t giving Dad any attention. That’s fine.",
+    "tone":"Indifferent",
+    "id":"20",
+    "next":""
+ },
+{
+    "content":"Mom! You can’t just ignore Dad! That’s not very nice.",
+    "tone":"Compassionate",
+    "id":"20",
+    "next":""
+ },
+{
+    "content":"Mom, don’t you think you should give Dad some attention? I think that’ll be good...",
+    "tone":"Hesitant",
+    "id":"20",
+    "next":""
+ },
+{
+    "content":"What has mom done?",
+    "tone":"Root",
+    "id":"21",
+    "next":""
+ },
+{
+    "content":"Well?? Come on, Dad! Spit it out. What is the wrong that Mom did.",
+    "tone":"Blunt",
+    "id":"22",
+    "next":""
+ },
+{
+    "content":"So...what did mom do?",
+    "tone":"Indifferent",
+    "id":"22",
+    "next":""
+ },
+{
+    "content":"This sounds serious, Dad. You have to tell me what’s going on with Mom and what she’s been doing.",
+    "tone":"Compassionate",
+    "id":"22",
+    "next":""
+ },
+{
+    "content":"Well, sure, Dad. I’ll listen to what you have to say. It seems like you know what’s happening around here.",
+    "tone":"Hesitant",
+    "id":"22",
+    "next":""
+ },
+{
+    "content":"Tell us about Mom.",
+    "tone":"Root",
+    "id":"23",
+    "next":""
+ },
+{
+    "content":"<Alex does not seem happy about Dad’s response.> Jesus, Dad. Hurry it up and say the thing about Mom!",
+    "tone":"Blunt",
+    "id":"24",
+    "next":""
+ },
+{
+    "content":"<Alex does not seem happy about Dad’s response.> Sure, sure. It’s fine. Take your time.",
+    "tone":"Indifferent",
+    "id":"24",
+    "next":""
+ },
+{
+    "content":"<Alex does not seem happy about Dad’s response.> Dad, you should just say it. I know it’s hard to comprehend, but someone needs to do it.",
+    "tone":"Compassionate",
+    "id":"24",
+    "next":""
+ },
+{
+    "content":"<Alex does not seem happy about Dad’s response.> Don’t you think you should say what is going on with Mom?",
+    "tone":"Hesitant",
+    "id":"24",
+    "next":""
+ },
+{
+    "content":"If you add up all the clues...",
+    "tone":"Root",
+    "id":"25",
+    "next":""
+ },
+{
+    "content":"<I think I know what's going on.> You know what? After thinking about everything you said, you are right. Mom IS cheating on you! Mom! What the hell do you think you’re doing?",
+    "tone":"Blunt",
+    "id":"26",
+    "next":""
+ },
+{
+    "content":"<I think I know what's going on.> If you look at what Dad said, I guess it makes sense. Huh, Mom?",
+    "tone":"Indifferent",
+    "id":"26",
+    "next":""
+ },
+{
+    "content":"<I think I know what's going on.> Everything makes sense now! Mom! How could you? Can’t you see you’re hurting dad?",
+    "tone":"Compassionate",
+    "id":"26",
+    "next":""
+ },
+{
+    "content":"<I think I know what's going on.> Uh, yeah! The things that Dad said...that’s kinda sad. Uh, Mom? Why?",
+    "tone":"Hesitant",
+    "id":"26",
+    "next":""
+ },
+{
+    "content":"But what about those cups?",
+    "tone":"Root",
+    "id":"27",
+    "next":""
+ },
+{
+    "content":"Where’d you get those fancy ass cups from, then? I bet your side man got them for you!",
+    "tone":"Blunt",
+    "id":"28",
+    "next":""
+ },
+{
+    "content":"Those cups are probably from the other guy.",
+    "tone":"Indifferent",
+    "id":"28",
+    "next":""
+ },
+{
+    "content":"Mom. Did the person you are cheating on Dad with get you the cups as a gift?",
+    "tone":"Compassionate",
+    "id":"28",
+    "next":""
+ },
+{
+    "content":"The cups...I bet they are from the guy? The other guy, you know… Not Dad.",
+    "tone":"Hesitant",
+    "id":"28",
+    "next":""
+ },
+{
+    "content":"Hold on…",
+    "tone":"Root",
+    "id":"29",
+    "next":""
+ },
+{
+    "content":"Hey. Let Alex talk, Dad. Don’t tell her to keep your mouth shut.",
+    "tone":"Blunt",
+    "id":"30",
+    "next":""
+ },
+{
+    "content":"Yeah Alex. Just let Dad, talk. It’ll be faster.",
+    "tone":"Indifferent",
+    "id":"30",
+    "next":""
+ },
+{
+    "content":"Alex, let Dad explain himself. It’s rude to jump to conclusions.",
+    "tone":"Compassionate",
+    "id":"30",
+    "next":""
+ },
+{
+    "content":"Uh, Dad? Shouldn’t you let Alex talk...for a bit, at least?",
+    "tone":"Hesitant",
+    "id":"30",
+    "next":""
+ },
+{
+    "content":"How would you be able to buy them?",
+    "tone":"Root",
+    "id":"31",
+    "next":""
+ },
+{
+    "content":"Ha! As if you have money for the cups. Dad just said he wouldn’t give it to you!",
+    "tone":"Blunt",
+    "id":"32",
+    "next":""
+ },
+{
+    "content":"You don’t even have money for that stuff.",
+    "tone":"Indifferent",
+    "id":"32",
+    "next":""
+ },
+{
+    "content":"Mom. Can you explain to us how you would have the money to buy the glasses? I am sure we are all willing to listen to you.",
+    "tone":"Compassionate",
+    "id":"32",
+    "next":""
+ },
+{
+    "content":"But...you would have had to get the money from Dad, right? I mean...that’s the only way.",
+    "tone":"Hesitant",
+    "id":"32",
+    "next":""
+ },
+{
+    "content":"I know why you don’t want to tell us why.",
+    "tone":"Root",
+    "id":"33",
+    "next":""
+ },
+{
+    "content":"I bet I know why! It’s because you’re cheating on Dad, and you don’t want to confess your cheating ASS.",
+    "tone":"Blunt",
+    "id":"34",
+    "next":""
+ },
+{
+    "content":"..And that’s because you’re cheating on Dad. Don’t even have the courage to confess, huh.",
+    "tone":"Indifferent",
+    "id":"34",
+    "next":""
+ },
+{
+    "content":"And the reason is because you’re cheating on Dad...Mom. I’m so disappointed in you. You don’t even have to heart to confess honestly.",
+    "tone":"Compassionate",
+    "id":"34",
+    "next":""
+ },
     {
-      "content": "Thank you.",
-      "tone": "Root",
-      "id": "1",
-      "next": ""
-    },
-    {
-      "content": " <You smell something fishy.> I'm only here because you told me to be.",
-      "tone": "Blunt",
-      "id": "2",
-      "next": "128"
-    },
-    {
-      "content": "<Oh the formalities> Yeah.. It's great.",
-      "tone": "Indifferent",
-      "id": "2",
-      "next": "128"
-    },
-    {
-      "content": "<It's always great to see the family.> Thanks Dad! It's so great to be back here!",
-      "tone": "Compassionate",
-      "id": "2",
-      "next": "128"
-    },
-    {
-      "content": "<Hmm he is acting odd> Thanks? I haven't been home in a while...",
+      "content": "Is it because you’re cheating on Dad? Jee Mom...isn’t easier just to be honest about this stuff?...",
       "tone": "Hesitant",
-      "id": "2",
-      "next": "128"
-    },
-    {
-      "content": "How are you?",
-      "tone": "Root",
-      "id": "128",
-      "next": ""
-    },
-    {
-      "content": "Dad you still sitting around like a bum?",
-      "tone": "Blunt",
-      "id": "129",
-      "next": "3"
-    },
-    {
-      "content": "So how are things?",
-      "tone": "Indifferent",
-      "id": "129",
-      "next": "3"
-    },
-    {
-      "content": "Have you all been doing well?",
-      "tone": "Compassionate",
-      "id": "129",
-      "next": "3"
-    },
-    {
-      "content": "So.. you guys good.. in the hood?",
-      "tone": "Hesitant",
-      "id": "129",
-      "next": "3"
-    },
-    {
-      "content": "Everything okay between you two?",
-      "tone": "Root",
-      "id": "3",
-      "next": ""
-    },
-    {
-      "content": "Hey what the heck is up with you and mom?",
-      "tone": "Blunt",
-      "id": "4",
-      "next": ""
-    },
-    {
-      "content": "Yea what the heck?",
-      "tone": "Indifferent",
-      "id": "4",
-      "next": ""
-    },
-    {
-      "content": "I hope there is nothing wrong between you guys.",
-      "tone": "Compassionate",
-      "id": "4",
-      "next": ""
-    },
-    {
-      "content": "Is there anything going on or something?",
-      "tone": "Hesitant",
-      "id": "4",
-      "next": ""
-    },
-    {
-      "content": "Tell me about work.",
-      "tone": "Root",
-      "id": "5",
-      "next": ""
-    },
-    {
-      "content": "Ok then. So what's up at work? Shouldn't you be retired by now?",
-      "tone": "Blunt",
-      "id": "6",
-      "next": ""
-    },
-    {
-      "content": "Well ok. How's work?",
-      "tone": "Indifferent",
-      "id": "6",
-      "next": ""
-    },
-    {
-      "content": "You are so positive Dad! I want to know how your work is going?",
-      "tone": "Compassionate",
-      "id": "6",
-      "next": ""
-    },
-    {
-      "content": "Umm.. ok then. Yea.. you are still working right? At that one place ...",
-      "tone": "Hesitant",
-      "id": "6",
-      "next": ""
-    },
-    {
-      "content": "Then, is there anything new going on with you",
-      "tone": "Root",
-      "id": "7",
-      "next": ""
-    },
-    {
-      "content": "Ok?? Then is there anything that IS new you can tell me.",
-      "tone": "Blunt",
-      "id": "8",
-      "next": ""
-    },
-    {
-      "content": "Oh that's great.",
-      "tone": "Indifferent",
-      "id": "8",
-      "next": ""
-    },
-    {
-      "content": "I am sure there is new, cool SOMETHING that's going with you, Dad.",
-      "tone": "Compassionate",
-      "id": "8",
-      "next": ""
-    },
-    {
-      "content": "That's good? Are you sure there isn't anything new? I am not sure how often new things happen though?",
-      "tone": "Hesitant",
-      "id": "8",
+      "id": "34",
       "next": ""
     }
   ]

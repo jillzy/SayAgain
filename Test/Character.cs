@@ -16,7 +16,7 @@ using System.Drawing;
 namespace Test {
 
     abstract class Character : Drawable {
-        protected double[] FNCSpectrum = new double[3];
+        protected double[] FNCRange = new double[10]; //HF-MF-LF-LN-MN-HN-LC-MC-HC
         protected double currentFNC;
 
 
@@ -24,13 +24,14 @@ namespace Test {
         public int index = 0;
 
         protected Random r = new Random();
-        protected int rnd;
+        protected int rnd, rnd2;
 
 
         private List<Sprite> lipsprites = new List<Sprite>();
         private List<Sprite> sprites = new List<Sprite>();
 
         public DateTime time = DateTime.Now;
+        
         protected float xpos, ypos, xscale, yscale;
         protected bool canTalk = false;
         public CharacterState state;
@@ -40,6 +41,21 @@ namespace Test {
 
         protected uint SCREEN_WIDTH = VideoMode.DesktopMode.Width;
         protected uint SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
+
+
+        public bool isTalking = false;
+
+        protected bool hide = false;
+
+        public bool getHide()
+        {
+            return hide;
+        }
+
+        public void setHide(bool v)
+        {
+            hide = v;
+        }
 
         public void dim() {
 
@@ -65,6 +81,20 @@ namespace Test {
             }
         }
 
+
+        public void setTalking(bool b)
+        {
+            if (b)
+            {
+                isTalking = true;
+            }
+            else if (!b)
+            {
+                isTalking = false;
+            }
+        }
+
+
         public void setSprite(List<Sprite> s) {
             sprites = s;
         }
@@ -77,9 +107,11 @@ namespace Test {
         public abstract Vector2f getArmPosition();
 
         public abstract void setArmPosition(Vector2f position);
+        
 
-        public double[] getSpectrum() {
-            return FNCSpectrum;
+        public double[] getFNCRange()
+        {
+            return FNCRange;
         }
 
         public double getCurrentFNC() {

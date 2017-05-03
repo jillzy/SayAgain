@@ -23,7 +23,7 @@ namespace Test {
         public DialogueParsing() { }
         ~DialogueParsing() { }
     }
-    
+
     public class DialogueObj {
         public string content;
         public string tone;
@@ -36,6 +36,10 @@ namespace Test {
         public string finished;
         public string inext;
 
+        public DialogueObj(string c, string t, string i) {
+            content = c; tone = t; id = i;
+        }
+
         public DialogueObj(string newContent, string newTonalPreReq, string id, string next) { //for linked list reading
             content = newContent; tone = newTonalPreReq; this.id = id; this.next = next; this.FNC = 2 ^ 16;
         }
@@ -44,12 +48,11 @@ namespace Test {
             this.content = content; this.tone = tone; this.plotpoint = plotpoint; this.id = id; this.FNC = double.Parse(FNC); this.finished = finished; this.speaker = speaker; this.inext = InterjectionNext;
         }
 
-        public DialogueObj(string c, string t, string id, string f, string b, string s, string ix){ //for transitino lines
+        public DialogueObj(string c, string t, string id, string f, string b, string s, string ix) { //for transitino lines
             this.content = c; this.tone = t; this.id = id; this.FNC = double.Parse(f); this.bucket = double.Parse(b); this.speaker = s; this.inext = ix;
         }
 
-        public DialogueObj()
-        {
+        public DialogueObj() {
             content = "returned empty string";
             tone = "";
             plotpoint = "";

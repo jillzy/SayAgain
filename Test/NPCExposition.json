@@ -1,0 +1,220 @@
+<<<<<<< HEAD
+{
+  "Dialogues": [
+    {
+      "content": "Oh you're finally here, can we eat now?",
+      "tone": "",
+      "id": "1",
+      "FNC": "0",
+      "speaker": "alex",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "Whatever?! Jeez. Could you show you care a bit?! You can't say \"everyone's good\" when you don't even know what's going on.",
+      "tone": "Indifferent",
+      "id": "2",
+      "FNC": "0",
+      "speaker": "alex",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "Now you just sound like you don't know what to say.",
+      "tone": "Hesitant",
+      "id": "3",
+      "FNC": "0",
+      "speaker": "alex",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": "dad"
+    },
+    {
+      "content": "Hey, kiddo! Good to see you!",
+      "tone": "Start",
+      "id": "4",
+      "FNC": "0",
+      "speaker": "dad",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "How nice of you to be concerned. I know I'm doing fine, but I can't speak for your mom",
+      "tone": "Compassionate",
+      "id": "5",
+      "FNC": "0",
+      "speaker": "dad",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": "mom"
+    },
+    {
+      "content": "...",
+      "tone": "Start",
+      "id": "7",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "Oh? Sorry... you surprised me, There's nothing new with me.",
+      "tone": "Blunt",
+      "id": "8",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "I've had it for some time now. Thought a change would be nice.",
+      "tone": "Blunt",
+      "id": "9",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "It's been different for quite a bit, actually",
+      "tone": "Indifferent",
+      "id": "9",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "I did, a while back,",
+      "tone": "Compassionate",
+      "id": "9",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    },
+    {
+      "content": "It does? Oh, you're referring to this old cut.",
+      "tone": "Hesitant",
+      "id": "9",
+      "FNC": "0",
+      "speaker": "mom",
+      "bucket": "1",
+      "target": [ "mom", "dad", "alex" ],
+      "inext": ""
+    }
+  ]
+}
+=======
+{ 
+"Dialogues": [
+  {
+     "content":"Oh you're finally here, can we eat now?"
+    ,"tone":""
+    ,"id":"1"
+    ,"FNC":"0"
+    ,"speaker":"alex"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"Whatever?! Jeez. Could you show you care a bit?! You can't say \"everyone's good\" when you don't even know what's going on."
+    ,"tone":"Indifferent"
+    ,"id":"2"
+    ,"FNC":"0"
+    ,"speaker":"alex"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"Now you just sound like you don't know what to say."
+    ,"tone":"Hesitant"
+    ,"id":"3"
+    ,"FNC":"0"
+    ,"speaker":"alex"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"Hey, kiddo! Good to see you!"
+    ,"tone":"Start"
+    ,"id":"4"
+    ,"FNC":"0"
+    ,"speaker":"dad"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"How nice of you to be concerned. I know I'm doing fine, but I can't speak for your mom"
+    ,"tone":"Compassionate"
+    ,"id":"5"
+    ,"FNC":"0"
+    ,"speaker":"dad"
+    ,"bucket":"1"
+    ,"inext":"mom"
+  },
+  {
+     "content":"..."
+    ,"tone":"Start"
+    ,"id":"6"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"Oh? Sorry... you surprised me, There's nothing new with me."
+    ,"tone":"Blunt"
+    ,"id":"7"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"I've had it for some time now. Thought a change would be nice."
+    ,"tone":"Blunt"
+    ,"id":"8"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"It's been different for quite a bit, actually"
+    ,"tone":"Indifferent"
+    ,"id":"8"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"I did, a while back,"
+    ,"tone":"Compassionate"
+    ,"id":"8"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  },
+  {
+     "content":"It does? Oh, you're referring to this old cut."
+    ,"tone":"Hesitant"
+    ,"id":"8"
+    ,"FNC":"0"
+    ,"speaker":"mom"
+    ,"bucket":"1"
+    ,"inext":""
+  }
+ ] 
+ }
+>>>>>>> 94a1b2b2d21ab22184ab0cd0b9a41ddf66dbae49

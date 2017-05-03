@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +8,8 @@ using SFML.Window;
 using SFML.System;
 using SFML.Audio;
 
-namespace Test
-{
-    class CharacterState : Drawable
-    {
+namespace Test {
+    class CharacterState : Drawable {
         //fields
         private string who;
         private double mood;
@@ -19,7 +17,7 @@ namespace Test
         private double goal;
         double talkedTo = 0;
 
-        static bool[] targets = { false,false,false }; // 0 = alex 1 = mom 2 = dad
+        static bool[] targets = { false, false, false }; // 0 = alex 1 = mom 2 = dad
         List<String> memory = new List<String>();
 
         Color color;
@@ -32,34 +30,28 @@ namespace Test
 
         //methods
 
-        public CharacterState()
-        {
+        public CharacterState() {
             this.mood = 0;
             this.volatility = 0;
         }
 
-        public List<String> getMemories()
-        {
+        public List<String> getMemories() {
             return memory;
         }
 
-        public void addMemory(string s)
-        {
+        public void addMemory(string s) {
             memory.Add(s);
         }
 
-        public void setMood(double m)
-        {
+        public void setMood(double m) {
             mood = m;
         }
 
-        public double getMood()
-        {
+        public double getMood() {
             return mood;
         }
 
-        public void setVolatility(double v)
-        {
+        public void setVolatility(double v) {
             volatility = v;
         }
 
@@ -68,57 +60,38 @@ namespace Test
         }
 
 
-        public void SetTalked(char f, double amount)
-        {
-            if (f == 'i')
-            {
+        public void SetTalked(char f, double amount) {
+            if (f == 'i') {
                 talkedTo += amount;
-            }
-            else if (f == 'd')
-            {
+            } else if (f == 'd') {
                 talkedTo -= amount;
             }
         }
 
-        public bool CheckTalked()
-        {
-            if (talkedTo == 10000000.0)
-            {
+        public bool CheckTalked() {
+            if (talkedTo == 10000000.0) {
                 return true;
             }
             return false;
         }
 
-        public void setHover(bool b)
-        {
-            if (b)
-            {
+        public void setHover(bool b) {
+            if (b) {
                 characterRect.FillColor = Color.White;
-            }
-            else
-            {
+            } else {
                 characterRect.FillColor = this.color;
             }
         }
 
-        public bool Contains(int mouseX, int mouseY)
-        {
+        public bool Contains(int mouseX, int mouseY) {
             FloatRect bounds = characterRect.GetGlobalBounds();
-            if (mouseX >= bounds.Left && mouseX <= bounds.Left + bounds.Width && mouseY >= bounds.Top && mouseY <= bounds.Top + bounds.Height)
-            {
+            if (mouseX >= bounds.Left && mouseX <= bounds.Left + bounds.Width && mouseY >= bounds.Top && mouseY <= bounds.Top + bounds.Height) {
                 return true;
             }
             return false;
         }
 
-        //#region InputManager_targetCheck
-        //public void targetCheck(int x, int y) {
-        //    if (this.Contains(x, y)) this.setTargets(this.who);
-        //}
-        //#endregion
-
-        public void Draw(RenderTarget target, RenderStates states)
-        {
+        public void Draw(RenderTarget target, RenderStates states) {
             target.Draw(characterRect);
 
         }
