@@ -115,7 +115,7 @@ namespace Test {
             List<string> words = new List<string>();
             foreach (var dialogue in dialogueArray) {
 
-                //Console.WriteLine(dialogue);
+                ////Console.WriteLine(dialogue);
             }
 
             string tempString = dialogueArray[0];
@@ -131,7 +131,7 @@ namespace Test {
                 length = dialogueArray.Length;
             }
 
-            //Console.WriteLine("THE LENGTH OF THE DIALOGUE IS: " + dialogueArray.Length);
+            ////Console.WriteLine("THE LENGTH OF THE DIALOGUE IS: " + dialogueArray.Length);
 
             if (dialogueArray.Length != 1) {
 
@@ -140,7 +140,7 @@ namespace Test {
                     if (tempText.GetGlobalBounds().Width + 10 >= SCREEN_WIDTH) {
 
                         //time to go the next line
-                        //Console.WriteLine("NEXT LINE TIME!!!");
+                        ////Console.WriteLine("NEXT LINE TIME!!!");
                         playerDialogues.Add(new UITextBox(x, y, tempString, cluster));
                         y += (uint)tempText.GetGlobalBounds().Height + 10;
                         tempString = dialogueArray[word];
@@ -152,10 +152,10 @@ namespace Test {
 
                     } else {
 
-                        //Console.WriteLine("tempString before adding the next word: " + tempString);
+                        ////Console.WriteLine("tempString before adding the next word: " + tempString);
                         tempString += ' ';
                         tempString += dialogueArray[word];
-                        //Console.WriteLine("tempString after adding the next word: " + tempString);
+                        ////Console.WriteLine("tempString after adding the next word: " + tempString);
                         if (word == dialogueArray.Length - 1) {
 
                             playerDialogues.Add(new UITextBox(x, y, tempString, cluster));
@@ -183,7 +183,7 @@ namespace Test {
 
             foreach (var dialogue in playerDialogues) {
                 if (dialogue.getAffected() && !gotTone) {
-                    //Console.WriteLine(dialogue.getTone());
+                    ////Console.WriteLine(dialogue.getTone());
 
                     Tone = dialogue.getTone();
                     gotTone = true;
@@ -196,7 +196,7 @@ namespace Test {
 
             produceTextBoxes(responseList.ElementAt(0).content);
 
-            Console.WriteLine("I AM PRODUCING THE CONTENTS OF: " + responseList[0].content);
+            //Console.WriteLine("I AM PRODUCING THE CONTENTS OF: " + responseList[0].content);
 
             generateButtons();
         }
@@ -236,8 +236,8 @@ namespace Test {
                     //CHECK MATRIX BS
                     // Move to character state
                     //double[,] final = tfx.MatrixMult(tfx, cf);
-                    //Console.WriteLine(final[2, 3]);
-                    //Console.WriteLine("HEY THE BUTTON I AM DRAGGING IS: " + buttons[i].getTone().ToString());
+                    ////Console.WriteLine(final[2, 3]);
+                    ////Console.WriteLine("HEY THE BUTTON I AM DRAGGING IS: " + buttons[i].getTone().ToString());
                     // Get UI Text Boxes
                     var playerDialogues = this.getPlayerDialogues();
 
@@ -252,7 +252,7 @@ namespace Test {
                                 playerDialogues[k].setBoxColor(buttons[i].getTonalColor());
                                 playerDialogues[k].setAffected(true);
                                 playerDialogues[k].setTone(buttons[i].getTone());
-                                //Console.WriteLine("MY TONE IS: " + playerDialogues[0].getTone());
+                                ////Console.WriteLine("MY TONE IS: " + playerDialogues[0].getTone());
                                 
                                 //IF THE PLAYER DRAGGED IN BLUNT
                                 //HAVE THE TARGET CHARS REACT ANGRILY
@@ -260,7 +260,7 @@ namespace Test {
                                 {
                                     //only pgets called when dragged!! keys will not work
                                    // Program.getGame().getTargets();
-                                    Console.WriteLine("hello");
+                                    //Console.WriteLine("hello");
                                 
 
 

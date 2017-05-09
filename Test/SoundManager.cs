@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using SFML.Audio;
 
 namespace Test
@@ -12,24 +13,33 @@ namespace Test
         //constructor
         public SoundManager()
         {
-            song_dict = new Dictionary<string, string>() { { "Dad", "../../Sounds/sayagain-loop1.wav" },
-                                                           { "Mom","../../Sounds/sayagain-loop2.wav" },
-                                                           { "Alex", "" } };
-            sfx_dict = new Dictionary<string, SoundBuffer>() { { "chatter", new SoundBuffer("../../Sounds/chatter.wav") },
-                                                               { "button", new SoundBuffer("../../Sounds/button.wav")} };
-            current = "None";
+            sound_dict = new Dictionary<string, string>() { { "loop", "../../Sounds/jazz-loop.wav" },
+                                                          { "button","../../Sounds/button.wav"} };
+            chatter_dict = new Dictionary<string, List<SoundBuffer>>() { { "dad",new List<SoundBuffer>() {new SoundBuffer( "../../Sounds/dad/dad1.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/dad/dad2.wav"),
+                                                                                                new SoundBuffer( "../../Sounds/dad/dad3.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/dad/dad4.wav")} },
+                                                                    {"alex",new List<SoundBuffer>() {new SoundBuffer( "../../Sounds/alex/alex1.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/alex/alex2.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/alex/alex3.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/alex/alex4.wav")} },
+                                                                    { "mom",new List<SoundBuffer>() {new SoundBuffer( "../../Sounds/mom/mom1.wav"),
+                                                                                                 new SoundBuffer("../../Sounds/mom/mom2.wav"),
+                                                                                                new SoundBuffer( "../../Sounds/mom/mom3.wav")} }};
+            Step = 1;
             next = "None";
-            sound = new Sound();
         }
 
-        //fields
-        Sound sound;
-        Music song;
-        private String current;
+        Music music;
+
         private String next;
-        public Dictionary<String, String> song_dict;
-        public Dictionary<String, SoundBuffer> sfx_dict;
+        private Dictionary<String, String> sound_dict;
         public bool soundpause = false;
+        private int Step;
+        private List<string> music_blocks;
+        private Dictionary<string, List<SoundBuffer>> chatter_dict;
+        private Sound chatter;
+        private Sound SFX;
 
         public bool getSoundPause()
         {
@@ -41,56 +51,38 @@ namespace Test
         }
 
         //methods
+
         public void playSFX(String soundName)
         {
-            //load the click sound object
-            if (!soundpause) {
-                sound.SoundBuffer = sfx_dict[soundName];
-                sound.Play();
-            }
-           return;
+            SoundBuffer buffer = new SoundBuffer(sound_dict[soundName]);
+            SFX = new Sound(buffer);
+            SFX.Play();
         }
 
-        public void playMusic(string musicname)
+        public void playChatter(String person)
         {
-            if (current != musicname)
-            {
-                if (current != "None" && song.Status == SoundStatus.Playing)
-                {
-                    song.Stop();
-                }
-                song = new Music(song_dict[musicname]);
-                //song.Volume = 0;
-                song.Play();
-                song.Loop = true;
-                current = musicname;
-            } 
-
-            return;
+            Random r = new Random();
+            chatter = new Sound(chatter_dict[person][r.Next(chatter_dict[person].Count)]);
+            chatter.Play();
         }
 
-        public void transitionSong(String musicName)
+        public void init_music()
         {
-            song.Loop = false;
-            next = musicName;
+            music_blocks = new List<string> { "loop", "loop", "loop","loop" };
+            Step = 0;
+            music = new Music(sound_dict[music_blocks[Step]]);
+            music.Play();
         }
-
-        public void soundUpdate(bool soundToggle)
+        public void update_music()
         {
-            if (!soundToggle && !this.soundpause)
+            if (music.Status == SoundStatus.Stopped )
             {
-                this.song.Pause();
-                soundpause = true;
+                if (++Step > 3) Step = 0;
+
+                music = new Music(sound_dict[music_blocks[Step]]);
+                music.Play();
             }
-            else if (soundToggle && this.soundpause)
-            {
-                this.song.Play();
-                soundpause = false;
-            }
-            else if (song.Status == SoundStatus.Stopped && !soundpause)
-            {
-                playMusic(next);
-            }
+
         }
     }
 }

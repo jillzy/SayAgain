@@ -118,8 +118,8 @@ namespace Test {
             return currentFNC;
         }
 
-        public void changeFNC() {
-
+        public void changeFNC(double i) {
+            currentFNC += i;
         }
         public void click() {
             if (sprites != null) {

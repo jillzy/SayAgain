@@ -55,7 +55,7 @@ namespace Test {
         }
 
         private void printMouseStuff() {
-            //Console.WriteLine(MouseDown + ", " + MouseMove + ", " + MouseRelease);
+            ////Console.WriteLine(MouseDown + ", " + MouseMove + ", " + MouseRelease);
 
         }
 

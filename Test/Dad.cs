@@ -112,7 +112,8 @@ namespace Test
 
                         mouthSprite.Position = new Vector2f(xpos - 45, ypos + 118);
                         target.Draw(mouthSprite);
-                        framerate = 7;
+                        framerate = 15;
+
 
                     }
 

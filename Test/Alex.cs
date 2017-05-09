@@ -100,7 +100,7 @@ namespace Test
         {
             rnd = r.Next(4, 14);
             target.Draw(sprites[expr][index]);
-            if (!hide)
+            if(1>0)//if (!hide)
             {
                 if (isTalking)
                 {
@@ -110,15 +110,16 @@ namespace Test
                     {
 
                         hideMouth(4);
-                        framerate = 1;
+                        framerate = 5;
+
 
 
                     }
 
                     else if (currentMouthIndex >= 0 && currentMouthIndex < 5)//open mouth
                     {
+                        framerate = 15;
 
-                        framerate = 7;
 
                         if (currentMouthIndex >= 1)
                         {

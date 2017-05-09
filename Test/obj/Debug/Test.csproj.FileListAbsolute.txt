@@ -1,176 +1,22 @@
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\csfml-audio-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\csfml-graphics-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\csfml-system-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\csfml-window-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\libsndfile-1.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\openal32.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\OpenTK.Compatibility.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\OpenTK.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\Test.exe.config
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\Test.exe
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\Test.pdb
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\Newtonsoft.Json.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\sfmlnet-audio-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\sfmlnet-graphics-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\sfmlnet-system-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\sfmlnet-window-2.dll
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\obj\Debug\Test.Properties.Resources.resources
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\obj\Debug\Test.exe
-C:\Users\rnakarmi\Desktop\SayAgain-Raman-Test\Test\obj\Debug\Test.pdb
-F:\College\Senior\SayAgain\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-F:\College\Senior\SayAgain\Test\obj\Debug\Test.Properties.Resources.resources
-F:\College\Senior\SayAgain\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-F:\College\Senior\SayAgain\Test\obj\Debug\Test.exe
-F:\College\Senior\SayAgain\Test\obj\Debug\Test.pdb
-F:\College\Senior\SayAgain\Test\bin\Debug\csfml-audio-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\csfml-graphics-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\csfml-system-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\csfml-window-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\libsndfile-1.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\openal32.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\OpenTK.Compatibility.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\OpenTK.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\Test.exe.config
-F:\College\Senior\SayAgain\Test\bin\Debug\Test.exe
-F:\College\Senior\SayAgain\Test\bin\Debug\Test.pdb
-F:\College\Senior\SayAgain\Test\bin\Debug\Newtonsoft.Json.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-audio-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-graphics-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-system-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-window-2.dll
-F:\College\Senior\SayAgain\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\csfml-audio-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\csfml-graphics-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\csfml-system-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\csfml-window-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\libsndfile-1.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\openal32.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\OpenTK.Compatibility.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\OpenTK.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\Test.exe.config
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\Test.exe
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\Test.pdb
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\Newtonsoft.Json.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\sfmlnet-audio-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\sfmlnet-graphics-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\sfmlnet-system-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\sfmlnet-window-2.dll
-C:\Users\jwchau\Desktop\gains\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jwchau\Desktop\gains\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-C:\Users\jwchau\Desktop\gains\Test\obj\Debug\Test.Properties.Resources.resources
-C:\Users\jwchau\Desktop\gains\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-C:\Users\jwchau\Desktop\gains\Test\obj\Debug\Test.exe
-C:\Users\jwchau\Desktop\gains\Test\obj\Debug\Test.pdb
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\csfml-audio-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\csfml-graphics-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\csfml-system-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\csfml-window-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\libsndfile-1.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\openal32.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\OpenTK.Compatibility.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\OpenTK.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\Test.exe.config
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\Test.exe
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\Test.pdb
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\Newtonsoft.Json.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\sfmlnet-audio-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\sfmlnet-graphics-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\sfmlnet-system-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\sfmlnet-window-2.dll
-C:\Users\yuchoe\Desktop\SAUGH\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\yuchoe\Desktop\SAUGH\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-C:\Users\yuchoe\Desktop\SAUGH\Test\obj\Debug\Test.Properties.Resources.resources
-C:\Users\yuchoe\Desktop\SAUGH\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-C:\Users\yuchoe\Desktop\SAUGH\Test\obj\Debug\Test.exe
-C:\Users\yuchoe\Desktop\SAUGH\Test\obj\Debug\Test.pdb
-D:\College\Senior\SayAgain\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-D:\College\Senior\SayAgain\Test\obj\Debug\Test.Properties.Resources.resources
-D:\College\Senior\SayAgain\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-D:\College\Senior\SayAgain\Test\obj\Debug\Test.exe
-D:\College\Senior\SayAgain\Test\obj\Debug\Test.pdb
-D:\College\Senior\SayAgain\Test\bin\Debug\csfml-audio-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\csfml-graphics-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\csfml-system-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\csfml-window-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\libsndfile-1.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\openal32.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\OpenTK.Compatibility.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\OpenTK.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\Test.exe.config
-D:\College\Senior\SayAgain\Test\bin\Debug\Test.exe
-D:\College\Senior\SayAgain\Test\bin\Debug\Test.pdb
-D:\College\Senior\SayAgain\Test\bin\Debug\Newtonsoft.Json.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-audio-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-graphics-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-system-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\sfmlnet-window-2.dll
-D:\College\Senior\SayAgain\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\csfml-audio-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\csfml-graphics-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\csfml-system-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\csfml-window-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\libsndfile-1.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\openal32.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\OpenTK.Compatibility.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\OpenTK.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\Test.exe.config
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\Test.exe
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\Test.pdb
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\Newtonsoft.Json.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\sfmlnet-audio-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\sfmlnet-graphics-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\sfmlnet-system-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\sfmlnet-window-2.dll
-C:\Users\jy\Desktop\testy\SayAgain\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jy\Desktop\testy\SayAgain\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-C:\Users\jy\Desktop\testy\SayAgain\Test\obj\Debug\Test.Properties.Resources.resources
-C:\Users\jy\Desktop\testy\SayAgain\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-C:\Users\jy\Desktop\testy\SayAgain\Test\obj\Debug\Test.exe
-C:\Users\jy\Desktop\testy\SayAgain\Test\obj\Debug\Test.pdb
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\csfml-audio-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\csfml-graphics-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\csfml-system-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\csfml-window-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\libsndfile-1.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\openal32.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\OpenTK.Compatibility.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\OpenTK.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\Test.exe.config
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\Test.exe
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\Test.pdb
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\Newtonsoft.Json.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\sfmlnet-audio-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\sfmlnet-graphics-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\sfmlnet-system-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\sfmlnet-window-2.dll
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\bin\Debug\Newtonsoft.Json.xml
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\obj\Debug\Test.Properties.Resources.resources
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\obj\Debug\Test.exe
-C:\Users\misimpso\Desktop\stuff\SayAgain\Test\obj\Debug\Test.pdb
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\csfml-audio-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\csfml-graphics-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\csfml-system-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\csfml-window-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\libsndfile-1.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\openal32.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\OpenTK.Compatibility.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\OpenTK.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\Test.exe.config
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\Test.exe
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\Test.pdb
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\Newtonsoft.Json.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\sfmlnet-audio-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\sfmlnet-graphics-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\sfmlnet-system-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\sfmlnet-window-2.dll
-D:\College\Senior\SayAgain Git\SayAgain\Test\bin\Debug\Newtonsoft.Json.xml
-D:\College\Senior\SayAgain Git\SayAgain\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-D:\College\Senior\SayAgain Git\SayAgain\Test\obj\Debug\Test.Properties.Resources.resources
-D:\College\Senior\SayAgain Git\SayAgain\Test\obj\Debug\Test.csproj.GenerateResource.Cache
-D:\College\Senior\SayAgain Git\SayAgain\Test\obj\Debug\Test.exe
-D:\College\Senior\SayAgain Git\SayAgain\Test\obj\Debug\Test.pdb
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\csfml-audio-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\csfml-graphics-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\csfml-system-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\csfml-window-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\libsndfile-1.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\openal32.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\OpenTK.Compatibility.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\OpenTK.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\Test.exe.config
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\Test.exe
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\Test.pdb
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\Newtonsoft.Json.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\sfmlnet-audio-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\sfmlnet-graphics-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\sfmlnet-system-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\sfmlnet-window-2.dll
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\bin\Debug\Newtonsoft.Json.xml
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\obj\Debug\Test.exe
+D:\Apollo\Downloads\SayAgain-12f1da1b91951f1c56edb05fceaf55945c26da42\Test\obj\Debug\Test.pdb

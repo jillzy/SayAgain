@@ -48,6 +48,8 @@ namespace Test {
         float iterator = 0.5f;
         public Boolean lastDialogue = false;
         public bool spam = true;
+        public string currSpeaker = "";
+
 
         Font speechFont = new Font("../../Art/UI_Art/fonts/ticketing/TICKETING/ticketing.ttf");
 
@@ -83,7 +85,7 @@ namespace Test {
                 printTime = 0;
                 return false;
             } else if (elementIndex < dialoguePanes.Count) {
-                //Console.WriteLine("\n---------- CHECK NEXT");
+                ////Console.WriteLine("\n---------- CHECK NEXT");
                 if (cts != null) {
                     cts.Cancel();
                 }
@@ -92,7 +94,7 @@ namespace Test {
                     printTime = 30;
                     await animateText(cts.Token);
                 }, cts.Token);
-                //Console.WriteLine("CHECKNEXT RETURN FALSE");
+                ////Console.WriteLine("CHECKNEXT RETURN FALSE");
                 return false;
             } else {
                 if (tag == "AI" || tag == "player") {
@@ -100,13 +102,16 @@ namespace Test {
                 }
 
                 awaitInput = false;
-                //Console.WriteLine("CHECKNEXT RETURN TRUE");
+                ////Console.WriteLine("CHECKNEXT RETURN TRUE");
                 return true;
             }
         }
 
 
         public void loadNewDialogue(string speaker, string content) {
+            currSpeaker = speaker;
+
+
             if (speaker == "alex") {
                 dialogueBoxSprite = spriteDict["right"];
                 dialogueBoxSprite.Position = new Vector2f((float)(SCREEN_WIDTH * 0.5) - (dialogueBoxSprite.GetGlobalBounds().Width / 2), (float)(SCREEN_HEIGHT * 0.33) - (dialogueBoxSprite.GetGlobalBounds().Height / 2));
@@ -115,7 +120,6 @@ namespace Test {
                 name.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + ((118 * scale.X) - name.GetGlobalBounds().Width / 2), dialogueBoxSprite.GetGlobalBounds().Top + ((22 * scale.Y) - name.GetGlobalBounds().Height));
                 dialogue = new Text(content, speechFont, dialogueFontSize);
                 dialogue.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + (uint)(SCREEN_WIDTH * 0.004), dialogueBoxSprite.GetGlobalBounds().Top + (uint)(SCREEN_HEIGHT * 0.04));
-
             } else if (speaker == "dad") {
                 dialogueBoxSprite = spriteDict["left"];
                 dialogueBoxSprite.Position = new Vector2f((float)(SCREEN_WIDTH * 0.21) - (dialogueBoxSprite.GetGlobalBounds().Width / 2), (float)(SCREEN_HEIGHT * 0.23) - (dialogueBoxSprite.GetGlobalBounds().Height / 2));
@@ -173,7 +177,7 @@ namespace Test {
 
         public void renderDialogue(String s) {
             dialoguePanes.Clear();
-            //Console.WriteLine("\n---------- RENDER DIALOGUE");
+            ////Console.WriteLine("\n---------- RENDER DIALOGUE");
             if (cts != null) {
                 cts.Cancel();
             }
@@ -185,7 +189,7 @@ namespace Test {
                 await animateText(cts.Token); //await pauses thread until animateText() is completed
 
             }, cts.Token);
-            //Console.WriteLine("\n---------- END OF RENDER DIALOGUE");
+            ////Console.WriteLine("\n---------- END OF RENDER DIALOGUE");
         }
 
         public List<Text> createStrings() {

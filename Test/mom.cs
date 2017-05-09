@@ -60,12 +60,12 @@ namespace Test
                 if (rnd == 0)
                 {
                     longerframe = 1;
-                    //Console.WriteLine("1");
+                    ////Console.WriteLine("1");
                 }
                 else if (rnd == 1)
                 {
                     longerframe = 6;
-                    //Console.WriteLine("2");
+                    ////Console.WriteLine("2");
 
                 }
             }
@@ -163,7 +163,8 @@ namespace Test
 
                     else if (currentMouthIndex >= 0 && currentMouthIndex < 5)//open mouth
                     {
-                        framerate = 7;
+                        framerate = 15;
+
 
                         if (currentMouthIndex >= 1)
                         {

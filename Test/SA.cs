@@ -138,24 +138,24 @@ namespace Test {
                             State.dialogueBox.init = false;
                             State.playerDialogueBox.awaitInput = false;
                             fadeFlag = true;
-                            fadeFloat = 0.1f;
+                            fadeFloat = 0.3f;
                             endGame = true;
                         }
                     }
                     else if (endGame) {
                         if (State.playerDialogueBox.checkNext())
                         {
-                            Console.WriteLine("THE GAME IS OVER. GET OVER IT");
+                            //Console.WriteLine("THE GAME IS OVER. GET OVER IT");
                         }
                     }
                     else
                     {
 
-                        Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THE DIALOGUE INDEX IS: " + State.dialogueIndex);
+                        //Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THE DIALOGUE INDEX IS: " + State.dialogueIndex);
                         // Activate playerDialogueBox to display and be responsive, or switch to AI dialogue
                         if (State.dialogueIndex == "player")
                         {
-                            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ INDEX PLAYER CONTENT: " + responseListNPC[0].content);
+                            //Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ INDEX PLAYER CONTENT: " + responseListNPC[0].content);
                             State.advanceConversation(speaker, null, responseListNPC);
 
                             // Deactivate dialogueBox, Display playerDialogueBox, and submit tone 
@@ -178,12 +178,12 @@ namespace Test {
 
                             }
 
-                            //Console.WriteLine("AFTER YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO: " + responseList[0].content);
+                            ////Console.WriteLine("AFTER YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO: " + responseList[0].content);
                             // Activate dialogueBox to display and be responsive, or switch to Root dialogue
                         }
                         else if (State.dialogueIndex == "AI")
                         {
-                            Console.WriteLine("SA DI AI responseList content is " + responseList[0].content);
+                            //Console.WriteLine("SA DI AI responseList content is " + responseList[0].content);
                             State.advanceConversation(speaker, responseList, responseListNPC);
 
                         }
@@ -204,7 +204,7 @@ namespace Test {
                                     }
                                     else
                                     {
-                                        Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~  INTERJECT IF RESPONSE LIST IS NOT 10.0");
+                                        //Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~  INTERJECT IF RESPONSE LIST IS NOT 10.0");
                                         responseListNPC = s.ChooseDialog3(Load.NPCDialogueObj, 1, ncurrid2, currentTone.ToString());
                                         int temp = Int32.Parse(ncurrid2);
                                         temp++;
@@ -228,10 +228,6 @@ namespace Test {
                 } else if (State.GetState() == "tutorial") {
 
                     if (Int32.Parse(jankId) >= 27) {
-                        Console.WriteLine("HEY TIME FOR ME TO GET THE RESPONSE LIST SHIT BOIIII PCURRID AND SHIT : " + pcurrid);
-                        Console.WriteLine("HEY TIME FOR ME TO GET THE RESPONSE LIST SHIT BOIIII CONTENT AND SHIT : " + responseList[0].content);
-                        Console.WriteLine("HEY ITS ME PCURRID: " + pcurrid);
-                        Console.WriteLine("HEY ITS ME AS WELL : " + ncurrid);
                         pcurrid = "1";
                         ncurrid = "1";
                         ui_man.tutorialButtonIndex = 4;
@@ -240,6 +236,7 @@ namespace Test {
                     }
                     if (State.dialogueIndex == "AI") {
                         if (State.dialogueBox.checkNext()) {
+
                             jankList = s.chooseJank(Load.Jankson, jankId, currentTone.ToString());
                             State.setResponseList(jankList);
 
@@ -249,18 +246,13 @@ namespace Test {
 
                         }
                     } else if (State.dialogueIndex == "root") {
-                        //timer action will choose jank
-                        //timer action will set response list
-                        //timer action will increment jankid
-                        //timer action will advance conversation
-
-                        //Console.WriteLine("in root, in sa");
 
                         if (State.getGameTimer("game").getCountDown() != 0.0) {
                             State.getGameTimer("game").setCountDown(0);
                         }
 
                     } else if (State.dialogueIndex == "player") {
+
                         if (State.playerDialogueBox.checkNext()) {
                             jankList = s.chooseJank(Load.Jankson, jankId, currentTone.ToString());
                             State.setResponseList(jankList);
@@ -273,28 +265,27 @@ namespace Test {
                     }
                     if (Int32.Parse(jankId) == 4 && !fadeFlag)
                     {
-                        Console.WriteLine(" =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= ugaboogA");
                         fadeFlag = true;
-                        fadeFloat = -0.1f;
+                        fadeFloat = -0.003f;
                     } else if (Int32.Parse(jankId) == 12 && !fadeFlag)
                     {
                         fadeFlag = true;
-                        fadeFloat = 0.1f;
+                        fadeFloat = 0.003f;
                     } else if (Int32.Parse(jankId) == 13 && !fadeFlag)
                     {
                         Dad.setHide(false);
                         Arm.setHide(false);
                         fadeFlag = true;
-                        fadeFloat = -0.1f;
+                        fadeFloat = -0.003f;
                     } else if (Int32.Parse(jankId) == 18 && !fadeFlag)
                     {
                         fadeFlag = true;
-                        fadeFloat = 0.1f;
+                        fadeFloat = 0.003f;
                     } else if (Int32.Parse(jankId) == 19 && !fadeFlag)
                     {
                         Mom.setHide(false);
                         fadeFlag = true;
-                        fadeFloat = -0.1f;
+                        fadeFloat = -0.003f;
 
                     }
 
@@ -338,7 +329,7 @@ namespace Test {
 
             if (Int32.Parse(jankId) < 27) {
                 ui_man.reset(jankList);
-                Console.WriteLine("I SHOULD NOT BE HERE: " + jankId);
+                //Console.WriteLine("I SHOULD NOT BE HERE: " + jankId);
 
             }
         }
@@ -348,7 +339,7 @@ namespace Test {
             j++;
             jankId = j.ToString();
 
-            Console.WriteLine("THE CURRENT JANKID IS: " + jankId);
+            //Console.WriteLine("THE CURRENT JANKID IS: " + jankId);
 
         }
 
@@ -397,6 +388,9 @@ namespace Test {
         #endregion
 
         string speaker = "dad";
+        string jankId = "1";
+        double bucket = 1;
+        List<double> pastBuckets = new List<double>();
 
         #region load dialogue new
         public void loadDialogues() {
@@ -408,17 +402,24 @@ namespace Test {
                     // Update response Lists with the recently used tone
                     responseList = s.ChooseDialog(Load.playerDialogueObj1, pcurrid, currentTone.ToString());
                     if (sman.testPlotPoint(sman.getDialogueType())) {
+                        Random r = new Random();
                         Load.NPCDialogueObj = Load.dadp;
                         responseListNPC = s.ChooseDialog2(Load.NPCDialogueObj, sman.getCurrentNode(), ncurrid, currentTone.ToString());
+                        ncurrid2 = "1";
                         if (responseListNPC[0].finished == "fin") sman.setTypeTransition();
                     } else {
-
                         Load.NPCDialogueObj = Load.dadt;
-                        var rnd = new Random();
-                        Console.WriteLine("por que: " + ncurrid2);
-                        //responseListNPC = s.ChooseDialog3(Load.NPCDialogueObj, (double)(rnd.Next(0, 2)), ncurrid);
-                        responseListNPC = s.ChooseDialog3(Load.NPCDialogueObj, 1, ncurrid2, currentTone.ToString());
-                        Console.WriteLine("~~~~~~~~~~~~~~~~ IN LOAD DIALOGUE THE DIALOGUE IS: " + responseListNPC[0].content);
+                        if (sman.checkCharFNC(speaker)) {
+                            sman.setTypePlotNode();
+                            //switch plot point
+                            //second pass will select dialogue
+                            bucket++;
+                            return;
+                        }
+                        
+
+                        responseListNPC = s.ChooseDialog3(Load.NPCDialogueObj, bucket, ncurrid2, currentTone.ToString());
+                        affect(speaker);
                         int temp1 = Int32.Parse(ncurrid2);
                         temp1++;
                         ncurrid2 = temp1.ToString();
@@ -443,11 +444,12 @@ namespace Test {
 
                 }
             } else if (State.GetState() == "tutorial") {
-                Console.WriteLine("ehllo world! " + currentTone + " : " + jankId);
+                //Console.WriteLine("ehllo world! " + currentTone + " : " + jankId);
+
 
                 if (currentTone != tone.Root) {
 
-                    Console.WriteLine("timer action, dialogue index " + jankId);
+                    //Console.WriteLine("timer action, dialogue index " + jankId);
                     jankList = s.chooseJank(Load.Jankson, jankId, currentTone.ToString());
                     State.setResponseList(jankList);
 
@@ -461,7 +463,12 @@ namespace Test {
             }
         }
         #endregion
-        string jankId = "1";
+        
+        private void affect(string s) {
+            if (s == "Mom") Mom.changeFNC(responseListNPC[0].FNC);
+            else if (s == "Dad") Dad.changeFNC(responseListNPC[0].FNC);
+            else if (s == "Alex") Alexis.changeFNC(responseListNPC[0].FNC);
+        }
 
         protected override void Initialize() {
 
@@ -539,17 +546,20 @@ namespace Test {
             Mom.setSpriteEmotion(Character.spriteEmotion.happy);
             Mom.active(true);
             Mom.state.setMood(5f);
-            Mom.setTalking(true);
+            Mom.setTalking(false);
+
 
             Alexis = new Alex();
             Alexis.setSpriteEmotion(Character.spriteEmotion.angry);
             Alexis.active(true);
-            Alexis.setTalking(true);
+            Alexis.setTalking(false);
+
             
             Dad = new Dad();
             Dad.setSpriteEmotion(Character.spriteEmotion.happy);
             Dad.active(true);
-            Dad.setTalking(true);
+            Dad.setTalking(false);
+
 
             Arm = new Arm();
             Arm.setSpriteEmotion(Character.spriteEmotion.neutral);
@@ -573,8 +583,31 @@ namespace Test {
         protected override void Update() {
             screenHelper();
 
-            State.sound_man.soundUpdate(settingsMenu.getSoundToggle());
-            if (State.GetState() == "game" || State.GetState() == "tutorial") {
+            //State.sound_man.soundUpdate(settingsMenu.getSoundToggle());
+            State.sound_man.update_music();
+
+            if (State.dialogueBox.active == true) {
+                if (State.dialogueBox.currSpeaker == "alex") {
+                    Alexis.setTalking(true);
+                    Dad.setTalking(false);
+                    Mom.setTalking(false);
+                } else if (State.dialogueBox.currSpeaker == "dad") {
+                    Alexis.setTalking(false);
+                    Dad.setTalking(true);
+                    Mom.setTalking(false);
+                } else if (State.dialogueBox.currSpeaker == "mom") {
+                    Alexis.setTalking(false);
+                    Dad.setTalking(false);
+                    Mom.setTalking(true);
+                }
+
+            } else {
+                Alexis.setTalking(false);
+                Dad.setTalking(false);
+                Mom.setTalking(false);
+            }
+
+            if (State.GetState() == "game" || State.GetState() == "tutorial") {   
 
                 if (playerChoice && State.getGameTimer("game").getStart()) {
                     State.getGameTimer("game").stopTimer();
@@ -585,7 +618,7 @@ namespace Test {
                     {
 
                         alphaBlack += fadeFloat;
-                        Console.WriteLine("heyehyehyehyehyehyeheyeheyeheheheyeheheheyhheyeheyeye: " + alphaBlack);
+                        //Console.WriteLine("heyehyehyehyehyehyeheyeheyeheheheyeheheheyhheyeheyeye: " + alphaBlack);
                     } else
                     {
                         fadeFlag = false;
