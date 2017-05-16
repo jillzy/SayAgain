@@ -68,7 +68,7 @@ namespace Test
         public void restartTimer()
 		{
             //timerFinished = false;
-            start = true;
+            //start = true;
 			countDown = initTime + 1;
 			timeDiff = 0;
 			oldTimeSeconds = (DateTime.Now.Ticks / 10000000);
@@ -87,7 +87,8 @@ namespace Test
 
 		public void startTimer()
 		{
-			start = true;
+            start = false; //scrapping timer code;
+            //start = true;
             timeDiff = 0;
             oldTimeSeconds = (DateTime.Now.Ticks / 10000000);
         }

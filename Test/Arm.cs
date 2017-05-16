@@ -32,7 +32,7 @@ namespace Test {
 
         public override void Draw(RenderTarget target, RenderStates states) {
 
-            if(1>0)//if (!hide)
+            if (!hide)
             {
                 if (expr == "angry") target.Draw(sprites["angry"][0]);
                 if (expr == "neutral") target.Draw(sprites["neutral"][0]);

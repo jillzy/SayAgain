@@ -37,8 +37,10 @@ namespace Test {
         public int elementIndex = 0;
         public bool done = false;
         GameState state;
+        public bool hover = false;
 
         Sprite dialogueBoxSprite;
+        Sprite infoSprite;
 
         public CircleShape cursor;
         public float OGcursorX;
@@ -49,7 +51,6 @@ namespace Test {
         public Boolean lastDialogue = false;
         public bool spam = true;
         public string currSpeaker = "";
-
 
         Font speechFont = new Font("../../Art/UI_Art/fonts/ticketing/TICKETING/ticketing.ttf");
 
@@ -85,7 +86,7 @@ namespace Test {
                 printTime = 0;
                 return false;
             } else if (elementIndex < dialoguePanes.Count) {
-                ////Console.WriteLine("\n---------- CHECK NEXT");
+
                 if (cts != null) {
                     cts.Cancel();
                 }
@@ -94,15 +95,15 @@ namespace Test {
                     printTime = 30;
                     await animateText(cts.Token);
                 }, cts.Token);
-                ////Console.WriteLine("CHECKNEXT RETURN FALSE");
+
                 return false;
             } else {
-                if (tag == "AI" || tag == "player") {
-                    state.startTimer("game");
+                if (tag == "AI" || tag == "PLAYER") {
+                    //state.startTimer("game");
                 }
 
                 awaitInput = false;
-                ////Console.WriteLine("CHECKNEXT RETURN TRUE");
+
                 return true;
             }
         }
@@ -146,22 +147,75 @@ namespace Test {
                 name.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + ((354 * scale.X) - name.GetGlobalBounds().Width / 2), dialogueBoxSprite.GetGlobalBounds().Top + ((32 * scale.Y) - name.GetGlobalBounds().Height));
                 dialogue = new Text(content, speechFont, dialogueFontSize);
                 dialogue.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + (uint)(SCREEN_WIDTH * 0.004), dialogueBoxSprite.GetGlobalBounds().Top + (uint)(SCREEN_HEIGHT * 0.062));
+            } else if (speaker == "tooltip1") {
+
+                // Press Space to advance
+                dialogueBoxSprite = spriteDict["tooltiplefthover"];
+                dialogueBoxSprite.Position = new Vector2f(SCREEN_WIDTH*0.93f - dialogueBoxSprite.GetGlobalBounds().Width, SCREEN_HEIGHT*0.954f - dialogueBoxSprite.GetGlobalBounds().Height/2);
+
+                infoSprite = spriteDict["tooltipleft"];
+                infoSprite.Position = dialogueBoxSprite.Position;
+
+                // NOT USED FOR TOOLTIP - STILL NEEDED FOR DB LOGIC
+                name = new Text("", speechFont, nameFontSize);
+                name.Position = dialogueBoxSprite.Position;
+                // ~~~~~~~~~~~~~~~~~~~
+
+                dialogue = new Text(content, speechFont, dialogueFontSize);
+                dialogue.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + (dialogueBoxSprite.GetGlobalBounds().Width * 0.44f) - dialogue.GetGlobalBounds().Width / 2, dialogueBoxSprite.GetGlobalBounds().Top + (dialogueBoxSprite.GetGlobalBounds().Height / 2) - (dialogue.GetGlobalBounds().Height));
+
+            } else if (speaker == "tooltip2") {
+
+                // Drag tone to your dialogue
+                int buttonxpos = (int)(SCREEN_WIDTH / 4);
+                dialogueBoxSprite = spriteDict["tooltiprighthover"];
+                dialogueBoxSprite.Position = new Vector2f(((buttonxpos / 2) + buttonxpos) - dialogueBoxSprite.GetGlobalBounds().Width/2, (float)(SCREEN_HEIGHT - SCREEN_HEIGHT * 0.315));
+
+                infoSprite = spriteDict["tooltipright"];
+                infoSprite.Position = dialogueBoxSprite.Position;
+
+                // NOT USED FOR TOOLTIP - STILL NEEDED FOR DB LOGIC
+                name = new Text("", speechFont, nameFontSize);
+                name.Position = dialogueBoxSprite.Position;
+                // ~~~~~~~~~~~~~~~~~~~
+
+                dialogue = new Text(content, speechFont, dialogueFontSize - 3);
+                dialogue.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + (dialogueBoxSprite.GetGlobalBounds().Width*0.55f) - dialogue.GetGlobalBounds().Width/2, dialogueBoxSprite.GetGlobalBounds().Top + (dialogueBoxSprite.GetGlobalBounds().Height/2) - (dialogue.GetGlobalBounds().Height));
+
+            } else if (speaker == "tooltip3") {
+
+                // Click/Space to Speak
+                dialogueBoxSprite = spriteDict["tooltipsmallhover"];
+                dialogueBoxSprite.Position = new Vector2f(SCREEN_WIDTH*0.85f, SCREEN_HEIGHT*0.842f - dialogueBoxSprite.GetGlobalBounds().Height/2);
+
+                infoSprite = spriteDict["tooltipsmall"];
+                infoSprite.Position = dialogueBoxSprite.Position;
+
+                // NOT USED FOR TOOLTIP - STILL NEEDED FOR DB LOGIC
+                name = new Text("", speechFont, nameFontSize);
+                name.Position = dialogueBoxSprite.Position;
+                // ~~~~~~~~~~~~~~~~~~~
+
+                dialogue = new Text(content, speechFont, dialogueFontSize - 5);
+                dialogue.Position = new Vector2f(dialogueBoxSprite.GetGlobalBounds().Left + (dialogueBoxSprite.GetGlobalBounds().Width * 0.55f) - dialogue.GetGlobalBounds().Width / 2, dialogueBoxSprite.GetGlobalBounds().Top + (dialogueBoxSprite.GetGlobalBounds().Height / 2) - (dialogue.GetGlobalBounds().Height));
 
             }
 
             // Cursor initializations
-            if (tag == "AI") {
-                OGcursorX = dialogueBoxSprite.GetGlobalBounds().Left + dialogueBoxSprite.GetGlobalBounds().Width - (float)(dialogueBoxSprite.GetGlobalBounds().Width * 0.05);
-                OGcursorY = dialogueBoxSprite.GetGlobalBounds().Top + dialogueBoxSprite.GetGlobalBounds().Height - (float)(dialogueBoxSprite.GetGlobalBounds().Height * .3);
-            } else {
-                OGcursorX = (float)(SCREEN_WIDTH * 0.95);
-                OGcursorY = (float)(SCREEN_HEIGHT * 0.95);
-            }
-            cursor.Position = new Vector2f(OGcursorX, OGcursorY);
+            if (tag != "tooltip") {
+                if (tag == "AI") {
+                    OGcursorX = dialogueBoxSprite.GetGlobalBounds().Left + dialogueBoxSprite.GetGlobalBounds().Width - (float)(dialogueBoxSprite.GetGlobalBounds().Width * 0.05);
+                    OGcursorY = dialogueBoxSprite.GetGlobalBounds().Top + dialogueBoxSprite.GetGlobalBounds().Height - (float)(dialogueBoxSprite.GetGlobalBounds().Height * .3);
+                } else if (tag == "PLAYER") {
+                    OGcursorX = (float)(SCREEN_WIDTH * 0.95);
+                    OGcursorY = (float)(SCREEN_HEIGHT * 0.95);
+                }
+                cursor.Position = new Vector2f(OGcursorX, OGcursorY);
 
-            cursor.Origin = new Vector2f(cursor.GetGlobalBounds().Width / 2, cursor.GetGlobalBounds().Height / 2);
-            FcursorX = OGcursorX + 3;
-            FcursorY = OGcursorY + 3;
+                cursor.Origin = new Vector2f(cursor.GetGlobalBounds().Width / 2, cursor.GetGlobalBounds().Height / 2);
+                FcursorX = OGcursorX + 3;
+                FcursorY = OGcursorY + 3;
+            }
             // ----------------------
 
             name.Color = Color.White;
@@ -177,7 +231,6 @@ namespace Test {
 
         public void renderDialogue(String s) {
             dialoguePanes.Clear();
-            ////Console.WriteLine("\n---------- RENDER DIALOGUE");
             if (cts != null) {
                 cts.Cancel();
             }
@@ -189,7 +242,6 @@ namespace Test {
                 await animateText(cts.Token); //await pauses thread until animateText() is completed
 
             }, cts.Token);
-            ////Console.WriteLine("\n---------- END OF RENDER DIALOGUE");
         }
 
         public List<Text> createStrings() {
@@ -221,9 +273,12 @@ namespace Test {
             if (tag == "AI") {
                 maxw = cursor.GetGlobalBounds().Left - dialogueBoxSprite.GetGlobalBounds().Left;
                 maxh = (float)(dialogueBoxSprite.GetGlobalBounds().Height * 0.4);
-            } else {
+            } else if (tag == "PLAYER"){
                 maxw = cursor.GetGlobalBounds().Left - dialogueBoxSprite.GetGlobalBounds().Left;
                 maxh = (float)(dialogueBoxSprite.GetGlobalBounds().Height * 0.7);
+            } else {
+                maxw = dialogueBoxSprite.GetGlobalBounds().Width;
+                maxh = dialogueBoxSprite.GetGlobalBounds().Height;
             }
 
             // Loop through all of the words
@@ -300,6 +355,13 @@ namespace Test {
 
         }
 
+        public bool contains (int mousex, int mousey) {
+            FloatRect bounds = dialogueBoxSprite.GetGlobalBounds();
+            if (mousex >= bounds.Left && mousex <= bounds.Left + bounds.Width && mousey >= bounds.Top && mousey <= bounds.Top + bounds.Height) return true;
+            
+            return false;
+        }
+
         public void AlertSoundMan() {
             //send signal to sound man
         }
@@ -312,7 +374,7 @@ namespace Test {
             animationStart = true;
             awaitInput = false;
 
-            state.resetTimer("game");
+            //state.resetTimer("game");
             dialogue.DisplayedString = "";
             dialogue.Style = line.Style;
             dialogue.Color = line.Color;
@@ -324,7 +386,7 @@ namespace Test {
                 }
                 if (state.GetState() != "pause") {
                     if (printTime != 0) {
-                        if (i == line.DisplayedString.Length - 2) {
+                        if (i == line.DisplayedString.Length - 2 || tag == "tooltip") {
                             printTime = 0;
                         } else if (".!?".Contains(line.DisplayedString[i]) && spam == false ) {
                             if (!(".!?".Contains(line.DisplayedString[i - 1]))) {
@@ -349,42 +411,53 @@ namespace Test {
             }
 
             animationStart = false; //done animating
-            awaitInput = true;
+            if (tag != "tooltip") awaitInput = true;
             elementIndex++;
 
         }
 
         public void Draw(RenderTarget target, RenderStates states) {
             if (init) {
-                target.Draw(dialogueBoxSprite);
-                target.Draw(name);
-                target.Draw(dialogue);
-
-                if (awaitInput) {
-                    if (cursor.Rotation == 90) {
-                        if (cursor.Position.X > FcursorX) {
-                            iterator *= -1;
-                        }
-
-
-                        if (cursor.Position.X < OGcursorX) {
-                            iterator *= -1;
-                        }
-                        cursor.Position = new Vector2f(cursor.Position.X + iterator, cursor.Position.Y);
+                if (tag != "tooltip") {
+                    target.Draw(dialogueBoxSprite);
+                    target.Draw(name);
+                    target.Draw(dialogue);
+                } else {
+                    if (hover) {
+                        target.Draw(dialogueBoxSprite);
+                        target.Draw(dialogue);
                     } else {
-                        if (cursor.Position.Y > FcursorY) {
-                            iterator *= -1;
-                        }
-
-
-                        if (cursor.Position.Y < OGcursorY) {
-                            iterator *= -1;
-                        }
-                        cursor.Position = new Vector2f(cursor.Position.X, cursor.Position.Y + iterator);
+                        target.Draw(infoSprite);
                     }
+                    
+                }
+                
+                if (awaitInput) {
+                    if (tag != "tooltip") {
+                        if (cursor.Rotation == 90) {
+                            if (cursor.Position.X > FcursorX) {
+                                iterator *= -1;
+                            }
+
+                            if (cursor.Position.X < OGcursorX) {
+                                iterator *= -1;
+                            }
+                            cursor.Position = new Vector2f(cursor.Position.X + iterator, cursor.Position.Y);
+                        } else {
+                            if (cursor.Position.Y > FcursorY) {
+                                iterator *= -1;
+                            }
 
 
-                    target.Draw(cursor);
+                            if (cursor.Position.Y < OGcursorY) {
+                                iterator *= -1;
+                            }
+                            cursor.Position = new Vector2f(cursor.Position.X, cursor.Position.Y + iterator);
+                        }
+
+
+                        target.Draw(cursor);
+                    }
                 }
             }
         }
@@ -401,29 +474,59 @@ namespace Test {
                 cursor = new CircleShape((SCREEN_WIDTH / 1920) * 10, 3);
                 dialogueFontSize = getFontSize();
                 nameFontSize = getFontSize() + 20;
-            } else {
+                cursor.Rotation = 180;
+            } else if (tag == "PLAYER") {
                 cursor = new CircleShape((SCREEN_WIDTH / 1920) * 20, 3);
                 dialogueFontSize = getFontSize() + 20;
                 nameFontSize = getFontSize() + 30;
+                cursor.Rotation = 180;
+            } else if (tag == "tooltip") {
+                dialogueFontSize = getFontSize() - 3;
+                nameFontSize = getFontSize() - 10;
             }
 
-            cursor.Rotation = 180;
-
-            if (!spriteDict.ContainsKey("left")) {
-                spriteDict.Add("left", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speechbubbleleft.png")));
-                spriteDict["left"].Scale = scale;
+            if (tag != "tooltip") {
+                if (!spriteDict.ContainsKey("left")) {
+                    spriteDict.Add("left", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speechbubbleleft.png")));
+                    spriteDict["left"].Scale = scale;
+                }
+                if (!spriteDict.ContainsKey("right")) {
+                    spriteDict.Add("right", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speechbubbleright.png")));
+                    spriteDict["right"].Scale = scale;
+                }
+                if (!spriteDict.ContainsKey("player")) {
+                    spriteDict.Add("player", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/psb.png")));
+                    spriteDict["player"].Scale = scale;
+                }
+            } else {
+                // Tooltip 1
+                if (!spriteDict.ContainsKey("tooltipleft")) {
+                    spriteDict.Add("tooltipleft", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/tooltipinforight.png")));
+                    spriteDict["tooltipleft"].Scale = scale;
+                }
+                if (!spriteDict.ContainsKey("tooltiplefthover")) {
+                    spriteDict.Add("tooltiplefthover", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/tooltipinforighthover.png")));
+                    spriteDict["tooltiplefthover"].Scale = scale;
+                }
+                // Tooltip 2
+                if (!spriteDict.ContainsKey("tooltipright")) {
+                    spriteDict.Add("tooltipright", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/tooltipinfotest.png")));
+                    spriteDict["tooltipright"].Scale = scale;
+                }
+                if (!spriteDict.ContainsKey("tooltiprighthover")) {
+                    spriteDict.Add("tooltiprighthover", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/tooltipinfotesthover.png")));
+                    spriteDict["tooltiprighthover"].Scale = scale;
+                }
+                // Tooltip 3
+                if (!spriteDict.ContainsKey("tooltipsmall")) {
+                    spriteDict.Add("tooltipsmall", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speakbuttontooltip.png")));
+                    spriteDict["tooltipsmall"].Scale = scale;
+                }
+                if (!spriteDict.ContainsKey("tooltipsmallhover")) {
+                    spriteDict.Add("tooltipsmallhover", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speakbuttontooltiphover.png")));
+                    spriteDict["tooltipsmallhover"].Scale = scale;
+                }
             }
-            if (!spriteDict.ContainsKey("right")) {
-                spriteDict.Add("right", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/speechbubbleright.png")));
-                spriteDict["right"].Scale = scale;
-            }
-            if (!spriteDict.ContainsKey("player")) {
-                spriteDict.Add("player", new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/psb.png")));
-                spriteDict["player"].Scale = scale;
-            }
-
-
-
         }
     }
 }

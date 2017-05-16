@@ -26,7 +26,7 @@ namespace Test {
             {"Blunt",  new Color(207, 162, 252) }, //Purple
             {"Indifferent", new Color(116, 123, 247)}, // Blue
             {"Compassionate", new Color(158, 222, 89)}, // Green
-            {"Hesitant", new Color(255, 245, 112)} // Yellow
+            {"Hesitant", new Color(255, 198, 76)} // Orange you glad I didnt say yellow
         };
 
         protected Dictionary<string, List<string>> buttonSpritePaths = new Dictionary<string, List<string>> {
@@ -34,7 +34,7 @@ namespace Test {
             {"Blunt",   new List<string>() {"../../Art/UI_Art/buttons n boxes/purplebuttontext.png", "../../Art/UI_Art/buttons n boxes/purplebuttontexthighlight.png"}}, //Purple
             {"Indifferent", new List<string>() {"../../Art/UI_Art/buttons n boxes/bluebuttontext.png", "../../Art/UI_Art/buttons n boxes/bluebuttontexthighlight.png"}}, // Blue
             {"Compassionate", new List<string>() {"../../Art/UI_Art/buttons n boxes/greenbuttontext.png", "../../Art/UI_Art/buttons n boxes/greenbuttontexthighlight.png"}}, // Green
-            {"Hesitant", new List<string>() {"../../Art/UI_Art/buttons n boxes/yellowbuttontext.png", "../../Art/UI_Art/buttons n boxes/yellowbuttontexthighlight.png"}}, // Yellow
+            {"Hesitant", new List<string>() {"../../Art/UI_Art/buttons n boxes/orangebuttontext.png", "../../Art/UI_Art/buttons n boxes/orangebuttontexthighlight.png"}}, // Yellow
             {"Start", new List<string>() { "../../Art/UI_Art/buttons n boxes/startmenu.png", "../../Art/UI_Art/buttons n boxes/startmenuhighlight.png"}}, //Start Menu Button
             {"Settings", new List<string>() { "../../Art/UI_Art/buttons n boxes/settingsmenu.png", "../../Art/UI_Art/buttons n boxes/settingsmenuhighlight.png"}}, //Settings Menu Button
             {"Back", new List<string>() { "../../Art/UI_Art/buttons n boxes/backmenu.png", "../../Art/UI_Art/buttons n boxes/backmenuhighlight.png"}}, //Back Menu Button

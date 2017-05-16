@@ -60,13 +60,10 @@ namespace Test
                 if (rnd == 0)
                 {
                     longerframe = 1;
-                    ////Console.WriteLine("1");
                 }
                 else if (rnd == 1)
                 {
                     longerframe = 6;
-                    ////Console.WriteLine("2");
-
                 }
             }
             if (expr == "angry")
@@ -119,7 +116,7 @@ namespace Test
             rnd2 = r.Next(2, 4);
 
 
-            if(1>0)//if (!hide)
+            if (!hide)
             {
                 if (isTalking)
                 {

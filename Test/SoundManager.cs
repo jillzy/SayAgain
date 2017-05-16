@@ -75,8 +75,10 @@ namespace Test
         }
         public void update_music()
         {
+            music.Volume = 0;
             if (music.Status == SoundStatus.Stopped )
             {
+                
                 if (++Step > 3) Step = 0;
 
                 music = new Music(sound_dict[music_blocks[Step]]);

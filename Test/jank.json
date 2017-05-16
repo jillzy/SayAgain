@@ -51,7 +51,7 @@
     ,"id":"10"
   },
   {
-     "content":"<Alex is moody as always. Wonder what Dad's been upto?>"
+     "content":"<Here comes Dad from the living room.>"
     ,"tone":"Default"
     ,"id":"11"
   },
@@ -86,12 +86,12 @@
     ,"id":"17"
   },
   {
-     "content":"<Hmm how is Mom actually doing?>"
+     "content":"<And now Mom with the food.>"
     ,"tone":"Default"
     ,"id":"18"
   },
   {
-     "content":"Hmph..."
+     "content":"Hm..."
     ,"tone":"Default"
     ,"id":"19"
   },

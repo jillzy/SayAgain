@@ -35,8 +35,8 @@ namespace Test
             }
         }
 
-        static UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
-        static UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
+        UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
+        UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
         //string type;
         List<MenuButton> MenuButtons = new List<MenuButton>();
         Sprite pauseBG;

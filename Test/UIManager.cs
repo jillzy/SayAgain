@@ -27,14 +27,31 @@ namespace Test {
                 }
             }
             generateButtons();
+
+            rootBackground = new RectangleShape(new Vector2f(SCREEN_WIDTH, SCREEN_HEIGHT * 0.19f));
+            rootBackground.Position = new Vector2f(0, SCREEN_HEIGHT*0.81f);
+            rootBackground.FillColor = new Color(67, 65, 69);
+            rootBackground.OutlineThickness = 2;
+            rootBackground.OutlineColor = Color.White;
+
+            rootBackgroundBorder = new RectangleShape(new Vector2f(rootBackground.GetGlobalBounds().Width - 15, rootBackground.GetGlobalBounds().Height - 15));
+            rootBackgroundBorder.Position = new Vector2f(rootBackground.GetGlobalBounds().Width/2 - rootBackgroundBorder.GetGlobalBounds().Width/2, rootBackground.GetGlobalBounds().Top + rootBackground.GetGlobalBounds().Height / 2 - rootBackgroundBorder.GetGlobalBounds().Height / 2);
+            rootBackgroundBorder.FillColor = new Color(67, 65, 69);
+            rootBackgroundBorder.OutlineThickness = 2;
+            rootBackgroundBorder.OutlineColor = rootBackground.FillColor;
+
+
         }
 
         public List<tone> tonez;
         List<UIButton> buttons = new List<UIButton>(); //our tone buttons
         List<UITextBox> playerDialogues = new List<UITextBox>();
+        public RectangleShape rootBackground, rootBackgroundBorder;
         static UInt32 SCREEN_WIDTH = VideoMode.DesktopMode.Width;
         static UInt32 SCREEN_HEIGHT = VideoMode.DesktopMode.Height;
         public int tutorialButtonIndex = 0;
+        int buttonOrder = 0;
+        string[] dialogueArray;
         List<Dictionary<string, bool>> availTutorialButtons = new List<Dictionary<string, bool>>() {
             new Dictionary<string, bool>() {
                 { "Blunt", false },
@@ -62,15 +79,30 @@ namespace Test {
             },
         };
 
-        int buttonOrder = 0;
+        public bool wasMouseIn = false;
 
-        string[] dialogueArray;
+
+        public bool contains(UIButton button) {
+
+            FloatRect rootBounds = rootBackground.GetGlobalBounds();
+            FloatRect toneButton = button.getRectBounds();
+
+            if (rootBounds.Left < toneButton.Left + toneButton.Width &&
+   rootBounds.Left + rootBounds.Width > toneButton.Left &&
+   rootBounds.Top < toneButton.Top + toneButton.Height &&
+   rootBounds.Height + rootBounds.Top > toneButton.Top) {
+                return true;
+                // collision detected!
+            }
+            return false;
+        }
 
         public void generateButtons() {
             buttons.Clear();
             int xPos = (int)SCREEN_WIDTH / tonez.Count;
             for (int i = 0; i < tonez.Count; i++) {
                 buttons.Add(new UIButton(xPos / 2 + i * xPos, (float)(SCREEN_HEIGHT - SCREEN_HEIGHT * 0.26), tonez[i]));
+                Console.WriteLine(i + " : " + buttons[buttons.Count - 1].getRectBounds());
                 if (tutorialButtonIndex < availTutorialButtons.Count()) {
                     buttons[i].setDisabled(!availTutorialButtons[tutorialButtonIndex][tonez[i].ToString()]);
                 }
@@ -120,8 +152,8 @@ namespace Test {
 
             string tempString = dialogueArray[0];
             Font tempFont = new Font("../../Art/UI_Art/fonts/ticketing/TICKETING/ticketing.ttf");
-            uint x = 5;
-            uint y = SCREEN_HEIGHT - ((SCREEN_HEIGHT / 5)) + 5;
+            uint x = 15;
+            uint y = SCREEN_HEIGHT - ((SCREEN_HEIGHT / 5)) + 10;
             int cluster = 0;
 
             int length = 0;
@@ -229,7 +261,7 @@ namespace Test {
 
 
         #region SA_applyTones
-        public void applyTones(int x, int y) {
+        public void applyTones(int x, int y, DialogueBox theTip) {
             // Applying tones to Text Boxes
             for (var i = 0; i < buttons.Count; i++) {
                 if (buttons[i].GetSelected()) {
@@ -245,13 +277,18 @@ namespace Test {
                         var boxBounds = playerDialogues[j].getBoxBounds();
                         //change color if the button is hovering over the textbox
 
-                        if (playerDialogues[j].Contains(buttons[i])) {
+                        if (contains(buttons[i])) {
 
                             for (int k = 0; k < playerDialogues.Count; k++) {
                                 playerDialogues[k].setPrevColor(playerDialogues[k].getBoxColor("curr"));
                                 playerDialogues[k].setBoxColor(buttons[i].getTonalColor());
                                 playerDialogues[k].setAffected(true);
                                 playerDialogues[k].setTone(buttons[i].getTone());
+
+                                if (theTip.init == true) {
+
+                                    theTip.loadNewDialogue("tooltip3", "Click/Space to Speak");
+                                }
                                 ////Console.WriteLine("MY TONE IS: " + playerDialogues[0].getTone());
                                 
                                 //IF THE PLAYER DRAGGED IN BLUNT
@@ -298,13 +335,19 @@ namespace Test {
         }
 
 
-        public void applyToneShortcut(UIButton button) {
+        public void applyToneShortcut(UIButton button, DialogueBox theTip) {
             if (button.getDisabled() == false) {
                 for (int i = 0; i < playerDialogues.Count; i++) {
-
+                    rootBackgroundBorder.OutlineColor = button.getTonalColor();
                     playerDialogues[i].setPrevColor(playerDialogues[i].getBoxColor("curr"));
                     playerDialogues[i].setBoxColor(button.getTonalColor());
                     playerDialogues[i].setTone(button.getTone());
+
+
+                    if (theTip.init == true) {
+
+                        theTip.loadNewDialogue("tooltip3", "be my baby daddy pls");
+                    }
                 }
             }
         }
