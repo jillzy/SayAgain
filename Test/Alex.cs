@@ -10,10 +10,8 @@ using SFML.Window;
 using SFML.System;
 using System.Drawing;
 
-namespace Test
-{
-    class Alex : Character
-    {
+namespace Test {
+    class Alex : Character {
         //private View _view;
         Texture t = new Texture("../../Art/alexMaster.png");
         string expr;
@@ -31,8 +29,7 @@ namespace Test
         float framerate = 4f;
         int prevIndex = -1;
 
-        public override void checkFNC()
-        {
+        public override void checkFNC() {
             throw new NotImplementedException();
         }
 
@@ -44,66 +41,49 @@ namespace Test
             throw new NotImplementedException();
         }
 
-        public override void setSpriteEmotion(spriteEmotion e)
-        {
+        public override void setSpriteEmotion(spriteEmotion e) {
             expr = e.ToString();
-            
+
         }
 
-        void hideMouth(int i)
-        {
+        void hideMouth(int i) {
             mouths[i].Position = new Vector2f(-100, -100);
         }
 
-        public void pickSpecialFrame()
-        {
-            if (expr == "neutral")
-            {
+        public void pickSpecialFrame() {
+            if (expr == "neutral") {
                 longerframe = 0;
             }
-            if (expr == "happy")
-            {
+            if (expr == "happy") {
                 int rnd = r.Next(0, 4);
 
-                if (rnd == 0)
-                {
+                if (rnd == 0) {
                     longerframe = 1;
-                }
-                else if (rnd == 1)
-                {
+                } else if (rnd == 1) {
                     longerframe = 4;
 
-                }
-                else if (rnd == 2)
-                {
+                } else if (rnd == 2) {
                     longerframe = 8;
                 }
             }
 
-            if (expr == "angry")
-            {
+            if (expr == "angry") {
                 int rnd = r.Next(0, 4);
 
-                if (rnd == 0)
-                {
+                if (rnd == 0) {
                     longerframe = 2;
-                }
-                else if (rnd == 1)
-                {
+                } else if (rnd == 1) {
                     longerframe = 8;
 
                 }
             }
         }
 
-        public override void Draw(RenderTarget target, RenderStates states)
-        {
+        public override void Draw(RenderTarget target, RenderStates states) {
             rnd = r.Next(4, 14);
             target.Draw(sprites[expr][index]);
-            if (!hide)
-            {
-                if (isTalking)
-                {
+            if (!hide) {
+                if (isTalking) {
 
 
                     if (currentMouthIndex == -1) //rest mouth
@@ -114,15 +94,14 @@ namespace Test
 
 
 
-                    }
 
-                    else if (currentMouthIndex >= 0 && currentMouthIndex < 5)//open mouth
-                    {
+                    } else if (currentMouthIndex >= 0 && currentMouthIndex < 5)//open mouth
+                      {
                         framerate = 15;
 
 
-                        if (currentMouthIndex >= 1)
-                        {
+
+                        if (currentMouthIndex >= 1) {
                             //hide previous mouth
                             //hideMouth(currentMouthIndex - 1);
                         }
@@ -130,16 +109,14 @@ namespace Test
 
                     }
 
-                    if (currentMouthIndex != -1)
-                    {
+                    if (currentMouthIndex != -1) {
                         //mouths[currentMouthIndex].Scale = new Vector2f(0.9f, 0.9f);
                         mouths[currentMouthIndex].Position = new Vector2f(xpos - 30, ypos + 136);
                         target.Draw(mouths[currentMouthIndex]);
                     }
 
 
-                    if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate))
-                    {
+                    if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate)) {
                         time = DateTime.Now;
                         /*if (currentMouthIndex >= -1 && currentMouthIndex <4)
                         {
@@ -149,13 +126,10 @@ namespace Test
                         {
                             currentMouthIndex = -1;
                         }*/
-                        if (currentMouthIndex == -1)
-                        {
+                        if (currentMouthIndex == -1) {
 
                             currentMouthIndex = r.Next(0, 5);
-                        }
-                        else
-                        {
+                        } else {
                             currentMouthIndex = r.Next(-1, 5);
                         }
 
@@ -164,8 +138,7 @@ namespace Test
 
 
                 }
-                if (!isTalking)
-                {
+                if (!isTalking) {
                     target.Draw(sprites[expr][index]);
                 }
 
@@ -174,23 +147,17 @@ namespace Test
                 // neutral expressoin
                 //dont want draw to contain any logic about which expression,
                 //so have the interested index defined somewhere else
-                if (index == longerframe && prevIndex != longerframe)
-                {
+                if (index == longerframe && prevIndex != longerframe) {
                     framerate = framerate / (float)rnd;
                     prevIndex = longerframe;
-                }
-
-                else if (index != longerframe)
-                {
+                } else if (index != longerframe) {
                     prevIndex = index - 1;
                     framerate = 4f;
                 }
 
-                if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate))
-                {
+                if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate)) {
                     time = DateTime.Now;
-                    if (++index >= sprites[expr].Count)
-                    {
+                    if (++index >= sprites[expr].Count) {
                         pickSpecialFrame();
                         index = 0;
                     }
@@ -198,8 +165,7 @@ namespace Test
             }
         }
 
-        public Alex()
-        {
+        public Alex() {
             FNCRange[0] = -10;
             FNCRange[1] = -8;
             FNCRange[2] = -6;
@@ -216,29 +182,26 @@ namespace Test
             hide = false;
 
             //determine size and position
-            xpos = (float)(SCREEN_WIDTH*0.5);
-            ypos = (float)(SCREEN_HEIGHT*0.4);
-            xscale = (float)((SCREEN_WIDTH / 1920)*0.78);
-            yscale = (float)((SCREEN_HEIGHT / 1080)*0.78);
+            xpos = (float)(SCREEN_WIDTH * 0.5);
+            ypos = (float)(SCREEN_HEIGHT * 0.4);
+            xscale = (float)((SCREEN_WIDTH / 1920) * 0.78);
+            yscale = (float)((SCREEN_HEIGHT / 1080) * 0.78);
 
-            for (int i = 0; i < (361 * 4); i += 361)
-            {
+            for (int i = 0; i < (361 * 4); i += 361) {
                 sprites["neutral"].Add(new Sprite(t, new IntRect(i, 0, 361, 449)));
                 sprites["neutral"][sprites["neutral"].Count - 1].Scale = new Vector2f(xscale, yscale);
-                sprites["neutral"][sprites["neutral"].Count - 1].Position = new Vector2f(xpos - sprites["neutral"][0].GetGlobalBounds().Width/2, ypos);
+                sprites["neutral"][sprites["neutral"].Count - 1].Position = new Vector2f(xpos - sprites["neutral"][0].GetGlobalBounds().Width / 2, ypos);
             }
-            for (int i = 0; i < (361 * 9); i += 361)
-            {
+            for (int i = 0; i < (361 * 9); i += 361) {
                 sprites["happy"].Add(new Sprite(t, new IntRect(i, 449, 361, 449)));
                 sprites["happy"][sprites["happy"].Count - 1].Scale = new Vector2f(xscale, yscale);
-                sprites["happy"][sprites["happy"].Count - 1].Position = new Vector2f(xpos - sprites["happy"][0].GetGlobalBounds().Width/2, ypos);
+                sprites["happy"][sprites["happy"].Count - 1].Position = new Vector2f(xpos - sprites["happy"][0].GetGlobalBounds().Width / 2, ypos);
             }
-            for (int i = 0; i < (337 * 9); i += 337)
-            {
-                
+            for (int i = 0; i < (337 * 9); i += 337) {
+
                 sprites["angry"].Add(new Sprite(t, new IntRect(i, 899, 337, 449)));
                 sprites["angry"][sprites["angry"].Count - 1].Scale = new Vector2f(xscale, yscale);
-                sprites["angry"][sprites["angry"].Count - 1].Position = new Vector2f(xpos - sprites["angry"][0].GetGlobalBounds().Width/2, ypos);
+                sprites["angry"][sprites["angry"].Count - 1].Position = new Vector2f(xpos - sprites["angry"][0].GetGlobalBounds().Width / 2, ypos);
             }
 
 
@@ -248,8 +211,7 @@ namespace Test
             mouths.Add(new Sprite(new Texture("../../Art/AlexMouth4.png")));
             mouths.Add(new Sprite(new Texture("../../Art/AlexMouth5.png")));
 
-            for (int x = 0; x < mouths.Count; x++)
-            {
+            for (int x = 0; x < mouths.Count; x++) {
                 mouths[x].Scale = new Vector2f(xscale, yscale);
             }
 

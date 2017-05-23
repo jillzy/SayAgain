@@ -1,0 +1,48 @@
+﻿{
+  "Dialogues": [
+    {
+      "content": "tone: root; plotpoint: DadAccusesMum; id: 1; FNC: 0; fin;",
+      "tone": "Default",
+      "plotpoint": "DadAccusesMom",
+      "id": "1",
+      "FNC": "0",
+      "speaker": "dad",
+      "finished": "",
+      "inext": "",
+      "target": [ "mom" ]
+    },
+    {
+      "content": "NPC: tone: default; plotpoint: dad greets player; id: 1; FNC: -5;",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "1",
+      "FNC": "9999",
+      "speaker": "dad",
+      "finished": "",
+      "inext": "",
+      "target": [ "mom" ]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 2;",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "2",
+      "FNC": "9999",
+      "speaker": "",
+      "finished": "",
+      "inext": "",
+      "target": [ "mom" ]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 3",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "3",
+      "FNC": "9999",
+      "speaker": "",
+      "finished": "",
+      "inext": "",
+      "target": [ "mom" ]
+    }
+  ]
+}

@@ -35,6 +35,10 @@ namespace Test {
 
 
         Sprite mouthSprite;
+
+        List<Sprite> mouths = new List<Sprite>();
+
+
         string expr;
 
 
@@ -57,9 +61,13 @@ namespace Test {
         }
 
         void returnToRestMouth() {
-            mouthSprite.Position = new Vector2f(-100, -100);
-            //hide the sprite off screen, so don't have to destroy
         }
+
+        void hideMouth(int i)
+        {
+            mouths[i].Position = new Vector2f(-100, -100);
+        }
+
 
 
 
@@ -74,7 +82,7 @@ namespace Test {
                     target.Draw(noMouthSprites[expr][index]);
                     //cycle between open mouth and rest mouth
                     //hide previous mouth
-                    mouthSprite.Position = new Vector2f(-100, -100);
+                    
 
                     if (currentMouthIndex == 0) //rest mouth
                     {
@@ -88,30 +96,27 @@ namespace Test {
                             angryrest.Scale = (new Vector2f(0.55f, 0.62f));
                             target.Draw(angryrest);
                         }
-
-
-                        framerate = (float)rnd2;
-
-                    } else if (currentMouthIndex == 1)//open mouth
+                    } else if (currentMouthIndex >= 1 && currentMouthIndex < 4)//open mouth
                       {
-                        angryrest.Position = new Vector2f(-100, -100);
-                        happyrest.Position = new Vector2f(-100, -100);
+                        framerate = 15;
 
-                        mouthSprite.Position = new Vector2f(xpos - 45, ypos + 118);
-                        target.Draw(mouthSprite);
-                        framerate = 7;
+
+                        if (currentMouthIndex >= 0)
+                        {
+                            //hide previous mouth
+                            //hideMouth(currentMouthIndex - 1);
+                        }
+                        mouths[currentMouthIndex].Scale = new Vector2f(1.2f, 1.2f);
+                        mouths[currentMouthIndex].Position = new Vector2f(xpos - 45, ypos + 119);
+                        target.Draw(mouths[currentMouthIndex]);
+
 
                     }
 
                     if ((DateTime.Now - time).TotalMilliseconds > (1400f / framerate)) {
                         time = DateTime.Now;
-                        if (currentMouthIndex >= 1) {
-                            currentMouthIndex = 0;
-                        } else if (currentMouthIndex == 0) {
-                            currentMouthIndex = 1;
-                        }
+                        currentMouthIndex = r.Next(0, 4);
                     }
-
 
 
                 }
@@ -119,9 +124,6 @@ namespace Test {
 
                     target.Draw(sprites[expr][index]);
                 }
-
-
-
                 if (index == 0 && prevIndex != 0) {
                     framerate = framerate / (float)rnd;
                     prevIndex = 0;
@@ -200,8 +202,15 @@ namespace Test {
             mouthSprite.Scale = new Vector2f(1.2f, 1.2f);
 
 
-            happyrest = new Sprite(new Texture("../../Art/DadHappyRest.png"));
 
+
+            mouths.Add(new Sprite(new Texture("../../Art/DadMouth.png")));
+            mouths.Add(new Sprite(new Texture("../../Art/DadMouth2.png")));
+            mouths.Add(new Sprite(new Texture("../../Art/DadMouth3.png")));
+            mouths.Add(new Sprite(new Texture("../../Art/DadMouth4.png")));
+
+
+            happyrest = new Sprite(new Texture("../../Art/DadHappyRest.png"));
             angryrest = new Sprite(new Texture("../../Art/DadAngryRest.png"));
         }
     }

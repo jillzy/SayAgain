@@ -1,0 +1,24 @@
+﻿{
+  "Dialogues": [
+    {
+      "content": "Transition dialogue, id:1 ",
+      "tone": "Default",
+      "id": "1",
+      "FNC": "0",
+      "speaker": "dad",
+      "bucket": 1,
+      "inext": "mom",
+      "target": [ "dad" ]
+    },
+    {
+      "content": "Transition dialogue, id:2 ",
+      "tone": "Default",
+      "id": "2",
+      "FNC": "0",
+      "speaker": "dad",
+      "bucket": 1,
+      "inext": "mom",
+      "target": [ "dad" ]
+    }
+  ]
+}

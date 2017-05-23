@@ -74,7 +74,7 @@ namespace Test {
 
         #endregion
 
-        protected Sprite splash, alphaSplash, alexSplash, momSplash, dadSplash;
+        protected Sprite splash, alphaSplash, alexSplash, momSplash, dadSplash, splashBackground;
         protected Sprite mom, alex, dad, toneBar, backwall, flower, lamp, pictures, table, wallWindow;
         protected RectangleShape textBackground;
         ContextSettings settings;
@@ -95,6 +95,7 @@ namespace Test {
         public Game(uint width, uint height, string title) {
             settings.AntialiasingLevel = 8;
             window = new RenderWindow(new VideoMode(width, height), title, Styles.Fullscreen, settings);
+
             this.clearColor = new Color(125, 116, 132);
 
             // Set-up Events

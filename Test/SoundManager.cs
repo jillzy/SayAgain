@@ -75,7 +75,7 @@ namespace Test
         }
         public void update_music()
         {
-            music.Volume = 0;
+            //music.Volume = 0;
             if (music.Status == SoundStatus.Stopped )
             {
                 

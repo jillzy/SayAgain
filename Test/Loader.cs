@@ -11,8 +11,8 @@ namespace Test {
         public DialogueParsing NPCDialogueObj = new DialogueParsing(@"../../dad.json");
         public DialogueParsing newplayert = new DialogueParsing(@"../../newplayertt.json");
         public DialogueParsing newplayerp = new DialogueParsing(@"../../newplayerpp.json");
-        public DialogueParsing dadt = new DialogueParsing(@"../../dadtt.json");
-        public DialogueParsing dadp = new DialogueParsing(@"../../dadpp.json");
+        public DialogueParsing allt = new DialogueParsing(@"../../alltt.json");
+        public DialogueParsing allp = new DialogueParsing(@"../../allpp.json");
         public DialogueParsing Jankson = new DialogueParsing(@"../../jank.json");
 
 

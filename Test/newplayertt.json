@@ -1,32 +1,40 @@
 {
   "Dialogues": [
     {
-      "content": "plot point with fnc 0. Root tone.",
+      "content": "transition line, used on produced text boxes. id = 1",
       "tone": "Root",
       "id": "1",
       "FNC": "0",
-      "bucket": "1"
+      "bucket": 1,
+      "inext": "",
+      "target": [ "dad" ]
     },
     {
-      "content": "plot point with fnc 0. Root tone.",
-      "tone": "Root",
+      "content": "transition line used in dialogue box. id = 2",
+      "tone": "Default",
       "id": "2",
       "FNC": "-5",
-      "bucket": "2"
+      "bucket": 1,
+      "inext": "",
+      "target": [ "dad" ]
     },
     {
-      "content": "plot point with fnc 0. Root tone.",
+      "content": "transition line, used on produced text boxes. id = 3",
       "tone": "Root",
       "id": "3",
       "FNC": "6",
-      "bucket": "3"
+      "bucket": 1,
+      "inext": "",
+      "target": [ "dad" ]
     },
     {
-      "content": "plot point with fnc 0. Root tone.",
-      "tone": "Root",
+      "content": "transition line, used in dialogue box id = 4",
+      "tone": "Default",
       "id": "4",
       "FNC": "-99999",
-      "bucket": "4"
+      "bucket": 1,
+      "inext": "",
+      "target": [ "dad" ]
     }
   ]
 }

@@ -102,7 +102,7 @@ namespace Test {
             int xPos = (int)SCREEN_WIDTH / tonez.Count;
             for (int i = 0; i < tonez.Count; i++) {
                 buttons.Add(new UIButton(xPos / 2 + i * xPos, (float)(SCREEN_HEIGHT - SCREEN_HEIGHT * 0.26), tonez[i]));
-                Console.WriteLine(i + " : " + buttons[buttons.Count - 1].getRectBounds());
+                //Console.WriteLine(i + " : " + buttons[buttons.Count - 1].getRectBounds());
                 if (tutorialButtonIndex < availTutorialButtons.Count()) {
                     buttons[i].setDisabled(!availTutorialButtons[tutorialButtonIndex][tonez[i].ToString()]);
                 }
@@ -284,6 +284,7 @@ namespace Test {
                                 playerDialogues[k].setBoxColor(buttons[i].getTonalColor());
                                 playerDialogues[k].setAffected(true);
                                 playerDialogues[k].setTone(buttons[i].getTone());
+
 
                                 if (theTip.init == true) {
 

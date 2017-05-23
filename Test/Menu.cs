@@ -16,6 +16,7 @@ namespace Test
             this.type = type;
             if (type == "start")
             {
+                //Console.WriteLine("MENU START S_W: " + SCREEN_WIDTH + ", S_H: " + SCREEN_HEIGHT);
                 MenuButtons.Add(new MenuButton(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 3, "Start"));
                 MenuButtons.Add(new MenuButton(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 3 + (float)(SCREEN_HEIGHT*.15), "Settings"));
             }
@@ -67,6 +68,7 @@ namespace Test
 
         public void SweepButtons(int x, int y, double scalex, double scaley)
         {
+            //Console.WriteLine("MENU SWEEP BUTTONS: " + scalex + ", " + scaley);
             var buttons = getMenuButtons();
             for (var i = 0; i < buttons.Count; i++)
             {

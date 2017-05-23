@@ -31,25 +31,33 @@ namespace Test {
         public string id;
         public string next;
         public double FNC;
-        public double bucket;
+        public int bucket;
         public string speaker;
         public string finished;
         public string inext;
+        public List<string> target;
 
-        public DialogueObj(string c, string t, string i) {
-            content = c; tone = t; id = i;
-        }
 
-        public DialogueObj(string newContent, string newTonalPreReq, string id, string next) { //for linked list reading
-            content = newContent; tone = newTonalPreReq; this.id = id; this.next = next; this.FNC = 2 ^ 16;
-        }
-
-        public DialogueObj(string content, string tone, string plotpoint, string id, string FNC, string finished, string speaker, string InterjectionNext) { //for plot point lines
+        //for npc plot point lines/// 8 string, 1 string list (dialogue object)
+        public DialogueObj(string content, string tone, string plotpoint, string id, string FNC, string finished, string speaker, string InterjectionNext, List<string> target) { 
             this.content = content; this.tone = tone; this.plotpoint = plotpoint; this.id = id; this.FNC = double.Parse(FNC); this.finished = finished; this.speaker = speaker; this.inext = InterjectionNext;
+            this.target = target;
         }
 
-        public DialogueObj(string c, string t, string id, string f, string b, string s, string ix) { //for transitino lines
-            this.content = c; this.tone = t; this.id = id; this.FNC = double.Parse(f); this.bucket = double.Parse(b); this.speaker = s; this.inext = ix;
+        //for npc transitino lines///6 string, 1 string list, 1 int (dialogue object)
+        public DialogueObj(string c, string t, string id, string f, int b, string s, string ix, List<string> target) { 
+            this.content = c; this.tone = t; this.id = id; this.FNC = double.Parse(f); this.bucket = b; this.speaker = s; this.inext = ix;
+            this.target = target;
+        }
+
+        //for player plot point lines///6 string, 1 string list (dialogue object)
+        public DialogueObj(string c, string t, string p, string i, string f, string ix, List<string> target) {
+            this.content = c; this.tone = t; this.plotpoint = p; this.id = i; this.FNC = double.Parse(f); this.inext = ix; this.target = target;
+        }
+
+        //for player transition lines///5 string, 1 int, 1 string list (dialogue object)
+        public DialogueObj(string c, string t, string i, string f, int b, string ix, List<string> target) {
+            this.content = c; this.tone = t; this.id = i; this.FNC = double.Parse(f); this.bucket = b; this.inext = ix; this.target = target;
         }
 
         public DialogueObj() {
@@ -61,6 +69,7 @@ namespace Test {
             finished = "";
             speaker = "";
             inext = "";
+            target = new List<string>();
             bucket = -(2 ^ 16);
             FNC = 2 ^ 16;
         }
