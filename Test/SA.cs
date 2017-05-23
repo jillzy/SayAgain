@@ -143,7 +143,7 @@ namespace Test {
                             State.dialogueBox.init = false;
                             State.playerDialogueBox.awaitInput = false;
                             fadeFlag = true;
-                            fadeFloat = 0.03f;
+                            fadeFloat = 0.07f;
 
                             endGame = true;
                         }
@@ -207,7 +207,7 @@ namespace Test {
                         ui_man.tutorialButtonIndex = 4;
                         ui_man.reset(responseList);
                         fadeFlag = true;
-                        fadeFloat = -0.03f;
+                        fadeFloat = -0.07f;
                         Mom.setHide(false);
                         Dad.setHide(false);
                         Arm.setHide(false);
@@ -244,24 +244,24 @@ namespace Test {
                     }
                     if (Int32.Parse(jankId) == 4 && !fadeFlag) {
                         fadeFlag = true;
-                        fadeFloat = -0.03f;
+                        fadeFloat = -0.07f;
                     } else if (Int32.Parse(jankId) == 12 && !fadeFlag) {
                         fadeFlag = true;
-                        fadeFloat = 0.03f;
+                        fadeFloat = 0.07f;
 
                     } else if (Int32.Parse(jankId) == 13 && !fadeFlag) {
                         Dad.setHide(false);
                         Arm.setHide(false);
                         fadeFlag = true;
-                        fadeFloat = -0.03f;
+                        fadeFloat = -0.07f;
                     } else if (Int32.Parse(jankId) == 18 && !fadeFlag) {
                         fadeFlag = true;
-                        fadeFloat = 0.03f;
+                        fadeFloat = 0.07f;
 
                     } else if (Int32.Parse(jankId) == 19 && !fadeFlag) {
                         Mom.setHide(false);
                         fadeFlag = true;
-                        fadeFloat = -0.03f;
+                        fadeFloat = -0.07f;
 
 
 
@@ -548,7 +548,7 @@ namespace Test {
             screenHelper();
 
             //State.sound_man.soundUpdate(settingsMenu.getSoundToggle());
-            //State.sound_man.update_music();
+            State.sound_man.update_music();
 
             if (State.dialogueBox.active == true) {
                 if (State.dialogueBox.currSpeaker == "alex") {
