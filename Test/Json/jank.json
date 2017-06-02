@@ -1,0 +1,169 @@
+{
+  "Dialogues": [
+    {
+      "content": "<(Press Spacebar to proceed)> <Seems forever since I was home.>",
+      "tone": "Default",
+      "id": "1"
+    },
+    {
+      "content": "<Looks like dinner is getting ready.> <(1, 2, 3, 4 on keyboard selects a tone from the available tones, followed by spacebar key to proceed)>",
+      "tone": "Default",
+      "id": "2"
+    },
+    {
+      "content": "Oh you're finally here, can we eat now?",
+      "tone": "Default",
+      "id": "3"
+    },
+    {
+      "content": "It's always great to see my little sister! <She seems chipper today.> <(You can also click and drag tones to select them, then clicking the speak button to proceed)>",
+      "tone": "Default",
+      "id": "4"
+    },
+    {
+      "content": "How is the family treating you?",
+      "tone": "Root",
+      "id": "5"
+    },
+    {
+      "content": "Everyone's good right? But you know, whatever.",
+      "tone": "Indifferent",
+      "id": "6"
+    },
+    {
+      "content": "Whatever?! Jeez. Could you show you care, even just for a little bit! You can't just say everyone's good, when you don't even know what's going on. ",
+      "tone": "Default",
+      "id": "7"
+    },
+    {
+      "content": "I'm sorry.",
+      "tone": "Root",
+      "id": "8"
+    },
+    {
+      "content": "S-sorry. I guess I'm just tired?",
+      "tone": "Hesitant",
+      "id": "9"
+    },
+    {
+      "content": "Now you just sound like you don't know what to say..",
+      "tone": "Hesitant",
+      "id": "10"
+    },
+    {
+      "content": "<Here comes Dad from the living room.>",
+      "tone": "Default",
+      "id": "11"
+    },
+    {
+      "content": "Hey, kiddo! Good to see you!",
+      "tone": "Default",
+      "id": "12"
+    },
+    {
+      "content": "<Dad has a mustache now?>",
+      "tone": "Default",
+      "id": "13"
+    },
+    {
+      "content": "Hi Dad. How are you and mom doing?",
+      "tone": "Root",
+      "id": "14"
+    },
+    {
+      "content": "Hey Dad, I hope you and mom have been doing really well!",
+      "tone": "Compassionate",
+      "id": "15"
+    },
+    {
+      "content": "Oh, how nice of you to be concerned. I know I'm doing fine, but I can't speak for your mom.",
+      "tone": "Compassionate",
+      "id": "16"
+    },
+    {
+      "content": "<He doesn't know about Mom? Well, then...>",
+      "tone": "Default",
+      "id": "17"
+    },
+    {
+      "content": "<And now Mom with the food.>",
+      "tone": "Default",
+      "id": "18"
+    },
+    {
+      "content": "Hm...",
+      "tone": "Default",
+      "id": "19"
+    },
+    {
+      "content": "<I wonder why Mom is so quiet.>",
+      "tone": "Default",
+      "id": "20"
+    },
+    {
+      "content": "So, Mom, how are you?",
+      "tone": "Root",
+      "id": "21"
+    },
+    {
+      "content": "Hey Mom. What's up with you, huh?",
+      "tone": "Blunt",
+      "id": "22"
+    },
+    {
+      "content": "Oh? Sorry... you surprised me a bit. Nothing new.",
+      "tone": "Blunt",
+      "id": "23"
+    },
+    {
+      "content": "You have a different hairstyle. That's new.",
+      "tone": "Root",
+      "id": "24"
+    },
+    {
+      "content": "Anyone can see you have a new haircut, Mom.",
+      "tone": "Blunt",
+      "id": "25"
+    },
+    {
+      "content": "So, your hair's different now?",
+      "tone": "Indifferent",
+      "id": "25"
+    },
+    {
+      "content": "Ohhh. You changed your hair up too?",
+      "tone": "Compassionate",
+      "id": "25"
+    },
+    {
+      "content": "I guess...your hair looks new...",
+      "tone": "Hesitant",
+      "id": "25"
+    },
+    {
+      "content": "I've had it for some time now. Thought a change would be nice.",
+      "tone": "Blunt",
+      "id": "26"
+    },
+    {
+      "content": "It's been different for quite a bit, actually.",
+      "tone": "Indifferent",
+      "id": "26"
+    },
+    {
+      "content": "I did, a while back.",
+      "tone": "Compassionate",
+      "id": "26"
+    },
+    {
+      "content": "It does? Oh, you're referring to this old cut.",
+      "tone": "Hesitant",
+      "id": "26"
+    },
+    {
+      "content": "<I haven't come home in a long time, it seems.>",
+      "tone": "Default",
+      "id": "27"
+    }
+  ]
+}

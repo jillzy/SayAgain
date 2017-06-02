@@ -1,0 +1,1499 @@
+[
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtEncoding",
+      "elementPos": 3,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "url",
+      "type": "text",
+      "id": "url",
+      "elementPos": 4,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txt1",
+      "elementPos": 6,
+      "namePos": 0,
+      "value": "content,tone,plot,id,FNC,speaker,finished,inext,target__001,target__002,target__003\n\"Woah there, someone is moody!\",Blunt,DadGreetsPlayer,1,0,dad,,,,,\n\"Hey, the Santa Cruz beaches have really given you a tan.\",Indifferent,DadGreetsPlayer,1,0,dad,,,,,\nAren't you as chipper as ever!,Compassionate,DadGreetsPlayer,1,0,dad,,,,,\nIndeed...Well..Glad to have you back!,Hesitant,DadGreetsPlayer,1,0,dad,,,,,\nNot as much as your mom.,Blunt,DadGreetsPlayer,2,0,dad,,mom,mom,,\nIt's the same but your mom's cooking seems to have gotten worse by the day!,Indifferent,DadGreetsPlayer,2,0,dad,,mom,mom,,\n\"Yes, I have been doing well but I can't speak for your mom.\",Compassionate,DadGreetsPlayer,2,0,dad,,mom,mom,,\nUmm sure?? Right Honey?,Hesitant,DadGreetsPlayer,2,0,dad,,mom,mom,,\nI do things around the house.,Blunt,DadGreetsPlayer,3,0,,,alex,,,\n\"Well I need to do everything around the house, so cut me some slack will ya.\",Indifferent,DadGreetsPlayer,3,0,,,alex,,,\nI'm doing fine. Don't know what your dad's going on about.,Compassionate,DadGreetsPlayer,3,0,,,alex,,,\nSure...,Hesitant,DadGreetsPlayer,3,0,,,alex,,,\nWhat the heck dad?,Default,DadGreetsPlayer,4,0,,,,,,\nWhat are you talking about? Everything is just FINE.,Blunt,DadGreetsPlayer,5,0,dad,,,mom,,\nThere is nothing to heck about. Everything is just fine.,Indifferent,DadGreetsPlayer,5,0,dad,,,mom,,\nI hope so too.,Compassionate,DadGreetsPlayer,5,0,dad,,,mom,,\n\"Nope, nothing going on AT ALL.\",Hesitant,DadGreetsPlayer,5,0,dad,,,mom,,\n\"Haha! Of course I'm still working - Still doing the same boring thing. I'm not that old yet, you know.\",Blunt,DadGreetsPlayer,6,0,dad,,,,,\n\"Work's the same' old, same old. There's nothing exciting to say about it.\",Indifferent,DadGreetsPlayer,6,0,dad,,,,,\n\"Haha! Of course I'm still working - Still doing the same broing thing. I'm not that old yet, you know.\",Compassionate,DadGreetsPlayer,6,0,dad,,,,,\n\"Work's the same' old, same old. There's nothing exciting to say about it.\",Hesitant,DadGreetsPlayer,6,0,dad,,,,,\nThere is one thing... These cups! These nice and expensive Swarovski crystal cups that your mom brought home about a month ago. These are pretty new.,Blunt,DadGreetsPlayer,7,0,dad,,,mom,,\n\"It is. There is nothing more like droning work that keeps me motivated. But hey, enough about work, let me tell you about these expensive cups on the table. Your mom brought them home about a month ago. VERY nice, VERY expensive Swarovski crystal cups.\",Indifferent,DadGreetsPlayer,7,0,dad,,,mom,,\n\"Well, I suppose there is one thing... You see these cups? They're amazing, expensive Swarovski crystal cups your mom brought home.\",Compassionate,DadGreetsPlayer,7,0,dad,,,mom,,\n\"New things happen all the time! Just like these month old, nice expensive Swarovski crystal cups your mom brought!\",Hesitant,DadGreetsPlayer,7,0,dad,,,mom,,\n\"Thank you. I think they look just awesome, as well.\",Blunt,DadGreetsPlayer,8,0,mom,,dad,,,\nThanks. That means so much to me.,Indifferent,DadGreetsPlayer,8,0,mom,,dad,,,\nSure whatever you think.,Compassionate,DadGreetsPlayer,8,0,mom,,dad,,,\nSure whatever you think.,Hesitant,DadGreetsPlayer,8,0,mom,,dad,,,\nYou will know that I wish to continue to talk about these cups!,Default,DadGreetsPlayer,9,0,,,,,,\n\"These cups are so refined looking. What else could I say about them? They do look nice, but too bad I was unable to give MY input on whether or not these cups should be purchased. When your Mom brought them home, I was almost shocked. Of course, this isn't a BIG DEAL, so we are just absolutely fine over this whole thing. \",Default,DadGreetsPlayer,10,0,dad,,,,,\n\"Flustered? Hah. Like how you were back in your last year at high school? Do you even remember your high school days? With all that homework and everything, you hardly had time for anything else! I can remember those times, clear as day. Your mom was so engaged, checking in on how you and Alex were doing, listening to me and you kids. And she would be around the house!\",Default,DadGreetsPlayer,11,0,dad,,,,,\n\"No! I am being reasonable! And don't say you haven't noticed yet, with- withall of this Swarovski crystal, EIGHT THIRTY dinner nonsense.\",Blunt,DadGreetsPlayer,12,0,dad,,,mom,alex,\n\"HOW DARE YOU! As a memeber of this house, it is your obligation to be aware of the changes around the house. Swarovski cyrstal, eight thirty dinner...\",Compassionate,DadGreetsPlayer,12,0,dad,,,mom,alex,\nYou think so? I can't believe you haven't noticed yet.,Indifferent,DadGreetsPlayer,12,0,dad,,,mom,alex,\nThe only thing 'weird' about this is the fact that you haven't noticed yet,Hesitant,DadGreetsPlayer,12,0,dad,,,mom,alex,\nThat's an interesting observation,Blunt,DadGreetsPlayer,13,0,mom,,,dad,,\nWho knows? I certainly have no idea.,Indifferent,DadGreetsPlayer,13,0,mom,,,dad,,\n\"You can, if you want.\",Compassionate,DadGreetsPlayer,13,0,mom,,,dad,,\nWho knows? I certainly have no idea.,Hesitant,DadGreetsPlayer,13,0,mom,,,dad,,\nIs that so?,Blunt,DadGreetsPlayer,14,0,mom,,dad,dad,,\n\"If you think so, then it must be.\",Indifferent,DadGreetsPlayer,14,0,mom,,dad,dad,,\nIs that what you reall think?,Compassionate,DadGreetsPlayer,14,0,mom,,dad,dad,,\nI could.,Hesitant,DadGreetsPlayer,14,0,mom,,dad,dad,,\n\"Hey! I won’t let you or your Mother ignore me. You shouldn’t let that woman have her way, and let me tell you why!\",Blunt,DadGreetsPlayer,15,10,,fin,,mom,,\n\"Hey! I won’t let you or your Mother ignore me. You shouldn’t let that woman have her way, and let me tell you why!\",Indifferent,DadGreetsPlayer,15,10,,fin,,mom,,\n\"I knew you were a sensible person. Don’t let this woman have her way. The only thing she’s done for this household is wrong, and let me tell you why.\",Compassionate,DadGreetsPlayer,15,20,,fin,,mom,,\n\"I knew you were a sensible person. Don’t let this woman have her way. The only thing she’s done for this household is wrong, and let me tell you why.\",Hesitant,DadGreetsPlayer,15,20,,fin,,mom,,\n\"I honestly can't believe neither you nor Alex - especially Alex, who has been around home - haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alchohol - it's only obvious!\",Default,PlayerSupportsDad,1,0,dad,,alex,,,\n\"What the hell, Dad! Don't bring me into this shit!\",Default,PlayerSupportsDad,2,0,,,dad,,,\n\"I'm going to ignore your choice of words, for once, because you make a good point! Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your mom...\",Default,PlayerSupportsDad,3,0,,,,alex,,\n\"Didn't I teach you that patience is a virtue? Anyways, what I was going to say is that your mother is cheating on me!\",Blunt,PlayerSupportsDad,4,0,dad,,mom,mom,,\n\"There is no need to. I've been waiting for the most appropriate time to say this, but your mom is cheating on me!\",Indifferent,PlayerSupportsDad,4,0,dad,,mom,mom,,\n\"You know, you're right. Clearly your mom is cheating on me!\",Compassionate,PlayerSupportsDad,4,0,dad,,mom,mom,,\nYes. It is time now. I've been waiting for the most appropriate time to say this... Your mother is cheating on me!,Hesitant,PlayerSupportsDad,4,0,dad,,mom,mom,,\nWhat?.. How could you think that? I'd never do that!,Default,PlayerSupportsDad,5,0,,,,dad,,\nHa! I'm glad to see that you are thinking rationally and on my side with this!,Blunt,PlayerSupportsDad,6,0,dad,,,mom,,\nYou 'guess?' Hmph! At least you think it makes sense,Indifferent,PlayerSupportsDad,6,0,dad,,,mom,,\n\"Of course everything makes sense! I am not being an idiot about this - your mom might be, but that is besides the point.\",Compassionate,PlayerSupportsDad,6,0,dad,,,mom,,\nYou 'guess?' What 'things' do you need clarification to understand this situation?! It is so simple!,Hesitant,PlayerSupportsDad,6,0,dad,,,mom,,\n\"Very well. I guess I'll spell things out for you, once more. First off, remember those ridiculously expensive cups  your Mom came home with? Since I manage both of our finances, she couldn't have possibly afforded those, and even if she did, I would absolutely not let her purchase them! Obviously, someone else had to get them for her! Second, your Mom never used to go out late, and with her coming home at eight-thirty saying she was at 'dinner', is way out of the norm.\",Default,PlayerSupportsDad,7,0,dad,,mom,mom,,\nThey're not. I bought the glasses myself.,Blunt,PlayerSupportsDad,8,0,mom,,dad,dad,,\nThey're not. I bought the glasses myself.,Indifferent,PlayerSupportsDad,8,0,mom,,dad,dad,,\nNo. I bought them myself.,Compassionate,PlayerSupportsDad,8,0,mom,,dad,dad,,\nThey're not. I bought the glasses myself.,Hesitant,PlayerSupportsDad,8,0,mom,,dad,dad,,\nAnyone can tell that is an obvious lie! That woman has no way to get Swarvoski crystal glasses by herself!,Default,PlayerSupportsDad,9,0,,,alex,mom,alex,\nCuz  you're a control freak...,Default,PlayerSupportsDad,10,0,,,dad,dad,mom,\n\"You will keep your mouth shut, Alex! Let the adults talk through this!\",Default,PlayerSupportsDad,11,0,,,,alex,,\n\"I will talk to her however I please! You do not have the right to tell me what to do! Anyhow... Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!\",Blunt,PlayerSupportsDad,12,0,dad,,mom,mom,alex,\n\"Glad to see you are still able to make sensible decisions. Anyhow... Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!\",Indifferent,PlayerSupportsDad,12,0,dad,,mom,mom ,alex,\n\"Glad to see you are still able to make sensible decisions. Anyhow... Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!\",Compassionate,PlayerSupportsDad,12,0,dad,,mom,mom,alex,\n\"No! Alex is just a child. She wouldn't know anything substantiable about what is going in this house. Anyhow... Back to talking about that ungrateful woman. As the bread maker of this household, I maintain the finances, so there is no way I would let her buy these Swarovski glasses!\",Hesitant,PlayerSupportsDad,12,0,dad,,mom,mom,alex,\nI bought them with my own money. I wanted something a little nice for the house... for myself.,Default,PlayerSupportsDad,13,0,,,,dad,,\nI do. I ... just can't say why.,Blunt,PlayerSupportsDad,14,0,mom,,,dad,,\nI do. I ... just can't say why.,Indifferent,PlayerSupportsDad,14,0,mom,,,dad,,\nYou've been siding with your Father...,Compassionate,PlayerSupportsDad,14,30,mom,,,dad,,\nThat is not the only way ... But I can't say.,Hesitant,PlayerSupportsDad,14,0,mom,,,dad,,\nHmph. There's no point. It's not like you will listen or give me a chance anyways.,Default,PlayerSupportsDad,15,0,mom,,dad,dad,,\n\"Take a look, DEAR. You have taught the kids a valuable lesson: knowing when to give up. Truly, a job well done.\",Default,PlayerSupportsDad,16,0,,,mom,mom,alex,\nI'm done with this.,Default,PlayerSupportsDad,17,0,,fin,,dad,,\nThat's hard to believe. You already think I'm cheating on your dad,Blunt,PlayerSupportsDad2,1,0,mom,,dad,dad,,\nThat's hard to believe. You already think I'm cheating on your dad,Indifferent,PlayerSupportsDad2,1,0,mom,,dad,dad,,\nThat's hard to believe. You already think I'm cheating on your dad,Compassionate,PlayerSupportsDad2,1,0,mom,,dad,dad,,\n\"... Yes, it does. You already think I'm cheating on your dad.\",Hesitant,PlayerSupportsDad2,1,0,mom,,dad,dad,,\n\"That is the only correct answer, logically.\",Default,PlayerSupportsDad2,2,0,dad,,mom,mom,,\n\"I thought you would be more open to hearing my side, but it doesn't seem like you will be. I don't think there's a point to me sitting at this dining table any longer.\",Default,PlayerSupportsDad2,3,0,mom,,dad,mom,,\nSo you admit to your infidelity!,Default,PlayerSupportsDad2,4,0,dad,,mom,dad,,\n\"I'm not admitting to anything, but I'll be finishing dinner elsewhere\",Default,PlayerSupportsDad2,5,0,mom,fin,,dad,alex,\n\"I honestly can't believe neither you nor Alex - especially Alex, who has been around home - haven't been able to add up all the clues and subtleties to figure it out. Just LOOK at your mom! New hair, new clothes, coming home absolutely reeking of alchohol - it's only obvious!\",Default,PlayerDefendsMom,1,0,dad,,alex,,,\n\"What the hell, Dad! Don't bring me into this shit!\",Default,PlayerDefendsMom,2,0,,,dad,,,\n\"I'm going to ignore your choice of words, for once, because you make a good point! Why should I assume a thankless daughter like you would even care about the sanctity of the home. So about your mom...\",Default,PlayerDefendsMom,3,0,,,,alex,,\n\"Didn't I teach you that patience is a virtue? Anyways, what I was going to say is that your mother is cheating on me!\",Blunt,PlayerDefendsMom,4,0,dad,,mom,mom,,\n\"There is no need to. I've been waiting for the most appropriate time to say this, but your mom is cheating on me!\",Indifferent,PlayerDefendsMom,4,0,dad,,mom,mom,,\n\"You know, you're right. Clearly your mom is cheating on me!\",Compassionate,PlayerDefendsMom,4,0,dad,,mom,mom,,\nYes. It is time now. I've been waiting for the most appropriate time to say this... Your mother is cheating on me!,Hesitant,PlayerDefendsMom,4,0,dad,,mom,mom,,\nWhat?.. How could you think that? I'd never do that!,Default,PlayerDefendsMom,5,0,,,,dad,,\n\"What do you mean? Of course it does. New hair, late dinners, bringing home expensive dinnerware - You must be blind if you can't see that this woman is cheating on me!\",Blunt,PlayerDefendsMom,6,0,dad,,mom,mom,,\n\"How can you be so nonchalant about all of this! New hair, late dinners, bringing home expensive dinnerware - You should care! You are being ignornat and blind to this whole situation.\",Indifferent,PlayerDefendsMom,6,0,dad,,mom,mom,,\n\"Are you just brushing me off? New hair, late dinners, bringing home expensive dinnerware - You should care! You are being ignorant and blind to this whole situation. \",Compassionate,PlayerDefendsMom,6,0,dad,,mom,mom,,\n\"How can you be so uncertain about all of this! New hair, late dinners, bringing home expensive dinnerware - You should care! You are being ignornat and blind to this whole situation.\",Hesitant,PlayerDefendsMom,6,0,dad,,mom,mom,,\nThese are all normal things I do.,Default,PlayerDefendsMom,7,0,,,dad,dad,,\n\"Then what about the alcohol, hm? Feel free to even try and explan that one away. On specifid days you come home reeking of alcohol. You go seeing other men, grab a couple drinks, and even Dare to come home smelling like that!\",Default,PlayerDefendsMom,8,0,,,mom,mom,,\n\"I'm not doing that at all. It's just... a coincidence, that's all\",Default,PlayerDefendsMom,9,0,,,,dad,,\n\"Yes. Why don't we hear the whole damn story, hm?\n\",Default,PlayerDefendsMom,10,0,dad,,alex,mom,,\n\"Hey, stop being so rude to Mom!\",Default,PlayerDefendsMom,11,0,,,dad,dad,,\n\"Oh, you will see.\",Default,PlayerDefendsMom,12,0,,,mom,mom,alex,\nAll you'll see is how paranoid you've become.,Default,PlayerDefendsMom,13,0,,,dad,dad,,\n\"Hah, I bet you can't even explain away the alcohol.\",Default,PlayerDefendsMom,14,0,,,,mom,,\nMy point exactly. It's all gone downhill.,Blunt,PlayerDefendsMom,15,0,mom,,dad,dad,,\n\"Yes, I'd love to. It's all gone downhill.\",Indifferent,PlayerDefendsMom,15,0,mom,,dad,dad,,\n\"Please, thank you. It's all gone downhill.\",Compassionate,PlayerDefendsMom,15,0,mom,,dad,dad,,\nI was going to say... It's all gone downhill.,Hesitant,PlayerDefendsMom,15,0,mom,,dad,dad,,\nI'd say.,Default,PlayerDefendsMom,16,0,,,alex,mom,alex,\nDAD!,Default,PlayerDefendsMom,17,0,,,mom,,,\nAnd it's precisely due to that attitude. You let that promotion you got last year get to your head!,Default,PlayerDefendsMom,18,0,,,dad,dad,,\nAnd what does my hard work have to do with the smell of beer you drag home?,Default,PlayerDefendsMom,19,0,,,,mom,,\nAgain with the teaming up on me! You're all blind! Blind as bats! And you apparently can't smell either.,Default,PlayerDefendsMom,20,0,dad,,alex,mom,alex,\n\"Wow, slinging names and insults now?\",Default,PlayerDefendsMom,21,0,,,mom,dad,-mom,\nThat's what I'm saying. Here's my work ID.,Default,PlayerDefendsMom,22,0,,,dad,dad,,\nAnd what's that exactly.,Default,PlayerDefendsMom,23,0,,,,,,\nShe doesn't have a job! Who do you think you're fooling?,Blunt,PlayerDefendsMom,24,0,dad,,mom,mom,,\nWhat's clear?,Indifferent,PlayerDefendsMom,24,0,dad,,mom,mom,,\n\"You're joking, right?\",Compassionate,PlayerDefendsMom,24,0,dad,,mom,mom,,\nYou're being very difficult with me.,Hesitant,PlayerDefendsMom,24,0,dad,,mom,mom,,\n\"Yes, that's correct. This is my badge at the Scarlet Space.\",Default,PlayerDefendsMom,25,0,,,dad,dad,,\nHah! How'd you even manage that? You can't even manage the household finances!,Default,PlayerDefendsMom,26,0,,,alex,mom,,\nWow. Rude much?,Default,PlayerDefendsMom,27,0,,,dad,dad,,\nAlex. You are to be quiet. You had your chance to speak.,Default,PlayerDefendsMom,28,0,,,,alex,,\n\"Beyond help? How dare you! I am not beyond help! It’s all of you who need help—ganging up on me, believing everything your mom says. That nametag or whatever is fake! It’s merely a gimmick and a distraction, trying to cover up her insolence. I will be finishing my dinner elsewhere.\",Default,PlayerDefendsMom2,1,0,dad,fin,,mom,alex,\nFine. Let's say the work ID is real. What reason does your Mom have to work? She doesn't manage the family finances. I'm the one who got the promotion at work and brings in all the money.,Default,MomReconcilesDad,1,0,dad,,,mom,,\nI can deal with that. I'll be polite and reasonable and let your Mom explain herself.,Default,MomReconcilesDad,2,0,dad,,mom,,,\nIt's because of the money.,Default,MomReconcilesDad,3,0,,,,,,\nDo you feel bad about your incompetence? Ha! Are you possibly jelous of the money I am making!,Default,MomReconcilesDad,4,0,dad,,mom,mom,,\n…Why can’t you just let me talk for once? The problem is because we have money!,Blunt,MomReconcilesDad,5,0,,,dad,dad,,\n…Don’t assume I’m jealous. What would I be jealous of? But Dad’s promotion IS a problem.,Indifferent,MomReconcilesDad,5,0,,,dad,dad,,\n\"Don't call me incompetent. In a way, yes. The money your dad makes, made me get my job.\",Compassionate,MomReconcilesDad,5,0,,,dad,dad,,\nStay quiet for once! Please. Money itself isn’t causing a problem. It’s because it’s your Dad’s money.,Hesitant,MomReconcilesDad,5,0,,,dad,dad,,\n\"How is my hard earned money causing problems?! My money is what puts a roof over our heads, food in our stomachs, clothes on our backs. It's a blessing that you are thankless for.\",Blunt,MomReconcilesDad,6,0,,,mom,mom,,\nAre you calling my efforts a waste? I worked hard for that promotion and the money I make!,Indifferent,MomReconcilesDad,6,0,,,mom,mom,,\n\"How is my hard earned money causing problems?! My money is what puts a roof over our heads, food in our stomachs on our backs- well, not you. Not you anymore!\",Compassionate,MomReconcilesDad,6,0,,,mom,mom,,\nNo! How dare you! I will not say quiet. You are insulting my hard work and I refuse to stand for this. My money is not problematic! It's a blessing that you are blatantly thankless for.,Hesitant,MomReconcilesDad,6,0,,,mom,mom,,\nCan't you see what you dad is doing?,Default,MomReconcilesDad,7,0,,,,dad,,\n\"Okay. Yeah, that sounds fair.\",Blunt,MomReconcilesDad,8,0,mom,,alex,alex,,\n...Fine. I guess that's fair.,Indifferent,MomReconcilesDad,8,0,mom,,,alex,,\nI suppose I could do that.,Compassionate,MomReconcilesDad,8,0,mom,,,alex,,\nI'll try to explain better,Hesitant,MomReconcilesDad,8,0,mom,,alex,alex,,\nYeah Mom. I live here and I don't even know what you're talking about.,Blunt,MomReconcilesDad,9,0,,,dad,,,\nYeah Mom. I live here and I don't even know what you're talking about.,Indifferent,MomReconcilesDad,9,0,,,dad,,,\nYeah Mom. I live here and I don't even know what you're talking about.,Compassionate,MomReconcilesDad,9,0,,,dad,,,\nYeah Mom. I live here and I don't even know what you're talking about.,Hesitant,MomReconcilesDad,9,0,,,dad,,,\nWhat are you trying to pull...,Default,MomReconcilesDad,10,0,,fin,mom,,,\n\"What I mean to say is, the money that Dad makes from his promotion is making him controlling.\",Default,DadSeesHisFault,1,0,,,dad,dad,,\nControlling? Have you gone mad? I don't force you to do things nor reprimand you going out. Husbands don't own their wives in this country.,Default,DadSeesHisFault,2,0,,,mom,mom,,\n\"Financially, I mean.\",Default,DadSeesHisFault,3,0,,,dad,dad,,\n\"Don't be ridiculous, you can't be financially controlling.\",Default,DadSeesHisFault,4,0,,,,mom,,\nThat's just me being a caretaker. There isn't anything inherently evil about that. Is your mom upset I don't let her spend money willy-nilly? that's not being controlling; that's being responsible,Default,DadSeesHisFault,5,0,dad,,mom,mom,,\nTaking care of the house is fine.,Default,DadSeesHisFault,6,0,,,dad,dad,,\nThen what is the issue?!,Default,DadSeesHisFault,7,0,,,mom,mom,,\nThe issue is that you are on a power trip from your promotion from work that you can't shut up about. Everything has to be in your silly money bounds! I need to ask you for an allowance and even then you want to know what I'm using it for. I have to stick with your stupid 'fun money' budget when you go out with your coworkers and friends all the time. I don't have any freedom!,Default,DadSeesHisFault,8,0,,,,dad,,\nYes because I was waiting for a better time.,Blunt,DadSeesHisFault,9,0,mom,,,dad,,\nI wasn't holding it in. I Guess I was waiting for an appropriate time.,Indifferent,DadSeesHisFault,9,0,mom,,,dad,,\nI was waiting for a more appropriate time.,Compassionate,DadSeesHisFault,9,0,mom,,,dad,,\nThere wasn't a good time.,Hesitant,DadSeesHisFault,9,0,mom,,,dad,,\n\"You were keeping this all to yourself, not telling me—not communicating with me, Diane! What in the Sam Hill were you thinking! We could have avoided so many frustrations, so much time wasting…\",Default,DadSeesHisFault,10,0,dad,,mom,mom,,\n\"I’m sorry, I shouldn’t have done that, but I am not sorry for going out and getting a job! You probably don’t understand what it felt like to find that small bit of freedom.\",Default,DadSeesHisFault,11,0,,,dad,dad,,\n\"That might be correct, but that’s no excuse. You know what? I am sorry for accusing you of cheating on me, Diane.\",Default,DadSeesHisFault,12,0,,,,mom,,\n\"After hearing all this, I suppose that I may have… put rules that are a bit too strict on your Mom. Diane, I am sorry for that also — being so strict that you thought you had to hide things from me.\",Blunt,DadSeesHisFault,13,0,dad,,mom,mom,,\n\"I suppose. I may have put a few too many strict rules on the money and your Mom. Diane, I apologize for making you feel so incredibly frustrated—so much that you thought you had to hide things from me.\",Indifferent,DadSeesHisFault,13,0,dad,,mom,mom,,\n\"You are correct. Diane, I apologize for being stupidly strict and making you feel that you had to hide things from me to get your ounce of freedom.\",Compassionate,DadSeesHisFault,13,0,dad,,mom,mom,,\n\" Hmmm...okay. I have noticed that I may have put rules that are a bit too strict on her. Diane, I am sorry for what I did. I hope you feel that you won’t need to hide things from me anymore.\",Hesitant,DadSeesHisFault,13,0,dad,,mom,mom,,\n\"Okay, Timothy. I accept your apology. Don’t expect me to quit my job though.\n\",Default,DadSeesHisFault,14,0,,,dad,dad,,\nWhat? But you won’t need to work if I become less strict!,Default,DadSeesHisFault,15,0,,,mom,mom,,\nI enjoy working! It’s so much more better than staying home all day. It’s actually somewhat relaxing.,Default,DadSeesHisFault,16,0,,,dad,dad,,\nIsn’t it better to not work?,Default,DadSeesHisFault,17,0,,,mom,mom,,\nThat’s coming from someone who is a complete workaholic! Why can’t I work?,Default,DadSeesHisFault,18,0,,,,dad,,\n\"Yes, of course. We did take up a lot of time dealing with that cheating nonsense, isn’t that right, Diane? We’ll discuss this work situation later, at a more appropriate time and not in front of the whole family.\",Default,DadSeesHisFault,19,0,dad,,mom,mom,,\n\"Of course we will, Timothy.\",Default,DadSeesHisFault,20,0,,fin,,,,\n\"Another quality bombshell guys, let's change the subject before you guys start ripping each other's head off.\",Default,AlexChangesSubject,1,0,alex,,,dad,mom,\n*Scoff* is anyone else tired of hearing about you and university?,Default,AlexChangesSubject,2,0,alex,,dad,,,\n\"Alex, that is very rude! Be respectful for what you get, even if you don't like it. That is very nice of you dear, I'm sure your sister will like it when she sees it.\",Default,AlexChangesSubject,3,0,,,,alex,,\n\"I am glad that someone can spend money on the family without being persecuted.\n\",Default,AlexChangesSubject,4,0,mom,,dad,dad,,\n\"Some gifts are different than expensive crystal glasses, Diane. I can only guess what your intentions were, but those purchases clearly weren’t meant for us. Not only glasses but fancy haircuts, and dinners from our checking account, don’t make it any less incriminating.  \",Default,AlexChangesSubject,5,0,,fin,,mom,,\nThis always happens. You guys are so annoying!,Default,AlexInterjects1,1,0,alex,,dad,dad,mom,\nAlex please don't get involved in this. This isn't meant for you.,Default,AlexInterjects1,2,0,,,alex,dad,,\nYou guys always get into screaming matches and it never goes anywhere. Remember when we went to parent teacher night at school? You guys were at each other's throats the whole time. You embarrassed me in front of the whole school! What were you arguing about anyway?,Default,AlexInterjects1,3,0,,,dad,dad,mom,\n\"None of your business Alex, it was about adult things. Alex... your mom and I don't always see eye to eye on things, you know this. You don't have to know everything that goes on between us.\",Default,AlexInterjects1,4,0,,,,alex,,\nKids at school always see me as the kid with the weird family. I can't keep any friends because they fear they'll get yelled at by you guys.,Blunt,AlexInterjects1,5,0,alex,,dad,dad,mom,\nDon't belittle this! The kids at school won't talk to me because they are scared of you guys! They are scared that they'll get caught in the crossfire of one of your guys' infamous arguments!,Indifferent,AlexInterjects1,5,0,alex,,dad,dad,mom,\nKids at school always see me as the kid with the weird family. I can't keep any friends because they fear they'll get yelled at by you guys.,Compassionate,AlexInterjects1,5,0,alex,,dad,dad,mom,\nDon't belittle this! The kids at school won't talk to me because they are scared of you guys! They are scared that they'll get caught in the crossfire of one of your guys' infamous arguments!,Hesitant,AlexInterjects1,5,0,alex,,dad,dad,mom,\n\"That's ridiculous, we would never do that!\",Default,AlexInterjects1,6,0,,,alex,,,\nYou already did! Remember when I brought Janine home so we could work on our book report? She had to go home early because you guys scared her.,Default,AlexInterjects1,7,0,,,dad,dad,mom,\nI just want what's best for our family and I guess we all have to learn that we can't always get what we want.,Default,AlexInterjects1,8,0,,,,alex,,\n\"*Scoff* Whatever...\n\",Default,AlexInterjects1,9,0,alex,fin,,,,\nThere you guys go again! You can't go 5 minutes without arguing!,Default,AlexInterjects2,1,0,alex,,,dad,mom,\nIt must have been so nice for you to not have to live in these conditions! Everyday I have to deal with this stuff! I hope one day I can live miles away from these children!,Default,AlexInterjects2,2,0,alex,,,dad,mom,\nI don't care! I hate you! You always side with Mom and Dad!,Default,AlexInterjects2,3,0,alex,,,dad,mom,\nAdmit it! You're obviously the favorite child. Mom and Dad actually likes a kid who does something with their life. You got to succeed while I'm left here to suffer!,Blunt,AlexInterjects2,4,0,alex,,,,,\nAdmit it! You're obviously the favorite child. Mom and Dad actually likes a kid who does something with their life. You got to succeed while I'm left here to suffer!,Indifferent,AlexInterjects2,4,0,alex,,,,,\nJust because I'm your sister doesn't mean I'm the favorite. Mom and Dad actually likes a kid who does something with their life. You got to succeed while I'm left here to suffer!,Compassionate,AlexInterjects2,4,0,alex,,,,,\nAdmit it! You're obviously the favorite child. Mom and Dad actually likes a kid who does something with their life. You got to succeed while I'm left here to suffer!,Hesitant,AlexInterjects2,4,0,alex,,,,,\n\"You don’t know what I have to go through! Mom and Dad brag about your accomplishments while forgetting about mine! I can’t make any friends at school because my parents couldn’t keep it together for one time! The only time they can find a time to coexist is when they are both indulging themselves in your success, and choosing to ignore me and my needs. You don’t see it do you? You have made my life miserable and I hate you!\",Default,AlexInterjects2,5,0,alex,fin,,dad,mom,\nWould you even care if I did?,Default,DadNoSeesHisFault,1,0,mom,,,,,\nit just seemd like you're not really putting in an effor to understand Dad's mistakes.,Default,DadNoSeesHisFault,2,0,mom,,dad,dad,,\n\"If you keep being frustratingly ambiguous, of course we aren't going to care!\",Default,DadNoSeesHisFault,3,0,,,alex,mom,,\n\"Ugh. Ignore Dad, Mom. Even I care, a little bit...\",Default,DadNoSeesHisFault,4,0,,,,dad,mom,\n\"Fine. I will keep my mouth shut, for the time being...\",Default,DadNoSeesHisFault,5,0,dad,,mom,mom,,\nThanks...,Default,DadNoSeesHisFault,6,0,,,alex,,,\n\"Get talking, Mom.\",Default,DadNoSeesHisFault,7,0,,,mom,,,\n\"Yes, of course. I was going to say that all the money your dad is bringing in because of the promotion he got makes him controlling!\",Default,DadNoSeesHisFault,8,0,,,,dad,,\n\"Making blatant accusations? How uncouth...I am not being controlling, I never have been. Like I said before, the only thing I control in this house are the finances. I do not tell your mom how she has to live her life.\",Blunt,DadNoSeesHisFault,9,0,dad,,mom,mom,,\nThat is wrong! I am not controlling! I don’t tell your mom how she has to live her life.,Indifferent,DadNoSeesHisFault,9,0,dad,,mom,mom,,\nNo your mom does not mean that because she is wrong! I never have been controlling. I do not tell your mom how she has to live her life.,Compassionate,DadNoSeesHisFault,9,0,dad,,mom,mom,,\n\"That’s correct. I am not controlling. How does your Mom even come up with these things… Anyways, I have never been controlling. I do not tell your mom how she has to live her life.\n\",Hesitant,DadNoSeesHisFault,9,0,dad,,mom,mom,,\n\"Financially, I mean! You—you make me ask you for an allowance—an allowance, for your wife—and you insist on knowing how I spend every cent of it. I need to stay within your ‘fun money’ budget, when you go out with your friends and coworkers all the time. With you bringing down my neck all the time, so damn concerned about money, I don’t have any space to have fun or get any freedom.\",Default,DadNoSeesHisFault,10,0,,,dad,dad,,\n\"That’s because you are limiting yourself too hard, Diane. You shouldn’t see the allowance or budget as a way of me controlling you. You should see them as a way to make sure there is order in the household.\",Default,DadNoSeesHisFault,11,0,,,mom,mom,,\nOrder? Your ‘order’ made me go out and get a job and hide it from you so I could know what it felt like to have the independence I had before your stupid promotion!,Default,DadNoSeesHisFault,12,0,,,,dad,,\nYou know what? Have it your way. I’ll let your Mom keep her job.,Blunt,DadNoSeesHisFault,13,0,dad,,mom,mom,,\n\"You mean, take the easy way out? I’ve never been taught to be lazy and find the easiest way around things, but I can make an exception, this one time.  I’ll let your Mom keep her so called job.\",Indifferent,DadNoSeesHisFault,13,0,dad,,mom,mom,,\n\"Don’t be an idiot. Happiness is not something to guarantee. Even with reclaimed independence, will your Mom actually be? Who knows, but I suppose I’ll let her keep her job. \",Compassionate,DadNoSeesHisFault,13,0,dad,,mom,mom,,\n\"And your Mom was worried about you being on my side… Hmph. I could let your Mom keep her so called job, but I refuse to admit I am being controlling or change my ways because as the caretaker of this household, I know what is for the best.\",Hesitant,DadNoSeesHisFault,13,0,dad,,mom,mom,,\n\"‘Let me?’ Even if you didn’t ‘let me,’ I would keep my job. Why can’t you just admit your faults? Nothing gets through your thick, fat skull, Timothy.\",Default,DadNoSeesHisFault,14,0,,,dad,dad,,\nRidiculing me is going to get you nowhere. Has your new found ‘independence’ make you lose your civility?,Default,DadNoSeesHisFault,15,0,,,mom,mom,,\n\"You know what? Thank you. Thank you for giving me the life I’ve always wanted, and you want me to be civil? Then I will be! I am so sorry for going behind your back and getting a job and accusing you of being controlling. You are just doing your best for the family, after all..\",Default,DadNoSeesHisFault,16,0,,,dad,dad,,\n\"Good. Well, I accept your apology, and will go ahead and forgive you. And how about we blame all that cheating nonsense on your trivial bartending job? It’s probably all the stress that got to you. Right, Diane?\n\",Default,DadNoSeesHisFault,17,0,,,mom,mom,,\n\"How—how are you blaming me for something you caused. Okay. Okay. Yes, that sounds like a great idea, Timothy.\",Default,DadNoSeesHisFault,18,0,,fin,,dad,,"
+   },
+   {
+      "form": 0,
+      "name": "chkHeader",
+      "type": "checkbox",
+      "id": "chkHeader",
+      "elementPos": 10,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtRowLimit",
+      "elementPos": 11,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepAuto",
+      "elementPos": 12,
+      "checked": true,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepComma",
+      "elementPos": 13,
+      "checked": false,
+      "namePos": 1,
+      "value": ","
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSemicolon",
+      "elementPos": 14,
+      "checked": false,
+      "namePos": 2,
+      "value": ";"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepColon",
+      "elementPos": 15,
+      "checked": false,
+      "namePos": 3,
+      "value": ":"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepPipe",
+      "elementPos": 16,
+      "checked": false,
+      "namePos": 4,
+      "value": "|"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepTab",
+      "elementPos": 17,
+      "checked": false,
+      "namePos": 5,
+      "value": "\\t"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepCaret",
+      "elementPos": 18,
+      "checked": false,
+      "namePos": 6,
+      "value": "^"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSpace",
+      "elementPos": 19,
+      "checked": false,
+      "namePos": 7,
+      "value": " "
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkReplaceAccents",
+      "elementPos": 20,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreDoubleQuote",
+      "elementPos": 21,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkInputQuote",
+      "elementPos": 22,
+      "checked": false,
+      "namePos": 0,
+      "value": "'"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkDecodeLiterals",
+      "elementPos": 23,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtCols",
+      "elementPos": 25,
+      "checked": false,
+      "namePos": 0,
+      "value": "1,2,3,4,5,6,7,8,9,10,11"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "",
+      "elementPos": 27,
+      "namePos": 0,
+      "value": "Query Builder"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreCase",
+      "elementPos": 29,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld1",
+      "elementPos": 30,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType1",
+      "elementPos": 31,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc1",
+      "elementPos": 32,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld2",
+      "elementPos": 33,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType2",
+      "elementPos": 34,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc2",
+      "elementPos": 35,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld3",
+      "elementPos": 36,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType3",
+      "elementPos": 37,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc3",
+      "elementPos": 38,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 39,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 40,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 41,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 42,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 43,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 44,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 45,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 46,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml1",
+      "elementPos": 47,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr1",
+      "elementPos": 48,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper1",
+      "elementPos": 49,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower1",
+      "elementPos": 50,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper1",
+      "elementPos": 51,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct1",
+      "elementPos": 52,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch1",
+      "elementPos": 53,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull1",
+      "elementPos": 54,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals1",
+      "elementPos": 55,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml2",
+      "elementPos": 56,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr2",
+      "elementPos": 57,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper2",
+      "elementPos": 58,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower2",
+      "elementPos": 59,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper2",
+      "elementPos": 60,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct2",
+      "elementPos": 61,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch2",
+      "elementPos": 62,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull2",
+      "elementPos": 63,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals2",
+      "elementPos": 64,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml3",
+      "elementPos": 65,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr3",
+      "elementPos": 66,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper3",
+      "elementPos": 67,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower3",
+      "elementPos": 68,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper3",
+      "elementPos": 69,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct3",
+      "elementPos": 70,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch3",
+      "elementPos": 71,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull3",
+      "elementPos": 72,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals3",
+      "elementPos": 73,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml4",
+      "elementPos": 74,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr4",
+      "elementPos": 75,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper4",
+      "elementPos": 76,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower4",
+      "elementPos": 77,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper4",
+      "elementPos": 78,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct4",
+      "elementPos": 79,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch4",
+      "elementPos": 80,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull4",
+      "elementPos": 81,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals4",
+      "elementPos": 82,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml5",
+      "elementPos": 83,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr5",
+      "elementPos": 84,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper5",
+      "elementPos": 85,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower5",
+      "elementPos": 86,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper5",
+      "elementPos": 87,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct5",
+      "elementPos": 88,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch5",
+      "elementPos": 89,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull5",
+      "elementPos": 90,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals5",
+      "elementPos": 91,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml6",
+      "elementPos": 92,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr6",
+      "elementPos": 93,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper6",
+      "elementPos": 94,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower6",
+      "elementPos": 95,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper6",
+      "elementPos": 96,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct6",
+      "elementPos": 97,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch6",
+      "elementPos": 98,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull6",
+      "elementPos": 99,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals6",
+      "elementPos": 100,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml7",
+      "elementPos": 101,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr7",
+      "elementPos": 102,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper7",
+      "elementPos": 103,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower7",
+      "elementPos": 104,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper7",
+      "elementPos": 105,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct7",
+      "elementPos": 106,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch7",
+      "elementPos": 107,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull7",
+      "elementPos": 108,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals7",
+      "elementPos": 109,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml8",
+      "elementPos": 110,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr8",
+      "elementPos": 111,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper8",
+      "elementPos": 112,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower8",
+      "elementPos": 113,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper8",
+      "elementPos": 114,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct8",
+      "elementPos": 115,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch8",
+      "elementPos": 116,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull8",
+      "elementPos": 117,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals8",
+      "elementPos": 118,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml9",
+      "elementPos": 119,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr9",
+      "elementPos": 120,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper9",
+      "elementPos": 121,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower9",
+      "elementPos": 122,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper9",
+      "elementPos": 123,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct9",
+      "elementPos": 124,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch9",
+      "elementPos": 125,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull9",
+      "elementPos": 126,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals9",
+      "elementPos": 127,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml10",
+      "elementPos": 128,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr10",
+      "elementPos": 129,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper10",
+      "elementPos": 130,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower10",
+      "elementPos": 131,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper10",
+      "elementPos": 132,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct10",
+      "elementPos": 133,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch10",
+      "elementPos": 134,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull10",
+      "elementPos": 135,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals10",
+      "elementPos": 136,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml11",
+      "elementPos": 137,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr11",
+      "elementPos": 138,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper11",
+      "elementPos": 139,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower11",
+      "elementPos": 140,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper11",
+      "elementPos": 141,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct11",
+      "elementPos": 142,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch11",
+      "elementPos": 143,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull11",
+      "elementPos": 144,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals11",
+      "elementPos": 145,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkCsvQuotes",
+      "elementPos": 146,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtKeyNum",
+      "elementPos": 147,
+      "checked": false,
+      "namePos": 0,
+      "value": "1"
+   },
+   {
+      "form": 0,
+      "name": "chkFldData",
+      "type": "checkbox",
+      "id": "chkFldData",
+      "elementPos": 148,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFieldName",
+      "elementPos": 149,
+      "checked": false,
+      "namePos": 0,
+      "value": "fields"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtDataName",
+      "elementPos": 150,
+      "checked": false,
+      "namePos": 0,
+      "value": "data"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkOverwrite",
+      "elementPos": 151,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkNullJson",
+      "type": "checkbox",
+      "id": "chkNullJson",
+      "elementPos": 152,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkSkipEmpty",
+      "type": "checkbox",
+      "id": "chkSkipEmpty",
+      "elementPos": 153,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkTryToObject",
+      "type": "checkbox",
+      "id": "chkTryToObject",
+      "elementPos": 154,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkMongoDbMode",
+      "type": "checkbox",
+      "id": "chkMongoDbMode",
+      "elementPos": 155,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtHeader",
+      "elementPos": 157,
+      "checked": false,
+      "namePos": 0,
+      "value": "{ {br} \"Dialogues\": [ {br}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txtTemplate",
+      "elementPos": 158,
+      "namePos": 0,
+      "value": "  {lb}\n     \"{h1}\":\"{f1}\"\n    ,\"{h2}\":\"{f2}\"\n    ,\"{h3}\":\"{f3}\"\n    ,\"{h4}\":\"{f4}\"\n    ,\"{h5}\":\"{(f5)==\"\"?\"0\":f5}\"\n    ,\"{h6}\":\"{f6}\"\n    ,\"{h7}\":\"{f7}\"\n    ,\"{h8}\":\"{f8}\"\n    ,\"target\":[\"{f9}\",\"{f10}\",\"{f11}\"]\n  {rb}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFooter",
+      "elementPos": 159,
+      "checked": false,
+      "namePos": 0,
+      "value": "{br} ] {br} }"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fn",
+      "elementPos": 166,
+      "checked": false,
+      "namePos": 0,
+      "value": "allpp"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "eol",
+      "elementPos": 168,
+      "namePos": 0,
+      "value": ""
+   }
+]

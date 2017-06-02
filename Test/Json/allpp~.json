@@ -1,0 +1,59 @@
+﻿{
+  "Dialogues": [
+    {
+      "content": "NPC: tone: default; plotpoint: dad greets player; id: 1; FNC: -5;",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "1",
+      "FNC": "-10",
+      "speaker": "",
+      "finished": "",
+      "inext": "",
+      "target": [ "-mom", "-dad", "-alex" ]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 2;",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "2",
+      "FNC": "10",
+      "speaker": "mom",
+      "finished": "",
+      "inext": "",
+      "target": [ "dad", "-mom", "-alex"]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 3",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "3",
+      "FNC": "0",
+      "speaker": "",
+      "finished": "",
+      "inext": "",
+      "target": [ "-alex" ]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 4",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "4",
+      "FNC": "-10",
+      "speaker": "dad",
+      "finished": "",
+      "inext": "",
+      "target": [ "alex" ]
+    },
+    {
+      "content": "NPC: plotpoint: dad greets player, id = 5",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "5",
+      "FNC": "10",
+      "speaker": "",
+      "finished": "",
+      "inext": "",
+      "target": [ "alex" ]
+    }
+  ]
+}

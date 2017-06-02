@@ -1,0 +1,58 @@
+{
+  "Dialogues": [
+    {
+      "content": "plot point with fnc 0. Root, textbox maker.",
+      "tone": "Root",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "1",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "", "", "" ]
+    },
+    {
+      "content": "displayed in dialogue box of player string. id2",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "2",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "", "", "" ]
+    },
+    {
+      "content": "player && dadgreetsplayer && id=3",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "3",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "", "", "" ]
+    },
+    {
+      "content": "displayed in dialogue box of player string. id4",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "4",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "" ]
+    },
+    {
+      "content": "player && dadgreetsplayer && id=5",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "5",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "" ]
+    },
+    {
+      "content": "displayed in dialogue box of player string. id6",
+      "tone": "Default",
+      "plotpoint": "DadGreetsPlayer",
+      "id": "6",
+      "FNC": "0",
+      "inext": "",
+      "target": [ "" ]
+    }
+  ]
+}
