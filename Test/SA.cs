@@ -576,7 +576,7 @@ namespace SayAgain {
             Alexis.setSpriteEmotion(Character.spriteEmotion.angry);
             Alexis.active(true);
             Alexis.setTalking(false);
-            Alexis.dim();
+
 
             Dad = new Dad();
             Dad.setSpriteEmotion(Character.spriteEmotion.happy);
