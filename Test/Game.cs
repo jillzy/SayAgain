@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using SFML.Window;
 using SFML.Graphics;
+using SFML.System;
 
 
 namespace SayAgain {
@@ -80,6 +81,9 @@ namespace SayAgain {
         protected Dad Dad;
         protected Arm Arm;
         protected StoryManager sman  = new StoryManager();
+
+        protected Clock deltaClock;
+        protected Time deltaTime;
         /////////////////////////////////////////////////////////////////////////////////////////////
 
         public static UInt32 getW() {

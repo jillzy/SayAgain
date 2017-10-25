@@ -136,7 +136,6 @@ namespace SayAgain {
                 }
             }
         }
-        float fadeLimit = 0.003f;
 
         private void spaceCode() {
             if (State.GetState() == "menu") State.SetState("tutorial");
@@ -150,8 +149,7 @@ namespace SayAgain {
                             State.dialogueBox.active = false;
                             State.dialogueBox.init = false;
                             State.playerDialogueBox.awaitInput = false;
-                            fadeFlag = true;
-                            fadeFloat = fadeLimit;
+                            fadeFlag = "in";
                             endGame2 = false;
                         }
                     } else { State.playerDialogueBox.checkNext(); return; }
@@ -215,8 +213,7 @@ namespace SayAgain {
                     resetTransitionId();
                     ui_man.tutorialButtonIndex = 4;
                     ui_man.reset(responseList);
-                    fadeFlag = true;
-                    fadeFloat = -fadeLimit;
+                    fadeFlag = "in";
                     ui_man.TooltipToggle(false, State.tooltip);
                     Mom.setHide(false);
                     Dad.setHide(false);
@@ -252,26 +249,21 @@ namespace SayAgain {
                     }
 
                 }
-                if (Int32.Parse(jankId) == 4 && !fadeFlag) {
-                    fadeFlag = true;
-                    fadeFloat = -fadeLimit;
-                } else if (Int32.Parse(jankId) == 12 && !fadeFlag) {
-                    fadeFlag = true;
-                    fadeFloat = fadeLimit;
+                if (Int32.Parse(jankId) == 4) {
+                    fadeFlag = "in";
+                } else if (Int32.Parse(jankId) == 12) {
+                    fadeFlag = "out";
 
-                } else if (Int32.Parse(jankId) == 13 && !fadeFlag) {
+                } else if (Int32.Parse(jankId) == 13) {
                     Dad.setHide(false);
                     Arm.setHide(false);
-                    fadeFlag = true;
-                    fadeFloat = -fadeLimit;
-                } else if (Int32.Parse(jankId) == 18 && !fadeFlag) {
-                    fadeFlag = true;
-                    fadeFloat = fadeLimit;
+                    fadeFlag = "in";
+                } else if (Int32.Parse(jankId) == 18) {
+                    fadeFlag = "out";
 
-                } else if (Int32.Parse(jankId) == 19 && !fadeFlag) {
+                } else if (Int32.Parse(jankId) == 19) {
                     Mom.setHide(false);
-                    fadeFlag = true;
-                    fadeFloat = -fadeLimit;
+                    fadeFlag = "in";
                 }
 
             }
@@ -516,6 +508,9 @@ namespace SayAgain {
         protected override void Initialize() {
             screenHelper();
 
+            deltaClock = new Clock();
+            deltaTime = new Time();
+
             splash = new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/wut.png"));
             playerfood = new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/playerfood.png"));
             backwall = new Sprite(new Texture("../../Art/UI_Art/buttons n boxes/backwall.png"));
@@ -626,7 +621,6 @@ namespace SayAgain {
         }
         protected override void Update() {
             screenHelper();
-
             State.sound_man.update_music();
 
             if (State.dialogueBox.active == true) {
@@ -651,13 +645,13 @@ namespace SayAgain {
             }
 
             if (State.GetState() == "game" || State.GetState() == "tutorial") {
-                if (fadeFlag) {
-                    if (alphaBlack + fadeFloat <= 255 && alphaBlack + fadeFloat >= 0) {
+                if (fadeFlag != "") {
+                    if (alphaBlack + (fadeFloat * (fadeFlag == "in" ? -1 : 1)) * deltaTime.AsSeconds() <= 255 && alphaBlack + (fadeFloat * (fadeFlag == "in" ? -1 : 1)) * deltaTime.AsSeconds() >= 0) {
 
-                        alphaBlack += fadeFloat;
+                        alphaBlack += (fadeFloat * (fadeFlag == "in" ? -1 : 1)) * deltaTime.AsSeconds();
                     } else {
 
-                        fadeFlag = false;
+                        fadeFlag = "";
                     }
                 }
 
@@ -719,7 +713,7 @@ namespace SayAgain {
                 //State.getGameTimer("game").PauseTimer();
 
             }
-
+            deltaTime = deltaClock.Restart();
 
         }
         //Ensures that AI dialogue doesnt get loaded more than once per timer done
@@ -728,8 +722,8 @@ namespace SayAgain {
 
         RectangleShape blackness = new RectangleShape(new Vector2f(SCREEN_WIDTH, SCREEN_HEIGHT));
         float alphaBlack = 255;
-        bool fadeFlag = false; //0 for nothing, 1 for fade in, 2 for fade out
-        float fadeFloat = 0;
+        String fadeFlag = "";
+        float fadeFloat = 300;
         bool endGame = false;
         bool endGame2 = true;
 
